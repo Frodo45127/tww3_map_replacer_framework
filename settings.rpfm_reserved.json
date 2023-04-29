@@ -1,0 +1,11 @@
+{
+  "settings_text": {
+    "diagnostics_files_to_ignore": "",
+    "import_files_to_ignore": "\n!!!!!!!!!!!!!!!!map_assets_and_replacer.sublime-project\n!!!!!!!!!!!!!!!!map_assets_and_replacer.sublime-workspace\n.luarc.json\n.git\n.gitignore"
+  },
+  "settings_string": {},
+  "settings_bool": {
+    "disable_autosaves": false
+  },
+  "settings_number": {}
+}
