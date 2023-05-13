@@ -97,15 +97,20 @@ core:add_listener(
         local campaign_key = cm:get_campaign_name();
         local pending_battle = context:pending_battle();
         local battle_type = pending_battle:battle_type();
+        local attacker_general_cqi, _, _ = cm:pending_battle_cache_get_attacker(1);
+        local attacker_general = cm:get_character_by_cqi(attacker_general_cqi);
         local region = pending_battle:region_data():region();
+
+        -- Land battle replacements.
         if not region == false and region:is_null_interface() == false then
             local region_name = region:name();
             local province_name = region:province():key();
-            local attacker_general_cqi, _, _ = cm:pending_battle_cache_get_attacker(1);
-            local attacker_general = cm:get_character_by_cqi(attacker_general_cqi);
 
+            map_replacer:check_for_map_replacement(campaign_key, battle_type, region_name, province_name, attacker_general, false);
 
-            map_replacer:check_for_map_replacement(campaign_key, battle_type, region_name, province_name, attacker_general);
+        -- Naval battle replacements.
+        else
+            map_replacer:check_for_map_replacement(campaign_key, battle_type, nil, nil, attacker_general, true);
         end
     end,
     true
@@ -117,7 +122,11 @@ core:add_listener(
 ---@param region_name string #Key of the region the battle takes place.
 ---@param province_name string #Key of the province the battle takes place.
 ---@param attacker_general CHARACTER_SCRIPT_INTERFACE #Key of the province the battle takes place.
-function map_replacer:check_for_map_replacement(campaign_key, battle_type, region_name, province_name, attacker_general)
+---@param is_naval boolean #If the battle is naval (island battle) or not.
+function map_replacer:check_for_map_replacement(campaign_key, battle_type, region_name, province_name, attacker_general, is_naval)
+    if is_naval == nil then
+        is_naval = false;
+    end
 
     -- Use the last match for coords.
     local chosen_coords = nil;
@@ -136,12 +145,12 @@ function map_replacer:check_for_map_replacement(campaign_key, battle_type, regio
         cm:pending_battle_add_scripted_tile_upgrade_tag(tile_upgrade_key);
         out("Frodo45127: Campaign " .. tostring(campaign_key) .. ", selected upgrade key " .. tostring(tile_upgrade_key) .. " for battle in coords X: " .. tostring(chosen_coords.x) .. ", Y: " .. tostring(chosen_coords.x) .. ", Range: " .. tostring(chosen_coords.range) .. ".");
 
-    elseif self[campaign_key][battle_type]["region_based"] ~= nil and self[campaign_key][battle_type]["region_based"][region_name] ~= nil then
+    elseif not is_naval and self[campaign_key][battle_type]["region_based"] ~= nil and self[campaign_key][battle_type]["region_based"][region_name] ~= nil then
         local tile_upgrade_key = self[campaign_key][battle_type]["region_based"][region_name];
         cm:pending_battle_add_scripted_tile_upgrade_tag(tile_upgrade_key);
         out("Frodo45127: Campaign " .. tostring(campaign_key) .. ", selected upgrade key " .. tostring(tile_upgrade_key) .. " for battle in region " .. tostring(region_name) .. ".");
 
-    elseif self[campaign_key][battle_type]["province_based"] ~= nil and self[campaign_key][battle_type]["province_based"][province_name] ~= nil then
+    elseif not is_naval and self[campaign_key][battle_type]["province_based"] ~= nil and self[campaign_key][battle_type]["province_based"][province_name] ~= nil then
         local tile_upgrade_key = self[campaign_key][battle_type]["province_based"][province_name];
         cm:pending_battle_add_scripted_tile_upgrade_tag(tile_upgrade_key);
         out("Frodo45127: Campaign " .. tostring(campaign_key) .. ", selected upgrade key " .. tostring(tile_upgrade_key) .. " for battle in province " .. tostring(province_name) .. ".");
