@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="11">
+  <load_config excluded_components="" tile_window="0,0,0,0" view_3d_needed="1"/>
+  <settings>
+    <environment_file value=""/>
+    <water_plane value="false"/>
+    <show_skybox value="true"/>
+    <prefab_terrain_texture value="grass01"/>
+    <prefab_terrain_size_tiles value="8"/>
+    <climate value="default"/>
+    <season value="SL_NO_SEASON"/>
+    <faction value=""/>
+    <camera_type value="Perspective"/>
+    <rotation_mode value="Pan"/>
+    <drag_mode value="GroundPlane"/>
+    <undo_stack_limit value="100"/>
+    <type_filtering>
+      <ai_hint value="false"/>
+      <ai_separator value="false"/>
+      <battle_catchment_area value="false"/>
+      <battle_catchment_area value="false"/>
+      <battle_catchment_area_boundary value="false"/>
+      <battle_xml_layer value="false"/>
+      <battlefield_zone value="false"/>
+      <box value="false"/>
+      <building value="false"/>
+      <building_projectile_emitter value="false"/>
+      <camera value="false"/>
+      <camera_constraint_volume value="false"/>
+      <camera_zone value="false"/>
+      <campaign_settlement value="false"/>
+      <capture_location value="false"/>
+      <circle value="false"/>
+      <composite_scene value="false"/>
+      <custom_mesh value="false"/>
+      <decal value="false"/>
+      <deployment_zone value="false"/>
+      <deployment_zone_region value="false"/>
+      <ef_line value="false"/>
+      <environment_volume value="false"/>
+      <faction_prefab value="false"/>
+      <file_layer value="false"/>
+      <go_region value="false"/>
+      <group value="false"/>
+      <houdini_asset value="false"/>
+      <layer value="false"/>
+      <layout value="false"/>
+      <legacy_siege_ai_boundary value="false"/>
+      <legacy_siege_ai_edge value="false"/>
+      <legacy_siege_ai_node value="false"/>
+      <light_probe value="false"/>
+      <lite_building_outline value="false"/>
+      <live_prefab value="false"/>
+      <marker value="false"/>
+      <nogo_region value="false"/>
+      <playable_area value="false"/>
+      <point_cloud value="false"/>
+      <point_light value="false"/>
+      <polygon_mesh value="false"/>
+      <polyline_2d value="false"/>
+      <prefab value="false"/>
+      <procedural_exclusion_zone value="false"/>
+      <prop value="false"/>
+      <raw_spline value="false"/>
+      <rectangle value="false"/>
+      <river value="false"/>
+      <siege_ai_node value="false"/>
+      <sound_environment value="false"/>
+      <sound_marker value="false"/>
+      <sphere value="false"/>
+      <spline_2d value="false"/>
+      <spline_3d value="false"/>
+      <spot_light value="false"/>
+      <tape_measure value="false"/>
+      <terrain_hole value="false"/>
+      <unit value="false"/>
+      <vfx value="false"/>
+      <vegetation value="false"/>
+    </type_filtering>
+  </settings>
+  <scene active_layer="187abe8c2558d6f">
+    <invisible_entities value=""/>
+    <frozen_entities value=""/>
+  </scene>
+  <terrain/>
+  <camera_2d position_x="0" position_y="0" zoom="-1"/>
+  <camera_3d version="1">
+    <camera_default version="41">
+      <entity id="187abe8c2558d72" name="Default Camera">
+        <ECCamera vertical_fov="60" aspect_ratio="1" near_clip="1" far_clip="12000"/>
+        <ECTransform position="0 3.40282347e+38 0" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+      </entity>
+    </camera_default>
+    <target_distance value="0"/>
+    <ortho_params value="0,0,100"/>
+  </camera_3d>
+</project>

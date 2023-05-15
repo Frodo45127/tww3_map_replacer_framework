@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="41">
+  <entities>
+    <entity id="187abe8099a8cb6">
+      <ECGroup>
+        <group version="41">
+          <entities>
+            <entity id="15d76f8d237bce4">
+              <ECSignature/>
+              <ECTransform position="1923 -9 1660" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+            </entity>
+            <entity id="15d76f8d235bcae">
+              <ECBuilding key="emp_rural_13" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="2.19750977 9.26291084 8.79260254" rotation="0 -15.7671804 0" scale="1 1 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="15d76f8d235bcaf">
+              <ECBuilding key="glb_hay01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="0.631103516 9.26291084 0.721618652" rotation="0 97.2327271 0" scale="0.999999642 1 0.999999642" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="15d76f8d235bcb0">
+              <ECBuilding key="glb_marketdeco_crate_02" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="6.03881836 9.26291084 4.85455322" rotation="0 231.855591 0" scale="1.00000036 1 1.00000036" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="15d76f8d235bcb1">
+              <ECBuilding key="glb_woodpile_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-2.5802002 9.26291084 -11.8284302" rotation="0 222.232788 0" scale="0.99999994 1 0.99999994" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="15d76f8d235bcb2">
+              <ECBuilding key="wh_glb_outstool_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-8.80212402 9.26291084 -14.3955078" rotation="0 254.232742 0" scale="1.00000024 1 1.00000024" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="15d76f8d235bcb3">
+              <ECBuilding key="glb_marketdeco_barrel_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-5.09375 9.26291084 -9.77435303" rotation="0 223.232758 0" scale="1 1 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="15d76f8d235bcb4">
+              <ECBuilding key="glb_bath_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="2.13574219 9.26291084 7.89868164" rotation="0 47.232769 0" scale="1 1 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="15d76f8d235bcb5">
+              <ECBuilding key="emp_rural_07" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-2.49157715 9.26291084 -4.23706055" rotation="0 246.604126 0" scale="1.00000012 1 1.00000012" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="15d76f8d235bcb6">
+              <ECBuilding key="glb_cart_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-3.77246094 9.26291084 -13.5291138" rotation="0 223.232758 0" scale="1 1 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="15d76f8d235bcb7">
+              <ECBuilding key="glb_cart_06" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="0.744384766 9.26291084 6.37072754" rotation="0 22.2327595 0" scale="1 1 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="15d76f8d235bcb8">
+              <ECBuilding key="glb_marketdeco_crate_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-6.70556641 9.26291084 13.6710815" rotation="0 143.232773 0" scale="0.999999821 1 0.999999821" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="15d76f8d235bcb9">
+              <ECBuilding key="glb_cart_06" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-1.16174316 9.26291084 -10.2969971" rotation="0 -59.7672348 0" scale="1 1 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="15d76f8d235bcba">
+              <ECBuilding key="glb_cart_06" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-4.0501709 9.26291084 14.3955078" rotation="0 -59.7672348 0" scale="1 1 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="15d76f8d235bcbb">
+              <ECBuilding key="emp_infield_house_08" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-10.8286133 0 -6.94213867" rotation="0 -35.7672157 0" scale="0.999999881 1 0.999999881" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="15d76f8d235bcbc">
+              <ECBuilding key="glb_cart_04" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-9.53320313 9.26291084 -12.7506104" rotation="0 223.232758 0" scale="1 1 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="15d76f8d236bcbd">
+              <ECBuilding key="glb_cart_04" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-7.71020508 9.26291084 -2.61358643" rotation="0 -46.7672615 0" scale="0.999999881 1 0.999999881" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="15d76f8d236bcbe">
+              <ECBuilding key="glb_marketdeco_crate_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="6.89111328 9.26291084 5.40661621" rotation="0 231.855591 0" scale="1.00000036 1 1.00000036" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="15d76f8d236bcbf">
+              <ECBuilding key="emp_rural_02" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-2.75317383 9.26291084 4.06933594" rotation="0 -13.3129072 0" scale="0.999999881 1 0.999999881" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="15d76f8d236bcc0">
+              <ECBuilding key="glb_marketdeco_panel_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-10.2037354 9.26291084 -12.0006714" rotation="0 -42.7672272 0" scale="1 1 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="15d76f8d236bcc1">
+              <ECBuilding key="emp_rural_03" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-5.21337891 9.26291084 9.07434082" rotation="0 121.232796 0" scale="1.00000012 1 1.00000012" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="15d76f8d236bcc2">
+              <ECBuilding key="emp_rural_07" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-3.40014648 9.26291084 -1.85998535" rotation="0 248.282501 0" scale="1.00000048 1 1.00000048" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="15d76f8d236bcc3">
+              <ECBuilding key="glb_woodpile_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="8.96118164 9.26291084 -2.55053711" rotation="0 148.855576 0" scale="1.00000024 1 1.00000024" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="15d76f8d236bcc4">
+              <ECBuilding key="glb_marketdeco_barrel_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="12.0390625 9.26291084 -1.39678955" rotation="0 223.232758 0" scale="1 1 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="15d76f8d236bcc5">
+              <ECBuilding key="glb_marketdeco_cart_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="2.86132813 9.26291084 11.6054077" rotation="0 143.232773 0" scale="0.999999821 1 0.999999821" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="15d76f8d236bcc6">
+              <ECBuilding key="wh_glb_outstool_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-7.99414063 9.26291084 -13.3549805" rotation="0 254.232742 0" scale="1.00000024 1 1.00000024" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="15d76f8d236bcc7">
+              <ECBuilding key="glb_marketdeco_barrel_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-6.88293457 9.26291084 -11.5812988" rotation="0 223.232758 0" scale="1 1 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="15d76f8d236bcc8">
+              <ECBuilding key="glb_cart_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="0.383911133 9.26291084 -6.50085449" rotation="0 70.9962387 0" scale="1.00000024 1 1.00000024" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="15d76f8d236bcc9">
+              <ECBuilding key="emp_rural_16" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-4.84545898 9.26291084 10.5227051" rotation="0 31.2327938 0" scale="0.999999762 1 0.999999762" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="15d76f8d236bcca">
+              <ECBuilding key="emp_rural_04" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="4.31140137 9.26291084 0.11114502" rotation="0 244.85556 0" scale="0.999999881 1 0.999999881" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="15d76f8d236bccb">
+              <ECBuilding key="glb_stump_axe_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-10.9998779 9.26291084 2.80670166" rotation="0 265.232788 0" scale="1 1 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="15d76f8d236bccc">
+              <ECBuilding key="glb_fence_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-10.2407227 9.26291084 11.8237305" rotation="0 172 0" scale="1.0000006 1 1.0000006" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="15d76f8d236bccd">
+              <ECBuilding key="emp_rural_06" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-13.1671143 9.26291084 -3.21295166" rotation="0 48.2327957 0" scale="1 1 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="15d76f8d236bcce">
+              <ECBuilding key="emp_infield_house_07" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="12.8352051 9.26291084 4.19390869" rotation="0 71.0000229 0" scale="0.999999881 1 0.999999881" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="15d76f8d236bccf">
+              <ECBuilding key="glb_cart_large_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-11.0678711 9.26291084 8.16906738" rotation="0 29.2327728 0" scale="0.99999994 1 0.99999994" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="15d76f8d236bcd0">
+              <ECBuilding key="emp_rural_16" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="8.32995605 9.26291084 -1.1105957" rotation="0 152.855576 0" scale="0.999999762 1 0.999999762" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="15d76f8d236bcd1">
+              <ECBuilding key="glb_hay01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-0.382324219 9.26291084 10.1610718" rotation="0 97.2327271 0" scale="0.999999642 1 0.999999642" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="15d76f8d236bcd2">
+              <ECBuilding key="glb_woodpile_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-12.7661133 9.26291084 -0.533935547" rotation="0 177.232758 0" scale="0.999999166 1 0.999999166" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="15d76f8d236bcd3">
+              <ECBuilding key="emp_rural_12" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-4.65026855 9.26291084 11.348877" rotation="0 210.232773 0" scale="1.00000024 1 1.00000024" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="15d76f8d236bcd4">
+              <ECBuilding key="glb_marketdeco_brazier_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="18.1422119 9.26291084 1.05664063" rotation="0 73.5419235 0" scale="0.999999821 1 0.999999821" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="15d76f8d236bcd5">
+              <ECBuilding key="glb_cart_05" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-18.1422119 9.26291084 -2.1817627" rotation="0 141.000015 0" scale="1 1 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="15d76f8d236bcd6">
+              <ECBuilding key="wh_glb_outstool_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="3.02441406 9.26291084 14.0338135" rotation="0 254.232742 0" scale="1.00000024 1 1.00000024" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="15d76f8d236bcd7">
+              <ECBuilding key="glb_marketdeco_crate_02" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-14.5300293 9.26291084 -1.24395752" rotation="0 143.232773 0" scale="0.999999762 1 0.999999762" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="15d76f8d236bcd8">
+              <ECBuilding key="glb_cart_hay01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-10.0909424 9.26291084 3.14367676" rotation="0 168 0" scale="0.999999702 1 0.999999702" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="15d76f8d236bcd9">
+              <ECBuilding key="glb_cart_06" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-3.24536133 9.26291084 -9.56018066" rotation="0 130.232773 0" scale="1 1 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="15d76f8d236bcda">
+              <ECBuilding key="emp_rural_09" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="5.79907227 9.26291084 1.97229004" rotation="0 248.189697 0" scale="0.99999994 1 0.99999994" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="15d76f8d236bcdb">
+              <ECBuilding key="emp_rural_13" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="5.00097656 9.26291084 10.8904419" rotation="0 -48.7672348 0" scale="0.999999881 1 0.999999881" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="15d76f8d236bcdc">
+              <ECBuilding key="glb_marketdecostand_06" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-3.95629883 9.26291084 -11.8335571" rotation="0 -35.7672386 0" scale="0.999999821 1 0.999999821" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="15d76f8d236bcdd">
+              <ECBuilding key="emp_rural_05" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-6.89624023 9.26291084 2.50067139" rotation="0 167.595688 0" scale="0.999999881 1 0.999999881" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="15d76f8d236bcde">
+              <ECBuilding key="emp_rural_08" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-1.27587891 9.26291084 8.24487305" rotation="0 228.232819 0" scale="0.999999881 1 0.999999881" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="15d76f8d236bcdf">
+              <ECBuilding key="glb_marketdeco_crate_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="6.70617676 9.26291084 5.04345703" rotation="0 152.85553 0" scale="0.999999821 1 0.999999821" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="15d76f8d236bce0">
+              <ECBuilding key="emp_rural_07" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="5.82092285 9.26291084 8.96820068" rotation="0 18.2620049 0" scale="0.999999762 1 0.999999762" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="15d76f8d236bce1">
+              <ECBuilding key="glb_stump_axe_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-4.38989258 9.26291084 -7.04309082" rotation="0 265.232788 0" scale="0.99999994 1 0.99999994" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="15d76f8d236bce2">
+              <ECBuilding key="glb_hay01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-6.21289063 9.26291084 7.1685791" rotation="0 97.2326965 0" scale="1.99999976 1 1.99999976" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+          </entities>
+          <associations>
+            <Logical/>
+            <Transform>
+              <from id="15d76f8d237bce4">
+                <to id="15d76f8d235bcae"/>
+                <to id="15d76f8d235bcaf"/>
+                <to id="15d76f8d235bcb0"/>
+                <to id="15d76f8d235bcb1"/>
+                <to id="15d76f8d235bcb2"/>
+                <to id="15d76f8d235bcb3"/>
+                <to id="15d76f8d235bcb4"/>
+                <to id="15d76f8d235bcb5"/>
+                <to id="15d76f8d235bcb6"/>
+                <to id="15d76f8d235bcb7"/>
+                <to id="15d76f8d235bcb8"/>
+                <to id="15d76f8d235bcb9"/>
+                <to id="15d76f8d235bcba"/>
+                <to id="15d76f8d235bcbb"/>
+                <to id="15d76f8d235bcbc"/>
+                <to id="15d76f8d236bcbd"/>
+                <to id="15d76f8d236bcbe"/>
+                <to id="15d76f8d236bcbf"/>
+                <to id="15d76f8d236bcc0"/>
+                <to id="15d76f8d236bcc1"/>
+                <to id="15d76f8d236bcc2"/>
+                <to id="15d76f8d236bcc3"/>
+                <to id="15d76f8d236bcc4"/>
+                <to id="15d76f8d236bcc5"/>
+                <to id="15d76f8d236bcc6"/>
+                <to id="15d76f8d236bcc7"/>
+                <to id="15d76f8d236bcc8"/>
+                <to id="15d76f8d236bcc9"/>
+                <to id="15d76f8d236bcca"/>
+                <to id="15d76f8d236bccb"/>
+                <to id="15d76f8d236bccc"/>
+                <to id="15d76f8d236bccd"/>
+                <to id="15d76f8d236bcce"/>
+                <to id="15d76f8d236bccf"/>
+                <to id="15d76f8d236bcd0"/>
+                <to id="15d76f8d236bcd1"/>
+                <to id="15d76f8d236bcd2"/>
+                <to id="15d76f8d236bcd3"/>
+                <to id="15d76f8d236bcd4"/>
+                <to id="15d76f8d236bcd5"/>
+                <to id="15d76f8d236bcd6"/>
+                <to id="15d76f8d236bcd7"/>
+                <to id="15d76f8d236bcd8"/>
+                <to id="15d76f8d236bcd9"/>
+                <to id="15d76f8d236bcda"/>
+                <to id="15d76f8d236bcdb"/>
+                <to id="15d76f8d236bcdc"/>
+                <to id="15d76f8d236bcdd"/>
+                <to id="15d76f8d236bcde"/>
+                <to id="15d76f8d236bcdf"/>
+                <to id="15d76f8d236bce0"/>
+                <to id="15d76f8d236bce1"/>
+                <to id="15d76f8d236bce2"/>
+              </from>
+            </Transform>
+          </associations>
+        </group>
+      </ECGroup>
+      <ECTransform position="0 0 0" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+    </entity>
+  </entities>
+  <associations>
+    <Logical/>
+    <Transform/>
+  </associations>
+</layer>

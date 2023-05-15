@@ -1,0 +1,1853 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="41">
+  <entities>
+    <entity id="187abef1431935d">
+      <ECGroup>
+        <group version="41">
+          <entities>
+            <entity id="1609e7e100399ec">
+              <ECSignature/>
+              <ECTransform position="135 -8.2351265 1366" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+            </entity>
+            <entity id="1609e7e0ffa992a">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/campaign/settlements/skaven/skv_warpstone_05.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-3.23156738 24.5239677 -31.5240479" rotation="2.18926668 183.206406 352.097931" scale="10.0823593 11.1499786 10.6260061" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffa992b">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_machinery_01/skv_machinery_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="27.9750977 20.3242798 -28.8952637" rotation="1.48333383 -63.9000664 4.95383167" scale="0.501093864 0.531281769 0.48486954" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffb992c">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_generic_pipe_curved_v1/skv_generic_pipe_curved_v1_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="21.0944824 39.7853775 6.26953125" rotation="0 -63.9514275 0" scale="1.0019635 1.06379688 0.968618631" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffb992d">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_generic_pipe_curved_v1/skv_generic_pipe_curved_v1_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="20.9161377 39.7853889 9.2479248" rotation="0 -57.9549446 0" scale="0.997231066 1.06379688 0.973489881" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffb992e">
+              <ECDecal model_path="rigidmodels/decals/skv/skv_plankpath_sunken_01.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="false" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-34.9343262 11.4061642 -38.2685547" rotation="-0.155646339 159.986481 -353.3479" scale="9.65791893 10.6242561 10.0613804" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffb992f">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/campaign/settlements/skaven/skv_burrow_end_02.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-34.090332 8.47635841 21.6798096" rotation="2.45851398 19.9091263 4.900599" scale="10.1336718 11.1638021 10.5625048" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffb9930">
+              <ECDecal model_path="rigidmodels/decals/skv/skv_plankpath_sunken_01.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="false" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="10.1323242 8.36350346 41.3414307" rotation="-43.0681076 -87.2017212 43.4859695" scale="10.1214256 10.6373653 9.58043289" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffb9931">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wooden_spikes_01/skv_wooden_spikes_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="41.7593994 8.9157362 6.16577148" rotation="10.0616465 96.2662506 14.0015049" scale="0.505797267 0.531652272 0.479551077" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffb9932">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wooden_spikes_01/skv_wooden_spikes_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="41.0272217 8.78924274 -5.11328125" rotation="14.269207 96.4255981 18.883955" scale="0.505808711 0.531553447 0.479648232" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffb9933">
+              <ECDecal model_path="rigidmodels/decals/skv/skv_plankpath_sunken_01.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="3.1015625 10.243269 -46.0994873" rotation="1.79978204 159.892136 353.093842" scale="4.82981491 5.31011295 5.03199816" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffb9934">
+              <ECDecal model_path="rigidmodels/decals/skv/skv_plankpath_sunken_01.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="false" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="23.0213623 8.4627552 40.4821777" rotation="-30.9133167 -87.6271896 31.4339581" scale="10.1210852 10.6376581 9.58047009" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffb9935">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_scaffold_01/skv_scaffold_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="17.4742432 6.64914608 31.1444092" rotation="0 202.017441 0" scale="0.965757489 1.06379688 1.00471997" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffb9936">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wheel_01/skv_wheel_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-21.491333 17.6914501 34.4681396" rotation="-0.464794368 180.001953 -0.448620468" scale="0.478989571 0.531893671 0.506075025" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffb9937">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wall_corner_90_inter/skv_wall_corner_90_inter_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="18.927002 12.3833656 6.45678711" rotation="0 4.65052843 0" scale="0.479168773 0.531898439 0.505900502" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffb9938">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_bell_01/skv_bell_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-14.2667236 72.3452301 -2.00732422" rotation="-5.20703793 42.0175781 1.5614115" scale="0.491360277 0.531385839 0.494619131" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffb9939">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wheel_01/skv_wheel_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="27.217041 19.9046898 29.2203369" rotation="-0.103491023 185.394592 -357.011261" scale="0.47938031 0.531763732 0.505840898" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffb993a">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wooden_spikes_01/skv_wooden_spikes_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="10.6677246 8.45739269 44.8297119" rotation="8.6580019 96.0901413 8.69339657" scale="0.50579232 0.531891882 0.479290992" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffb993b">
+              <ECDecal model_path="rigidmodels/decals/def/def_mineralvein_01b.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="false" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-21.19104 11.8619308 -35.8309326" rotation="-5.76021147 -8.09200382 -1.56317174" scale="95.9156952 106.312668 101.17289" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffb993c">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_machinery_tank_01/skv_machinery_tank_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="25.0549316 39.6926231 -0.975585938" rotation="3.00597978 209.972168 358.453705" scale="0.971826673 1.06369483 0.998960912" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffb993d">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_bell_01/skv_bell_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-8.31884766 71.8368683 -16.6616211" rotation="-5.2070365 42.0175705 1.56141078" scale="0.491360277 0.531385839 0.494619131" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffb993e">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wall_tower/skv_wall_tower_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-27.5976563 6.64914417 -41.600708" rotation="0 186.008713 0" scale="0.479290634 0.531898439 0.505785227" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffb993f">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wall_corner_90_exter/skv_wall_corner_90_exter_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-22.5858154 6.64913368 35.0200195" rotation="0 4.372293 0" scale="0.479147583 0.531898439 0.50592041" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffc9940">
+              <ECDecal model_path="rigidmodels/decals/skv/skv_plankpath_sunken_01.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="44.5955811 8.92696953 -31.9603271" rotation="-0.405084848 136.018692 -358.107391" scale="4.922791 5.31823969 4.93232632" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffc9941">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wall_corner_90_exter/skv_wall_corner_90_exter_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-15.0241699 11.237215 28.3616943" rotation="0 4.372293 0" scale="0.479147583 0.531898439 0.50592041" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffc9942">
+              <ECDecal model_path="rigidmodels/decals/skv/skv_plankpath_sunken_01.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="false" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="38.4313965 8.79907322 19.300415" rotation="-0.663907111 2.02842951 4.24363804" scale="9.58646679 10.6323919 10.1209497" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffc9943">
+              <ECDecal model_path="rigidmodels/decals/skv/skv_plankpath_sunken_01.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="false" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="37.7261963 8.46448421 -5.29187012" rotation="-0.924038708 2.04679227 5.23965216" scale="9.58963966 10.6294298 10.1210518" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffc9944">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_generic_pipe_curved_v1/skv_generic_pipe_curved_v1_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="22.0428467 39.7853889 2.52929688" rotation="0 251.956406 0" scale="1.00709939 1.06379688 0.96327728" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffc9945">
+              <ECDecal model_path="rigidmodels/decals/skv/skv_plankpath_sunken_01.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="27.4306641 8.18080521 -39.288208" rotation="-0.263139844 179.996384 -358.493347" scale="4.79024887 5.31863499 5.0607419" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffc9946">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_scaffold_04/skv_scaffold_04_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="5.13879395 63.8519096 -0.755737305" rotation="3.77798247 184.236679 6.09530163" scale="1.11056447 1.59106123 1.27045012" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffc9947">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wall_corner_90_exter/skv_wall_corner_90_exter_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-26.43396 11.2372169 29.2819824" rotation="0 4.372293 0" scale="0.479147583 0.531898439 0.50592041" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffc9948">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wall_corner_90_inter/skv_wall_corner_90_inter_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="19.7281494 6.64912605 -23.8996582" rotation="0 4.65052843 0" scale="0.479168773 0.531898439 0.505900502" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffc9949">
+              <ECDecal model_path="rigidmodels/decals/skv/skv_plankpath_sunken_01.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="false" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="6.73925781 8.49254322 47.715332" rotation="8.78602695 92.0320129 8.59206295" scale="10.120842 10.6379433 9.58041477" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffc994a">
+              <ECDecal model_path="rigidmodels/decals/skv/skv_plankpath_sunken_01.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="50.0991211 9.41631508 1.29724121" rotation="0.312578142 -0.0042626611 1.48164845" scale="9.58046532 10.63729 10.1214828" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffc994b">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wall_corner_90_exter/skv_wall_corner_90_exter_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-23.0202637 11.237215 29.006958" rotation="0 4.372293 0" scale="0.479147583 0.531898439 0.50592041" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffc994c">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wheel_02/skv_wheel_02_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-24.7347412 17.7251301 32.1020508" rotation="7.89602852 -85.9203262 -6.11787319" scale="0.505945385 0.531849384 0.479176193" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffc994d">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wooden_stairs_01/skv_wooden_stairs_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-1.97155762 11.3844976 35.2768555" rotation="3.31388617 4.85869408 34.3365746" scale="0.49650678 0.51586473 0.505785167" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffc994e">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wall_tower/skv_wall_tower_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-36.1446533 26.6187592 -4.65148926" rotation="0 71.4478607 0" scale="0.503410041 0.531898439 0.481784791" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffc994f">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wall_corner_90_exter/skv_wall_corner_90_exter_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-30.5151367 6.64913797 25.4886475" rotation="0 4.372293 0" scale="0.479147583 0.531898439 0.50592041" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffc9950">
+              <ECDecal model_path="rigidmodels/decals/skv/skv_plankpath_sunken_01.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="0.12512207 10.6723042 -47.3581543" rotation="0.82066083 159.945831 351.927277" scale="4.83222055 5.30830956 5.03159285" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffc9951">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_machinery_01/skv_machinery_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-26.3469238 18.8431702 -31.0466309" rotation="0.604854345 41.9833794 0.446924299" scale="0.491299748 0.531896949 0.494129866" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffc9952">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wall_straight_20_merlon_01/skv_wall_straight_20_merlon_01_piece01_destruct01_anim.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-25.197998 31.4480286 -4.29101563" rotation="0.000273207552 266.911713 359.999756" scale="0.50599736 0.531898439 0.4790667" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffc9953">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wooden_spikes_01/skv_wooden_spikes_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="11.6386719 8.46083832 44.8735352" rotation="7.8655777 96.077507 7.94417858" scale="0.50579071 0.531892955 0.479290694" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffc9954">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wall_corner_90_exter/skv_wall_corner_90_exter_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-34.7034912 6.64914417 -32.4736328" rotation="0 4.372293 0" scale="0.479147583 0.531898439 0.50592041" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffc9955">
+              <ECDecal model_path="rigidmodels/decals/skv/skv_plankpath_sunken_01.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="false" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="38.055542 8.54251003 -1.11950684" rotation="-0.226289034 2.01330113 5.31533432" scale="9.58987999 10.6293907 10.1208668" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffc9956">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wall_corner_90_inter/skv_wall_corner_90_inter_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="23.0509033 6.64913368 19.3199463" rotation="0 4.65052748 0" scale="0.479168802 0.531898439 0.505900502" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffc9957">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wooden_spikes_01/skv_wooden_spikes_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-1.57836914 8.61362171 44.0705566" rotation="3.53019691 96.1181488 0.202036992" scale="0.505785584 0.531734526 0.479472339" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffc9958">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wooden_stairs_01/skv_wooden_stairs_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="28.4401855 50.5974579 10.9892578" rotation="-3.20458794 178.030594 -1.13657081" scale="0.958081245 1.06360853 1.01224124" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffd9959">
+              <ECDecal model_path="rigidmodels/decals/def/def_mineralvein_01b.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="false" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-11.2818604 11.8619137 25.6853027" rotation="-5.76021051 -8.09200191 -1.56317222" scale="95.9156799 106.312668 101.17289" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffd995a">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wall_tower/skv_wall_tower_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-2.48461914 6.64914417 28.0374756" rotation="0 186.008713 0" scale="0.479290426 0.531898439 0.505785167" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffd995b">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/campaign/settlements/skaven/skv_warpstone_01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-11.0982666 31.2305279 30.7999268" rotation="79.519577 2.00839114 137.303513" scale="10.5943394 10.6308765 10.6598778" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffd995c">
+              <ECDecal model_path="rigidmodels/decals/skv/skv_plankpath_sunken_01.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="false" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-33.4713135 11.5022326 -22.041626" rotation="9.47828197 -83.6798401 -3.80957484" scale="10.1157207 10.6281967 9.5966301" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffd995d">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_machinery_01/skv_machinery_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="32.1202393 18.2154884 11.0249023" rotation="11.6374941 216.118652 2.07335854" scale="0.488680124 0.53000176 0.498742372" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffd995e">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wall_corner_90_exter/skv_wall_corner_90_exter_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-14.473877 6.64913177 34.3657227" rotation="0 4.372293 0" scale="0.479147583 0.531898439 0.50592041" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffd995f">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_machinery_01/skv_machinery_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-17.1901855 19.2311592 32.657959" rotation="7.8596077 158.205399 3.28588104" scale="0.482955307 0.531496584 0.502711952" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffd9960">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_machinery_01/skv_machinery_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="21.7019043 39.7853851 -9.72680664" rotation="0 245.951645 0" scale="1.00338638 1.06379688 0.967144608" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffd9961">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/campaign/settlements/skaven/skv_warpstone_01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="0.723876953 62.9448204 4.95581055" rotation="-84.0511475 184.239609 -56.9197884" scale="10.8720455 10.6216507 10.3859224" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffd9962">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_machinery_01/skv_machinery_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-25.0131836 19.1927681 25.2144775" rotation="-1.42543316 116.053528 -0.702252686" scale="0.500982583 0.531890869 0.484317124" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffd9963">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_scaffold_01/skv_scaffold_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="0.459228516 6.64913559 34.0014648" rotation="0 202.017441 0" scale="0.965757847 1.06379688 1.00472021" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffd9964">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wall_corner_90_exter/skv_wall_corner_90_exter_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-5.23168945 6.64912987 33.6202393" rotation="0 4.372293 0" scale="0.479147583 0.531898439 0.50592041" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffd9965">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wooden_spikes_01/skv_wooden_spikes_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="12.7452393 8.4637289 44.7785645" rotation="7.38040161 96.0707626 7.51430082" scale="0.505790293 0.531893373 0.479291022" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffd9966">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wooden_spikes_01/skv_wooden_spikes_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-0.948120117 8.58411121 44.5981445" rotation="2.57786345 96.0953598 359.615051" scale="0.505785048 0.531768262 0.479434967" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffd9967">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wooden_stairs_01/skv_wooden_stairs_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-34.9882813 50.4629173 5.21032715" rotation="-0.648285866 6.03644705 5.04124689" scale="0.959432065 1.06299961 1.01160204" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffd9968">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wall_corner_90_exter/skv_wall_corner_90_exter_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-29.020874 10.8507652 -26.7197266" rotation="0 4.372293 0" scale="0.479147583 0.531898439 0.50592041" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffd9969">
+              <ECDecal model_path="rigidmodels/decals/skv/skv_plankpath_sunken_01.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="false" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="37.9249268 8.56864262 3.74267578" rotation="-0.663907111 2.02842951 4.24363804" scale="9.58646679 10.6323919 10.1209497" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffd996a">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wall_corner_90_exter/skv_wall_corner_90_exter_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-25.8498535 6.64914608 -33.1877441" rotation="0 4.372293 0" scale="0.479147583 0.531898439 0.50592041" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffd996b">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wall_corner_90_exter/skv_wall_corner_90_exter_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-34.1933594 6.64914227 -25.4133301" rotation="0 4.372293 0" scale="0.479147583 0.531898439 0.50592041" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffd996c">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wall_corner_90_inter/skv_wall_corner_90_inter_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="16.4724121 6.64913797 32.817749" rotation="0 4.65052748 0" scale="0.479168802 0.531898439 0.505900502" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffd996d">
+              <ECDecal model_path="rigidmodels/decals/skv/skv_plankpath_sunken_01.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="14.5270996 8.77836514 -41.6296387" rotation="-1.1321038 158.048218 -5.81049633" scale="4.83349085 5.31448793 5.02384329" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffd996e">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/campaign/settlements/skaven/skv_burrow_02.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-38.3986816 8.49235249 12.1246338" rotation="5.66354465 0.178568855 -3.42123103" scale="10.0628462 11.161006 10.6329355" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffd996f">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wall_corner_90_inter/skv_wall_corner_90_inter_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="4.48376465 6.64913988 33.8466797" rotation="0 4.65052509 0" scale="0.479168832 0.531898439 0.505900502" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffe9970">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_machinery_tank_01/skv_machinery_tank_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="13.0285645 49.6615295 -17.2752686" rotation="88.2042236 -86.2765274 -90.5411377" scale="1.01236916 1.06344461 0.958128273" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffe9971">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/campaign/settlements/skaven/skv_warpstone_05.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-25.8709717 28.5309467 -26.7584229" rotation="4.21784639 128.006348 355.726929" scale="10.4196272 11.1499796 10.2955036" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffe9972">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wooden_spikes_01/skv_wooden_spikes_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="41.3581543 8.84869289 -3.15881348" rotation="10.9627676 96.3371887 15.5831575" scale="0.505799532 0.531562924 0.479647398" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffe9973">
+              <ECDecal model_path="rigidmodels/decals/skv/skv_plankpath_sunken_01.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-14.7733154 12.6364021 -44.7548828" rotation="-0.0832326785 202.016891 -2.66617799" scale="4.82983875 5.31786728 5.02378178" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffe9974">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_platform_04/skv_platform_04_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="11.8288574 39.6311874 1.12060547" rotation="0 261.976959 0" scale="3.03337502 14.371623 2.87715268" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffe9975">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_scaffold_05_machinery/skv_scaffold_05_machinery_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="25.5239258 39.7853889 3.70910645" rotation="0 184.005951 0" scale="0.479121834 0.531898439 0.505944908" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffe9976">
+              <ECDecal model_path="rigidmodels/decals/skv/skv_plankpath_sunken_01.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="34.6879883 8.44907951 -37.739502" rotation="-0.253481984 159.97879 -357.854156" scale="4.82304621 5.3182168 5.02994156" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffe9977">
+              <ECDecal model_path="rigidmodels/decals/skv/skv_plankpath_sunken_01.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="false" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="38.5913086 8.87178993 24.2103271" rotation="-0.663907111 2.02842951 4.24363804" scale="9.58646679 10.6323919 10.1209497" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffe9978">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wooden_spikes_01/skv_wooden_spikes_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="2.76293945 8.45448875 45.057373" rotation="11.8835316 96.153389 11.5749302" scale="0.505797803 0.531885266 0.479291677" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffe9979">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_machinery_01/skv_machinery_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="19.2410889 14.4962091 -30.5869141" rotation="-4.27189636 -25.9525833 1.73212993" scale="0.484325051 0.53178674 0.501084983" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffe997a">
+              <ECDecal model_path="rigidmodels/decals/skv/skv_plankpath_sunken_01.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="47.4075928 9.12852669 -15.5510254" rotation="89.7277451 91.1456833 92.0064545" scale="5.06076956 5.31814194 4.7907629" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffe997b">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wall_corner_90_exter/skv_wall_corner_90_exter_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-33.6472168 6.64913988 -17.8560791" rotation="0 4.372293 0" scale="0.479147583 0.531898439 0.50592041" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffe997c">
+              <ECDecal model_path="rigidmodels/decals/skv/skv_plankpath_sunken_01.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="false" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-29.6329346 12.0301113 -39.7479248" rotation="-0.14003253 192.004196 -354.781799" scale="9.61251259 10.6297989 10.0989437" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffe997d">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wooden_spikes_01/skv_wooden_spikes_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="40.5875244 8.84996319 8.69262695" rotation="9.5744772 96.2631226 13.6157494" scale="0.505796432 0.531641245 0.47956416" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffe997e">
+              <ECDecal model_path="rigidmodels/decals/skv/skv_plankpath_sunken_01.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="false" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="37.5100098 8.36175632 -9.60888672" rotation="-0.317391455 2.01794887 5.38903141" scale="9.59014797 10.629137 10.1208801" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffe997f">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wooden_spikes_01/skv_wooden_spikes_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="40.2592773 8.69458008 -6.2668457" rotation="16.0249348 96.4909897 20.7459869" scale="0.505814672 0.531532168 0.479665458" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffe9980">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/campaign/settlements/skaven/skv_banner_01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="10.7449951 8.48040009 47.1542969" rotation="0.192187861 177.996948 359.972168" scale="5.26922226 5.85087919 5.56645632" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffe9981">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_platform_05/skv_platform_05_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-20.7955322 31.1485443 -18.6437988" rotation="0.000464452838 261.976807 359.999542" scale="3.03337502 8.46131611 2.87715316" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffe9982">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wooden_spikes_01/skv_wooden_spikes_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="0.00134277344 8.53427505 44.7069092" rotation="3.35104084 96.0890732 0.584363639" scale="0.505785584 0.531784832 0.479416311" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffe9983">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_scaffold_03/skv_scaffold_03_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="3.55212402 6.64912987 37.439209" rotation="0 194.0168 0" scale="0.961227596 1.06379688 1.00905633" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffe9984">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wheel_01/skv_wheel_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-26.5562744 17.1381798 -32.954834" rotation="-0.706405461 183.940155 -350.598999" scale="0.480582654 0.530578554 0.505944014" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffe9985">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_scaffold_04/skv_scaffold_04_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="21.8370361 49.7724609 2.40124512" rotation="89.9186859 269.561646 269.182281" scale="1.01214778 1.06377089 0.958000541" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0ffe9986">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wall_corner_90_inter/skv_wall_corner_90_inter_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="4.32421875 6.64912176 -22.5777588" rotation="0 4.65052938 0" scale="0.479168773 0.531898439 0.505900502" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0fff9987">
+              <ECDecal model_path="rigidmodels/decals/skv/skv_plankpath_sunken_01.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="6.89331055 9.72981644 -44.5211182" rotation="0.304913282 157.981689 352.918427" scale="4.83614826 5.31107378 5.02490616" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0fff9988">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wall_straight_20_merlon_01/skv_wall_straight_20_merlon_01_piece01_destruct01_anim.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-24.3149414 31.4480324 4.59204102" rotation="0.000273207552 266.911682 359.999756" scale="0.5059973 0.531898439 0.47906664" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0fff9989">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wall_blocker/skv_wall_blocker_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-6.30041504 2.60211086 -33.9196777" rotation="0 -89.6967392 0" scale="3.2536664 3.19139051 4.20265484" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0fff998a">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_generic_pipe_curved_v1/skv_generic_pipe_curved_v1_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="22.8275146 39.7650452 0.674438477" rotation="-0.103996456 251.956421 -359.997986" scale="1.00709903 1.0637964 0.963277161" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0fff998b">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wooden_stairs_01/skv_wooden_stairs_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="30.4625244 20.4140091 -4.1340332" rotation="30.2985401 97.0459595 31.6492786" scale="0.505888164 0.53176862 0.479325771" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0fff998c">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_platform_05/skv_platform_05_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-40.0292969 31.2257576 -2.97363281" rotation="0.000464452838 261.976837 359.999542" scale="3.03337431 10.7389803 2.87715292" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0fff998d">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wall_corner_90_inter/skv_wall_corner_90_inter_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="24.0385742 6.64913559 32.1685791" rotation="0 4.65052748 0" scale="0.479168802 0.531898439 0.505900502" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0fff998e">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wall_corner_90_inter/skv_wall_corner_90_inter_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="13.6352539 12.3187504 -19.3262939" rotation="0 4.65052938 0" scale="0.479168773 0.531898439 0.505900502" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0fff998f">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wooden_spikes_01/skv_wooden_spikes_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="0.959716797 8.48781395 44.8192139" rotation="5.18752861 96.0796432 2.96323657" scale="0.505786777 0.531824291 0.47937122" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0fff9990">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wooden_spikes_01/skv_wooden_spikes_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="15.7121582 8.46876335 43.9573975" rotation="7.74145889 96.0770874 8.02073193" scale="0.505790889 0.531891882 0.479292184" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0fff9991">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_scaffold_04/skv_scaffold_04_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-5.09399414 61.1719894 -14.0808105" rotation="3.77798247 184.236679 6.0952878" scale="1.11056447 1.59106112 1.27044988" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0fff9992">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wheel_device_02/skv_wheel_device_02_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="15.2091064 8.59188652 -37.9888916" rotation="84.4712906 -87.3546906 -89.7566223" scale="0.506117284 0.531451881 0.479435116" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0fff9993">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wall_corner_90_inter/skv_wall_corner_90_inter_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="16.2886963 6.64912987 6.68310547" rotation="0 4.65052843 0" scale="0.479168773 0.531898439 0.505900502" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0fff9994">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/campaign/settlements/skaven/skv_burrow_02.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-5.69311523 8.55265808 -45.1772461" rotation="-79.7030334 -87.3232803 71.8465729" scale="10.6275406 11.1495409 10.0812359" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0fff9995">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wooden_stairs_01/skv_wooden_stairs_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="36.4390869 8.76748562 25.02771" rotation="16.2891388 96.3314362 18.2928162" scale="0.505812585 0.531809092 0.479360789" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0fff9996">
+              <ECDecal model_path="rigidmodels/decals/def/def_mineralvein_01b.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="false" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="29.6173096 11.8619289 -34.2232666" rotation="-5.76021147 -8.09200191 -1.5631721" scale="95.9156952 106.312668 101.17289" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0fff9997">
+              <ECDecal model_path="rigidmodels/decals/skv/skv_plankpath_sunken_01.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="38.7092285 8.61837006 -36.350708" rotation="-0.197761282 159.979721 -357.74234" scale="4.82311106 5.31815386 5.02993536" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0fff9998">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wooden_spikes_01/skv_wooden_spikes_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="13.5251465 8.46638966 44.6987305" rotation="7.07696342 96.0665665 7.24862003" scale="0.505789757 0.531893492 0.479291052" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0fff9999">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wall_corner_90_inter/skv_wall_corner_90_inter_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="20.5244141 10.170126 14.6488037" rotation="0 4.65052748 0" scale="0.479168802 0.531898439 0.505900502" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0fff999a">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_scaffold_05_machinery/skv_scaffold_05_machinery_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="25.8730469 39.7853928 6.22644043" rotation="0 184.005951 0" scale="0.479121834 0.531898439 0.505944908" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e0fff999b">
+              <ECDecal model_path="rigidmodels/decals/skv/skv_plankpath_sunken_01.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-43.0981445 10.3347826 -41.8905029" rotation="1.22644234 160.070648 7.12201595" scale="9.65924549 10.6241369 10.0602283" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e1000999c">
+              <ECDecal model_path="rigidmodels/decals/skv/skv_plankpath_sunken_01.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="18.8039551 8.34224701 -40.364502" rotation="-1.57983637 158.055267 -4.9375844" scale="4.83209324 5.31595707 5.02364159" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e1000999d">
+              <ECDecal model_path="rigidmodels/decals/skv/skv_plankpath_sunken_01.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="41.6558838 8.78322887 -34.7263184" rotation="-0.21934469 136.023407 -357.17511" scale="4.92318487 5.3176012 4.93261862" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e1000999e">
+              <ECDecal model_path="rigidmodels/decals/skv/skv_plankpath_sunken_01.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="47.2005615 9.19390392 -7.33239746" rotation="89.4818649 91.5538101 92.1442032" scale="5.06082106 5.31778669 4.79110146" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e1000999f">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wooden_spikes_01/skv_wooden_spikes_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="39.6893311 8.62075996 -7.15393066" rotation="16.4434757 96.5132446 21.2550697" scale="0.505816579 0.531517327 0.479680121" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e100099a0">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_machinery_01/skv_machinery_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="17.0393066 21.008049 30.7443848" rotation="-4.33178759 158.089127 -2.85837936" scale="0.482958496 0.531754732 0.502435505" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e100099a1">
+              <ECDecal model_path="rigidmodels/decals/skv/skv_plankpath_sunken_01.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="false" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="38.2006836 8.69410992 12.2141113" rotation="-0.66390717 2.02842927 4.24363852" scale="9.58646679 10.6323919 10.1209497" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e100099a2">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_scaffold_04/skv_scaffold_04_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-3.68847656 63.3636208 10.3138428" rotation="3.77799606 184.236679 6.09530163" scale="1.11056411 1.59106135 1.2704494" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e100099a3">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wooden_spikes_01/skv_wooden_spikes_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="3.54199219 8.45790005 45.1610107" rotation="12.4271736 96.1670074 12.3121796" scale="0.505798936 0.531885087 0.479290366" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e100099a4">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wheel_01/skv_wheel_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="22.9388428 19.6578903 29.6470947" rotation="-0.103491023 185.394592 -357.011261" scale="0.479380369 0.531763732 0.505840957" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e100099a5">
+              <ECDecal model_path="rigidmodels/decals/skv/skv_plankpath_sunken_01.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="23.244873 8.0975008 -39.3498535" rotation="-1.00278103 180.000229 -0.0234138872" scale="4.78986406 5.31890774 5.06081486" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e100099a6">
+              <ECDecal model_path="rigidmodels/decals/skv/skv_plankpath_sunken_01.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="false" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="18.6564941 8.43177414 40.8613281" rotation="-35.4438248 -87.490242 36.0524559" scale="10.1211987 10.6375313 9.5805006" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e100099a7">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wooden_stairs_01/skv_wooden_stairs_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-5.21850586 65.6206512 3.83227539" rotation="-48.8698082 98.2629089 -58.9405403" scale="0.506157994 0.530108571 0.48087728" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e100099a8">
+              <ECDecal model_path="rigidmodels/decals/skv/skv_plankpath_sunken_01.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="false" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="38.1447754 8.63289738 8.05993652" rotation="-0.829050541 2.03807759 4.67738485" scale="9.58776855 10.6311598 10.121007" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e100099a9">
+              <ECDecal model_path="rigidmodels/decals/skv/skv_plankpath_sunken_01.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-23.1137695 12.5822449 -45.2375488" rotation="-3.55229139 73.9230118 -0.123942874" scale="10.0813713 10.6345024 9.625741" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e100099aa">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wooden_spikes_01/skv_wooden_spikes_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="41.1981201 8.89024162 7.94665527" rotation="9.34670353 96.2521057 13.2946205" scale="0.505795777 0.531653106 0.479551941" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e100099ab">
+              <ECDecal model_path="rigidmodels/decals/skv/skv_plankpath_sunken_01.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="31.2860107 8.31242657 -39.142334" rotation="-0.160550416 159.980453 -358.059723" scale="4.82290792 5.31837273 5.02989817" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e100099ac">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wall_corner_90_exter/skv_wall_corner_90_exter_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-29.8088379 6.64913559 35.2628174" rotation="0 4.372293 0" scale="0.479147583 0.531898439 0.50592041" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e100099ad">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wheel_device_02/skv_wheel_device_02_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="24.2227783 4.65404987 37.0338135" rotation="7.22378492 96.0826721 8.32762623" scale="0.598860204 0.646895289 0.479311645" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e100099ae">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wall_gatehouse_60/skv_wall_gatehouse_60_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="20.9997559 0 33.9207764" rotation="0 182.617706 0" scale="0.479044378 0.531898439 0.506018698" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e100099af">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_machinery_01/skv_machinery_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="28.3666992 20.9372005 24.175293" rotation="-3.78690267 198.436203 -359.29895" scale="0.481765807 0.531795979 0.503535748" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e100099b0">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_bell_01/skv_bell_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="1.6192627 74.6118469 -3.5090332" rotation="-5.20703602 42.0175781 1.56141126" scale="0.491360366 0.531385839 0.494619071" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e100099b1">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/campaign/settlements/skaven/skv_banner_01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="3.61425781 8.50183487 47.675293" rotation="0.558272302 177.99646 359.895325" scale="5.26922417 5.85085297 5.56648159" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e100099b2">
+              <ECDecal model_path="rigidmodels/decals/skv/skv_plankpath_sunken_01.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-11.1298828 12.3480587 -47.2915039" rotation="0.666435182 221.939682 354.542694" scale="4.91572571 5.31507349 4.94277382" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e100099b3">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_crane_hanging_platform_01/skv_crane_hanging_platform_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="34.2504883 50.3378067 -16.4851074" rotation="-0.198922426 180.009842 -5.36886978" scale="0.958939493 1.06292486 1.01214767" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e100099b4">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wall_corner_90_inter/skv_wall_corner_90_inter_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="16.1044922 12.3187504 -19.5380859" rotation="0 4.65052938 0" scale="0.479168773 0.531898439 0.505900502" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e100099b5">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wooden_spikes_01/skv_wooden_spikes_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="41.1881104 8.82184505 -4.03027344" rotation="12.4707365 96.3753433 17.096796" scale="0.505803525 0.531557739 0.479649186" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e100199b6">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wheel_02/skv_wheel_02_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="6.23352051 17.0413094 35.9571533" rotation="7.66843081 187.02327 8.56131363" scale="0.480615854 0.530113339 0.50640142" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e100199b7">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wall_tower/skv_wall_tower_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-22.5770264 6.64914417 28.9123535" rotation="0 186.008713 0" scale="0.479290634 0.531898439 0.505785227" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e100199b8">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_equipment_flag_red_01/skv_equipment_flag_red_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="34.998291 49.9879608 -0.297363281" rotation="-2.25909853 91.3758698 -2.3488884" scale="8.12990665 6.38277912 5.74803019" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e100199b9">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_machinery_03/skv_machinery_03_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="15.84375 49.3993454 -11.3704834" rotation="-89.9481735 -89.490242 89.9746552" scale="1.01214874 1.06379294 0.957970679" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e100199ba">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wall_tower/skv_wall_tower_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="22.711792 11.0477171 -3.23596191" rotation="0 267.841705 0" scale="0.506036401 0.531898439 0.479025662" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e100199bb">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wall_tower/skv_wall_tower_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="36.1269531 6.64914608 22.2121582" rotation="0 186.008713 0" scale="0.479290634 0.531898439 0.505785227" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e100199bc">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wheel_01/skv_wheel_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="32.354248 17.0220547 17.335083" rotation="-0.317426205 177.963104 -354.803131" scale="0.479473799 0.531487525 0.506043077" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e100199bd">
+              <ECDecal model_path="rigidmodels/decals/skv/skv_plankpath_sunken_01.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="10.6612549 9.22403908 -42.7790527" rotation="-0.658949316 158.029007 -6.18009138" scale="4.83421707 5.31359291 5.02409697" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e100199be">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wall_corner_90_inter/skv_wall_corner_90_inter_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="20.0328369 6.64912796 -19.9361572" rotation="0 4.65052843 0" scale="0.479168773 0.531898439 0.505900502" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e100199bf">
+              <ECDecal model_path="rigidmodels/decals/def/def_mineralvein_01b.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="false" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="44.9575195 11.861928 14.989502" rotation="-5.76021147 -8.09200191 -1.5631721" scale="95.9156799 106.312668 101.17289" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e100199c0">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wall_tower/skv_wall_tower_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="28.2672119 4.62259388 -24.6312256" rotation="0 -1.90219247 0" scale="0.479016989 0.531898439 0.506044507" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e100199c1">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_scaffold_05_machinery/skv_scaffold_05_machinery_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-26.5861816 50.1565895 -18.2397461" rotation="-29.2283173 -83.1337509 26.956295" scale="0.505845487 0.53174907 0.479392916" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e100199c2">
+              <ECDecal model_path="rigidmodels/decals/skv/skv_plankpath_sunken_01.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="false" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="41.3995361 8.87042999 1.00756836" rotation="0.171844214 -0.0074310489 4.69712067" scale="9.58713245 10.6312904 10.1214714" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e100199c3">
+              <ECDecal model_path="rigidmodels/decals/skv/skv_plankpath_sunken_01.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="false" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-0.00317382813 8.46968269 41.7874756" rotation="-45.9072723 -87.0442734 43.0498123" scale="10.1212282 10.6349421 9.58333969" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e100199c4">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wooden_spikes_01/skv_wooden_spikes_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="14.5791016 8.46964169 44.541748" rotation="6.81051779 96.0634308 7.03081894" scale="0.50578928 0.531893492 0.479291469" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e100199c5">
+              <ECDecal model_path="rigidmodels/decals/skv/skv_plankpath_sunken_01.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="false" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-34.4832764 11.4774227 -32.2241211" rotation="9.47828484 -83.6798401 -3.80957699" scale="10.1157217 10.6281977 9.59663105" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e100199c6">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_platform_05/skv_platform_05_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-27.913208 22.1788368 -5.23791504" rotation="0.000464452838 261.976837 359.999542" scale="3.03337431 8.4613142 2.87715292" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e100199c7">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_crane_hanging_platform_01/skv_crane_hanging_platform_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="36.1622314 50.1667252 9.1986084" rotation="-0.598297238 180.011581 -2.09827495" scale="0.958120942 1.06365812 1.01215267" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e100199c8">
+              <ECDecal model_path="rigidmodels/decals/skv/skv_plankpath_sunken_01.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="false" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-21.0437012 12.8987894 -41.6835938" rotation="-0.14003253 192.004196 -354.781799" scale="9.61251259 10.6297989 10.0989437" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e100199c9">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_machinery_tank_01/skv_machinery_tank_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="13.496582 49.5115585 -15.366333" rotation="88.2042236 -86.2765274 -90.5411377" scale="1.01236916 1.06344461 0.958128273" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e100199ca">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/campaign/settlements/skaven/skv_banner_01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="42.9553223 9.0005703 5.85583496" rotation="-2.32936168 -85.7907486 6.00195789" scale="5.5654645 5.84861088 5.27278137" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e100199cb">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wooden_spikes_01/skv_wooden_spikes_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="1.86340332 8.46233749 45.1733398" rotation="8.52447128 96.0923691 7.43102694" scale="0.505791128 0.531876028 0.479309469" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e100199cc">
+              <ECDecal model_path="rigidmodels/decals/skv/skv_plankpath_sunken_01.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="false" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="27.5626221 8.55381393 39.8839111" rotation="3.39000034 -87.9422302 -2.00635219" scale="10.1208229 10.6373863 9.58104706" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e100199cd">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wooden_spikes_01/skv_wooden_spikes_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="16.9429932 8.46369648 43.0255127" rotation="9.60674286 96.1095505 9.94317055" scale="0.50579381 0.531888187 0.47929287" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e100299ce">
+              <ECDecal model_path="rigidmodels/decals/skv/skv_plankpath_sunken_01.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="false" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="15.2231445 8.39789486 40.9996338" rotation="-38.5912743 -87.3801193 39.1916161" scale="10.1212902 10.6374531 9.58049297" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e100299cf">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_equipment_flag_red_01/skv_equipment_flag_red_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-44.6586914 48.5444984 -0.749511719" rotation="-2.25909853 91.3758698 -2.34887457" scale="8.12990475 3.74051237 5.74803019" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e100299d0">
+              <ECDecal model_path="rigidmodels/decals/skv/skv_plankpath_sunken_01.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="47.2454834 9.1617918 -11.5371094" rotation="-89.8869553 88.9370651 -87.3532104" scale="5.06074762 5.31798029 4.79096079" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e100299d1">
+              <ECDecal model_path="rigidmodels/decals/skv/skv_plankpath_sunken_01.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-49.4406738 9.48727417 -44.8555908" rotation="2.85967708 160.126633 5.6005497" scale="9.65306568 10.6304369 10.0595102" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e100299d2">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wall_corner_90_inter/skv_wall_corner_90_inter_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="12.4842529 6.64912367 -23.2779541" rotation="0 4.65052843 0" scale="0.479168773 0.531898439 0.505900502" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e100299d3">
+              <ECDecal model_path="rigidmodels/decals/def/def_mineralvein_01b.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="false" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-29.1195068 11.8619299 -10.4609375" rotation="-5.76021147 -8.09200191 -1.5631721" scale="95.9157104 106.312668 101.17289" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e100299d4">
+              <ECDecal model_path="rigidmodels/decals/skv/skv_plankpath_sunken_01.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="false" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="5.46728516 8.33676052 41.3262939" rotation="-47.6828766 -86.9619675 47.9959946" scale="10.121644 10.6371841 9.58042431" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e100299d5">
+              <ECDecal model_path="rigidmodels/decals/skv/skv_plankpath_sunken_01.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="false" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="38.3272705 8.75173378 16.1046143" rotation="-0.66390717 2.02842903 4.24363804" scale="9.58646679 10.6323919 10.1209497" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e100299d6">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_machinery_01/skv_machinery_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="32.6035156 17.3770218 -3.94042969" rotation="-4.05926466 -63.9183464 1.54896438" scale="0.500979841 0.531806588 0.484411865" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e100299d7">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_scaffold_tall_01/skv_scaffold_tall_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-31.0789795 6.6491518 -26.8608398" rotation="4.09811328e-05 249.954208 359.999969" scale="0.502980232 0.531898439 0.482233673" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e100299d8">
+              <ECDecal model_path="rigidmodels/decals/skv/skv_plankpath_sunken_01.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="47.0195313 9.27424526 -2.73791504" rotation="89.8982468 91.2653198 92.7040176" scale="5.06076241 5.31773567 4.7912159" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e100299d9">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_machinery_01/skv_machinery_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-28.5169678 18.8594894 -28.8322754" rotation="8.08508587 93.1205368 14.0351229" scale="0.506025493 0.531380355 0.479611099" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e100299da">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_bell_01/skv_bell_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-6.72802734 74.1128693 7.5012207" rotation="-5.20703793 42.0175781 1.5614115" scale="0.491360277 0.531385839 0.494619131" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e100299db">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wall_corner_90_inter/skv_wall_corner_90_inter_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="16.5124512 12.8470583 26.6538086" rotation="0 4.65052748 0" scale="0.479168802 0.531898439 0.505900502" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e100299dc">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wooden_spikes_01/skv_wooden_spikes_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="41.3823242 8.89372349 6.89770508" rotation="9.91310406 96.2662277 13.8981781" scale="0.505796909 0.531647384 0.479556799" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e100299dd">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wheel_device_01/skv_wheel_device_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-3.45947266 62.0365448 -7.83740234" rotation="-13.8708324 82.4594345 170.981125" scale="0.505656958 0.531527698 0.479837507" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e100299de">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_machinery_03/skv_machinery_03_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="21.7104492 39.6864777 -1.54321289" rotation="0.533150911 245.949539 359.071014" scale="1.00338888 1.0637902 0.96714896" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e100299df">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_scaffold_04/skv_scaffold_04_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-11.0876465 61.4208717 0.617675781" rotation="3.77798247 184.236679 6.09530163" scale="1.11056447 1.59106123 1.27045012" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e100299e0">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wooden_stairs_01/skv_wooden_stairs_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="29.2471924 50.3576088 -8.69238281" rotation="0.932512045 186.02916 2.45971489" scale="0.958786845 1.06358492 1.01159775" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e100299e1">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/campaign/settlements/skaven/skv_warpstone_01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="13.0496826 32.1861191 27.4215088" rotation="-84.0511475 184.239609 -56.9197884" scale="10.8720455 10.6216516 10.3859253" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e100299e2">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/campaign/settlements/skaven/skv_banner_01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="42.5926514 8.95435333 -3.38720703" rotation="-3.84095573 -85.7027054 8.19831085" scale="5.56551075 5.84767103 5.27377987" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e100299e3">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wheel_01/skv_wheel_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="25.2888184 16.3365593 29.5916748" rotation="-0.103491023 185.394592 -357.011261" scale="0.479380459 0.531763792 0.505841076" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e100299e4">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wooden_bridge_planks_01/skv_wooden_bridge_planks_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="6.37268066 20.7568855 37.0216064" rotation="0.739873409 186.006912 359.729492" scale="0.958582163 1.06378746 1.01157725" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e100399e5">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wooden_spikes_01/skv_wooden_spikes_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="40.1967773 8.82556438 9.36743164" rotation="9.62503433 96.2663879 13.6974926" scale="0.505796313 0.531637549 0.479568332" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e100399e6">
+              <ECDecal model_path="rigidmodels/decals/skv/skv_plankpath_sunken_01.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="46.3861084 8.96919346 -28.1309814" rotation="-0.541838884 116.051514 -358.681366" scale="5.00984859 5.31850243 4.84359503" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e100399e7">
+              <ECDecal model_path="rigidmodels/decals/skv/skv_plankpath_sunken_01.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="47.7281494 9.07599926 -20.3226318" rotation="89.5981064 91.1569061 91.4679947" scale="5.06078625 5.31838179 4.79047728" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e100399e8">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wall_corner_90_inter/skv_wall_corner_90_inter_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="19.0720215 9.38422298 -4.24328613" rotation="0 4.65052843 0" scale="0.479168773 0.531898439 0.505900502" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e100399e9">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_wall_corner_90_inter/skv_wall_corner_90_inter_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="21.0842285 6.64912987 -6.26025391" rotation="0 4.65052843 0" scale="0.479168773 0.531898439 0.505900502" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7e100399ea">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/skv_machinery_03/skv_machinery_03_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="29.0629883 20.3004837 5.53674316" rotation="-0.114870898 22.013176 -2.41099691" scale="0.482962936 0.531812429 0.502370536" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+          </entities>
+          <associations>
+            <Logical/>
+            <Transform>
+              <from id="1609e7e100399ec">
+                <to id="1609e7e0ffa992a"/>
+                <to id="1609e7e0ffa992b"/>
+                <to id="1609e7e0ffb992c"/>
+                <to id="1609e7e0ffb992d"/>
+                <to id="1609e7e0ffb992e"/>
+                <to id="1609e7e0ffb992f"/>
+                <to id="1609e7e0ffb9930"/>
+                <to id="1609e7e0ffb9931"/>
+                <to id="1609e7e0ffb9932"/>
+                <to id="1609e7e0ffb9933"/>
+                <to id="1609e7e0ffb9934"/>
+                <to id="1609e7e0ffb9935"/>
+                <to id="1609e7e0ffb9936"/>
+                <to id="1609e7e0ffb9937"/>
+                <to id="1609e7e0ffb9938"/>
+                <to id="1609e7e0ffb9939"/>
+                <to id="1609e7e0ffb993a"/>
+                <to id="1609e7e0ffb993b"/>
+                <to id="1609e7e0ffb993c"/>
+                <to id="1609e7e0ffb993d"/>
+                <to id="1609e7e0ffb993e"/>
+                <to id="1609e7e0ffb993f"/>
+                <to id="1609e7e0ffc9940"/>
+                <to id="1609e7e0ffc9941"/>
+                <to id="1609e7e0ffc9942"/>
+                <to id="1609e7e0ffc9943"/>
+                <to id="1609e7e0ffc9944"/>
+                <to id="1609e7e0ffc9945"/>
+                <to id="1609e7e0ffc9946"/>
+                <to id="1609e7e0ffc9947"/>
+                <to id="1609e7e0ffc9948"/>
+                <to id="1609e7e0ffc9949"/>
+                <to id="1609e7e0ffc994a"/>
+                <to id="1609e7e0ffc994b"/>
+                <to id="1609e7e0ffc994c"/>
+                <to id="1609e7e0ffc994d"/>
+                <to id="1609e7e0ffc994e"/>
+                <to id="1609e7e0ffc994f"/>
+                <to id="1609e7e0ffc9950"/>
+                <to id="1609e7e0ffc9951"/>
+                <to id="1609e7e0ffc9952"/>
+                <to id="1609e7e0ffc9953"/>
+                <to id="1609e7e0ffc9954"/>
+                <to id="1609e7e0ffc9955"/>
+                <to id="1609e7e0ffc9956"/>
+                <to id="1609e7e0ffc9957"/>
+                <to id="1609e7e0ffc9958"/>
+                <to id="1609e7e0ffd9959"/>
+                <to id="1609e7e0ffd995a"/>
+                <to id="1609e7e0ffd995b"/>
+                <to id="1609e7e0ffd995c"/>
+                <to id="1609e7e0ffd995d"/>
+                <to id="1609e7e0ffd995e"/>
+                <to id="1609e7e0ffd995f"/>
+                <to id="1609e7e0ffd9960"/>
+                <to id="1609e7e0ffd9961"/>
+                <to id="1609e7e0ffd9962"/>
+                <to id="1609e7e0ffd9963"/>
+                <to id="1609e7e0ffd9964"/>
+                <to id="1609e7e0ffd9965"/>
+                <to id="1609e7e0ffd9966"/>
+                <to id="1609e7e0ffd9967"/>
+                <to id="1609e7e0ffd9968"/>
+                <to id="1609e7e0ffd9969"/>
+                <to id="1609e7e0ffd996a"/>
+                <to id="1609e7e0ffd996b"/>
+                <to id="1609e7e0ffd996c"/>
+                <to id="1609e7e0ffd996d"/>
+                <to id="1609e7e0ffd996e"/>
+                <to id="1609e7e0ffd996f"/>
+                <to id="1609e7e0ffe9970"/>
+                <to id="1609e7e0ffe9971"/>
+                <to id="1609e7e0ffe9972"/>
+                <to id="1609e7e0ffe9973"/>
+                <to id="1609e7e0ffe9974"/>
+                <to id="1609e7e0ffe9975"/>
+                <to id="1609e7e0ffe9976"/>
+                <to id="1609e7e0ffe9977"/>
+                <to id="1609e7e0ffe9978"/>
+                <to id="1609e7e0ffe9979"/>
+                <to id="1609e7e0ffe997a"/>
+                <to id="1609e7e0ffe997b"/>
+                <to id="1609e7e0ffe997c"/>
+                <to id="1609e7e0ffe997d"/>
+                <to id="1609e7e0ffe997e"/>
+                <to id="1609e7e0ffe997f"/>
+                <to id="1609e7e0ffe9980"/>
+                <to id="1609e7e0ffe9981"/>
+                <to id="1609e7e0ffe9982"/>
+                <to id="1609e7e0ffe9983"/>
+                <to id="1609e7e0ffe9984"/>
+                <to id="1609e7e0ffe9985"/>
+                <to id="1609e7e0ffe9986"/>
+                <to id="1609e7e0fff9987"/>
+                <to id="1609e7e0fff9988"/>
+                <to id="1609e7e0fff9989"/>
+                <to id="1609e7e0fff998a"/>
+                <to id="1609e7e0fff998b"/>
+                <to id="1609e7e0fff998c"/>
+                <to id="1609e7e0fff998d"/>
+                <to id="1609e7e0fff998e"/>
+                <to id="1609e7e0fff998f"/>
+                <to id="1609e7e0fff9990"/>
+                <to id="1609e7e0fff9991"/>
+                <to id="1609e7e0fff9992"/>
+                <to id="1609e7e0fff9993"/>
+                <to id="1609e7e0fff9994"/>
+                <to id="1609e7e0fff9995"/>
+                <to id="1609e7e0fff9996"/>
+                <to id="1609e7e0fff9997"/>
+                <to id="1609e7e0fff9998"/>
+                <to id="1609e7e0fff9999"/>
+                <to id="1609e7e0fff999a"/>
+                <to id="1609e7e0fff999b"/>
+                <to id="1609e7e1000999c"/>
+                <to id="1609e7e1000999d"/>
+                <to id="1609e7e1000999e"/>
+                <to id="1609e7e1000999f"/>
+                <to id="1609e7e100099a0"/>
+                <to id="1609e7e100099a1"/>
+                <to id="1609e7e100099a2"/>
+                <to id="1609e7e100099a3"/>
+                <to id="1609e7e100099a4"/>
+                <to id="1609e7e100099a5"/>
+                <to id="1609e7e100099a6"/>
+                <to id="1609e7e100099a7"/>
+                <to id="1609e7e100099a8"/>
+                <to id="1609e7e100099a9"/>
+                <to id="1609e7e100099aa"/>
+                <to id="1609e7e100099ab"/>
+                <to id="1609e7e100099ac"/>
+                <to id="1609e7e100099ad"/>
+                <to id="1609e7e100099ae"/>
+                <to id="1609e7e100099af"/>
+                <to id="1609e7e100099b0"/>
+                <to id="1609e7e100099b1"/>
+                <to id="1609e7e100099b2"/>
+                <to id="1609e7e100099b3"/>
+                <to id="1609e7e100099b4"/>
+                <to id="1609e7e100099b5"/>
+                <to id="1609e7e100199b6"/>
+                <to id="1609e7e100199b7"/>
+                <to id="1609e7e100199b8"/>
+                <to id="1609e7e100199b9"/>
+                <to id="1609e7e100199ba"/>
+                <to id="1609e7e100199bb"/>
+                <to id="1609e7e100199bc"/>
+                <to id="1609e7e100199bd"/>
+                <to id="1609e7e100199be"/>
+                <to id="1609e7e100199bf"/>
+                <to id="1609e7e100199c0"/>
+                <to id="1609e7e100199c1"/>
+                <to id="1609e7e100199c2"/>
+                <to id="1609e7e100199c3"/>
+                <to id="1609e7e100199c4"/>
+                <to id="1609e7e100199c5"/>
+                <to id="1609e7e100199c6"/>
+                <to id="1609e7e100199c7"/>
+                <to id="1609e7e100199c8"/>
+                <to id="1609e7e100199c9"/>
+                <to id="1609e7e100199ca"/>
+                <to id="1609e7e100199cb"/>
+                <to id="1609e7e100199cc"/>
+                <to id="1609e7e100199cd"/>
+                <to id="1609e7e100299ce"/>
+                <to id="1609e7e100299cf"/>
+                <to id="1609e7e100299d0"/>
+                <to id="1609e7e100299d1"/>
+                <to id="1609e7e100299d2"/>
+                <to id="1609e7e100299d3"/>
+                <to id="1609e7e100299d4"/>
+                <to id="1609e7e100299d5"/>
+                <to id="1609e7e100299d6"/>
+                <to id="1609e7e100299d7"/>
+                <to id="1609e7e100299d8"/>
+                <to id="1609e7e100299d9"/>
+                <to id="1609e7e100299da"/>
+                <to id="1609e7e100299db"/>
+                <to id="1609e7e100299dc"/>
+                <to id="1609e7e100299dd"/>
+                <to id="1609e7e100299de"/>
+                <to id="1609e7e100299df"/>
+                <to id="1609e7e100299e0"/>
+                <to id="1609e7e100299e1"/>
+                <to id="1609e7e100299e2"/>
+                <to id="1609e7e100299e3"/>
+                <to id="1609e7e100299e4"/>
+                <to id="1609e7e100399e5"/>
+                <to id="1609e7e100399e6"/>
+                <to id="1609e7e100399e7"/>
+                <to id="1609e7e100399e8"/>
+                <to id="1609e7e100399e9"/>
+                <to id="1609e7e100399ea"/>
+              </from>
+            </Transform>
+          </associations>
+        </group>
+      </ECGroup>
+      <ECTransform position="0 0 0" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+    </entity>
+  </entities>
+  <associations>
+    <Logical/>
+    <Transform/>
+  </associations>
+</layer>

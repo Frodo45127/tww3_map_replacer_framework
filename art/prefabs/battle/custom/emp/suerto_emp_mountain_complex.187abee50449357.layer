@@ -1,0 +1,1525 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="41">
+  <entities>
+    <entity id="187abee503e9291">
+      <ECGroup>
+        <group version="41">
+          <entities>
+            <entity id="1609e7de02e96e8">
+              <ECSignature/>
+              <ECTransform position="339 -68.4082489 1369" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+            </entity>
+            <entity id="1609e7de0269624">
+              <ECBuilding key="emp_hero_block_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-1.71069336 84.666214 -40.9137573" rotation="0 8.00000095 0" scale="2.00000024 2 2.00000024" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de0269625">
+              <ECBuilding key="mtn_cliff_block_02" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-41.9295654 0 4.26055908" rotation="0 90 0" scale="0.606332123 0.572377741 0.707671165" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de0269626">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small04.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-68.8500977 84.1286545 -0.99798584" rotation="27.0961475 -22.0604324 9.14104557" scale="6.99999952 7.00000048 7.00000048" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de0269627">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/emp_wall_flag01/emp_wall_flag01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-17.4667969 142.634598 63.0553589" rotation="0 182.000031 0" scale="1 1 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de0269628">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/emp_hero_wall_01/emp_hero_wall_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-23.2896729 111.880524 36.8357544" rotation="0 97.9999619 0" scale="1 1 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de0269629">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small02.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-39.7546387 110.605751 -46.319519" rotation="10.2129354 247.956299 358.695953" scale="15.0000019 14.999999 15.0000029" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de026962a">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small02.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-40.5693359 130.648178 0.764465332" rotation="10.8411627 226.997208 15.176693" scale="14.9999971 15.000001 14.9999981" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de026962b">
+              <ECVegetation key="BattleTerrain/vegetation/trees/wh_spruce_tree/wh_spruce_tree_f.rigid_model_v2" legacy_random_rotation="true"/>
+              <ECTransform position="0.913818359 117.962181 -25.3253784" rotation="0 102.000023 0" scale="1 1 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+            </entity>
+            <entity id="1609e7de026962c">
+              <ECVegetation key="BattleTerrain/vegetation/trees/wh_spruce_tree/wh_spruce_tree_h.rigid_model_v2" legacy_random_rotation="true"/>
+              <ECTransform position="-38.0688477 108.94294 -38.2197876" rotation="0 102.000023 0" scale="1 1 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+            </entity>
+            <entity id="1609e7de026962d">
+              <ECBuilding key="emp_rockmed_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-44.3868408 86.2173843 26.5829468" rotation="0 80.0190659 0" scale="1.03358102 1.99999988 1.25467134" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de026962e">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small02.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-29.0710449 112.246338 62.8890991" rotation="-12.9795036 232.792419 -342.338074" scale="14.9999962 15.000001 14.9999962" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de026962f">
+              <ECBuilding key="emp_hero_block_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="2.38525391 86.5223846 -8.77679443" rotation="0 8.00000095 0" scale="2.00000024 2 2.00000024" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de0269630">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small02.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-59.5847168 90.7274628 -19.4940796" rotation="-55.1911621 86.6852341 -50.6683464" scale="15 14.999999 15" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de0269631">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small02.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="55.2185059 81.2222595 -22.9639282" rotation="48.1898117 245.693207 284.857666" scale="7.00000048 7.00000048 7.00000095" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de0269632">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small02.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="23.7038574 116.820358 73.4252319" rotation="-26.9458199 133.90007 -11.5994768" scale="15.000001 14.999999 15" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de0269633">
+              <ECVegetation key="BattleTerrain/vegetation/trees/wh_emp_shrub/shrub_dryb_b.rigid_model_v2" legacy_random_rotation="true"/>
+              <ECTransform position="-40.65625 109.77005 -51.7583618" rotation="0 101.999992 0" scale="1 1 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+            </entity>
+            <entity id="1609e7de0269634">
+              <ECBuilding key="emp_infield_stairs_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-65.0753174 68.4082336 19.3471069" rotation="0 91.9999847 0" scale="3.74047041 3.22166753 2" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de0279635">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small04.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="2.25671387 91.2496414 88.7605591" rotation="1.17867386 -77.976387 -10.990756" scale="14.9999981 14.999999 14.9999981" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de0279636">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small02.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="42.6738281 109.50618 47.0405884" rotation="-4.95641279 31.7516842 -6.74859476" scale="15.000001 15.0000019 14.999999" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de0279637">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small02.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-20.944458 83.1564255 -96.8292847" rotation="28.2124367 173.151733 20.5507813" scale="7.00000334 7.00000048 7.00000334" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de0279638">
+              <ECVegetation key="BattleTerrain/vegetation/trees/wh_spruce_tree/wh_spruce_tree_d.rigid_model_v2" legacy_random_rotation="true"/>
+              <ECTransform position="-33.6877441 108.440933 66.4207153" rotation="0 101.999992 0" scale="0.999999881 1 0.999999881" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+            </entity>
+            <entity id="1609e7de0279639">
+              <ECVegetation key="BattleTerrain/vegetation/trees/wh_emp_shrub/shrub_dryb_c.rigid_model_v2" legacy_random_rotation="true"/>
+              <ECTransform position="-37.5085449 109.770058 -48.4385376" rotation="0 101.999992 0" scale="1 1 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+            </entity>
+            <entity id="1609e7de027963a">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small02.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="40.5389404 129.715836 7.80963135" rotation="-12.6416254 66.5989609 13.3912935" scale="15 15.000001 15.000001" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de027963b">
+              <ECVegetation key="BattleTerrain/vegetation/trees/wh_spruce_tree/wh_spruce_tree_i.rigid_model_v2" legacy_random_rotation="true"/>
+              <ECTransform position="43.5209961 129.432022 8.1395874" rotation="0 102.000023 0" scale="1 1 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+            </entity>
+            <entity id="1609e7de027963c">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/emp_wall_flag01/emp_wall_flag01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="23.5935059 143.12973 -47.024231" rotation="0 13.2339458 0" scale="0.99999994 1 0.99999994" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de027963d">
+              <ECBuilding key="emp_infield_stairs_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-51.2563477 92.4389496 35.902771" rotation="0 22.2979469 0" scale="3.74047017 3.22166729 2.00000024" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de027963e">
+              <ECBuilding key="emp_hero_block_02" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-13.6455078 104.479462 4.9854126" rotation="0 98.4153519 0" scale="1.99999976 2 1.99999976" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de027963f">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small02.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="35.633667 109.809204 -39.960144" rotation="-2.32300186 251.941956 -350.769928" scale="15.000001 14.999999 15" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de0279640">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/emp_wall_flag01/emp_wall_flag01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="33.1552734 143.12973 56.468811" rotation="0 13.2339478 0" scale="0.99999994 1 0.99999994" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de0279641">
+              <ECDecal model_path="rigidmodels/decals/sewergrid/emp_sewer_01.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="3.14819336 118.15435 36.777771" rotation="0 3.99999928 0" scale="15.0000019 15 15.0000019" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de0279642">
+              <ECBuilding key="emp_hero_tower_05" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-14.8283691 111.144119 62.7892456" rotation="0 8.00000095 0" scale="1 1 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de0279643">
+              <ECBuilding key="emp_hero_block_03" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="20.3668213 90.894928 48.0515747" rotation="0 8.00000191 0" scale="2 2 4.2639122" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de0279644">
+              <ECVegetation key="BattleTerrain/vegetation/trees/wh_emp_shrub/shrub_drya_a.rigid_model_v2" legacy_random_rotation="true"/>
+              <ECTransform position="-19.5180664 115.310379 -74.5791626" rotation="0 101.999992 0" scale="1 1 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+            </entity>
+            <entity id="1609e7de0279645">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small02.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="38.1020508 109.913208 -32.3250122" rotation="3.08787251 3.80733943 7.15522051" scale="14.999999 14.9999981 15" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de0279646">
+              <ECBuilding key="mtn_cliff_block_02" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="46.2055664 0 0.984924316" rotation="0 -90 0" scale="0.606332123 0.572377741 0.707671106" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de0279647">
+              <ECVegetation key="BattleTerrain/vegetation/trees/wh_emp_shrub/shrub_drya_b.rigid_model_v2" legacy_random_rotation="true"/>
+              <ECTransform position="-20.3398438 115.310371 -71.6990356" rotation="0 101.999992 0" scale="1 1 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+            </entity>
+            <entity id="1609e7de0279648">
+              <ECBuilding key="emp_hero_block_03" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-14.4541016 90.894928 -31.2617798" rotation="0 7.8215394 0" scale="1.99999964 2 4.26391125" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de0279649">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small02.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="14.1945801 89.8859634 96.4441528" rotation="7.64151478 -30.0504704 0.872953594" scale="14.999999 14.9999981 15.000001" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de027964a">
+              <ECBuilding key="emp_rockmed_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-49.6459961 71.9929962 25.2642212" rotation="0 91.9997787 0" scale="2 2 2" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de027964b">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small02.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="37.3701172 106.767075 -24.3561401" rotation="48.4656029 60.2275009 8.13795185" scale="15.0000029 15.000001 15.0000038" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de027964c">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small02.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-33.5323486 111.937607 66.1658325" rotation="-2.66184855 24.2482395 11.666255" scale="15.000001 15.000001 15.000001" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de027964d">
+              <ECBuilding key="emp_rockmed_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-53.3449707 92.9055557 37.6749878" rotation="0 200.636963 0" scale="0.418656707 0.838171899 0.56731534" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de027964e">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small02.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="39.3083496 128.623077 -3.10858154" rotation="0.0252360366 -22.0047245 22.7996445" scale="14.999999 14.9999981 14.999999" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de028964f">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small02.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="49.4777832 109.159782 -35.1609497" rotation="20.1150837 9.91631794 -32.6744423" scale="7.00000048 6.99999952 7.00000048" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de0289650">
+              <ECVegetation key="BattleTerrain/vegetation/trees/wh_emp_shrub/shrub_dryb_b.rigid_model_v2" legacy_random_rotation="true"/>
+              <ECTransform position="21.1629639 112.128113 -60.6231079" rotation="0 101.999992 0" scale="1 1 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+            </entity>
+            <entity id="1609e7de0289651">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small02.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="62.5505371 91.6041641 14.3015747" rotation="-23.4416599 117.403984 -36.5352554" scale="14.9999981 15.000001 14.999999" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de0289652">
+              <ECVegetation key="BattleTerrain/vegetation/trees/wh_emp_shrub/shrub_drya_a.rigid_model_v2" legacy_random_rotation="true"/>
+              <ECTransform position="22.9705811 112.128113 -60.1849976" rotation="0 101.999992 0" scale="1 1 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+            </entity>
+            <entity id="1609e7de0289653">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small02.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-28.5184326 126.278946 0.890319824" rotation="-7.0302825 49.0262337 -24.055336" scale="15 14.9999981 15" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de0289654">
+              <ECVegetation key="BattleTerrain/vegetation/trees/wh_emp_shrub/shrub_dryb_c.rigid_model_v2" legacy_random_rotation="true"/>
+              <ECTransform position="-18.1779785 115.310379 -71.6974487" rotation="0 101.999992 0" scale="1 1 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+            </entity>
+            <entity id="1609e7de0289655">
+              <ECBuilding key="emp_infield_stairs_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-58.6419678 75.7316437 19.0568237" rotation="0 91.9997787 0" scale="3.74046969 3.22166729 1.99999988" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de0289656">
+              <ECBuilding key="emp_hero_block_03" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-7.13647461 90.894928 51.9006958" rotation="0 8.00000191 0" scale="1.99999976 2 4.2639122" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de0289657">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small02.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="36.230957 127.361588 5.33123779" rotation="5.49868631 33.1191444 21.7468815" scale="14.9999981 15 14.9999981" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de0289658">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small02.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-44.446167 109.861412 -47.3621216" rotation="4.69654703 144.36412 10.9167595" scale="15.0000086 14.999999 15.0000086" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de0289659">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small02.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-57.4628906 91.0946579 -12.8560181" rotation="15.3952322 226.3936 4.20533371" scale="15.000001 14.999999 14.999999" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de028965a">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small02.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-40.5888672 108.344498 -64.2190552" rotation="-19.4943848 224.054565 -327.801697" scale="6.99999905 7.00000048 6.99999952" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de028965b">
+              <ECVegetation key="BattleTerrain/vegetation/trees/wh_emp_shrub/shrub_dryb_c.rigid_model_v2" legacy_random_rotation="true"/>
+              <ECTransform position="24.3106689 112.12812 -57.3032837" rotation="0 101.999992 0" scale="1 1 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+            </entity>
+            <entity id="1609e7de028965c">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small04.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-71.7329102 83.6827087 -2.27508545" rotation="31.9745636 -37.8959503 -0.460579813" scale="7.00000048 7 7.00000048" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de028965d">
+              <ECVegetation key="BattleTerrain/vegetation/trees/wh_emp_shrub/shrub_dryc_c.rigid_model_v2" legacy_random_rotation="true"/>
+              <ECTransform position="-17.5756836 115.310371 -74.7025757" rotation="0 101.999992 0" scale="1 1 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+            </entity>
+            <entity id="1609e7de028965e">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small02.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-36.1149902 129.080414 13.0090942" rotation="0.112930343 101.995293 337.301208" scale="7.00000095 7 7.00000095" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de028965f">
+              <ECVegetation key="BattleTerrain/vegetation/trees/wh_spruce_tree/wh_spruce_tree_h.rigid_model_v2" legacy_random_rotation="true"/>
+              <ECTransform position="72.4465332 89.5638275 16.8097534" rotation="0 102.000023 0" scale="1 1 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+            </entity>
+            <entity id="1609e7de0289660">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small04.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-53.3330078 94.8097534 16.5354614" rotation="1.02395844 -78.0352402 18.8530941" scale="6.99999905 6.99999952 6.99999952" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de0289661">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small04.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-33.9765625 110.111618 43.6166382" rotation="-3.47108078 -78.0228653 -3.62571859" scale="14.999999 15.0000019 15" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de0289662">
+              <ECBuilding key="emp_rockmed_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-48.3601074 102.105324 24.9639282" rotation="-73.7449722 6.01781178 160.223206" scale="0.418656886 0.838172078 0.5673154" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de0289663">
+              <ECVegetation key="BattleTerrain/vegetation/trees/wh_emp_shrub/shrub_drya_c.rigid_model_v2" legacy_random_rotation="true"/>
+              <ECTransform position="-36.4411621 109.770073 -50.1011353" rotation="0 101.999992 0" scale="1 1 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+            </entity>
+            <entity id="1609e7de0289664">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small02.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-36.5410156 109.019783 -78.3511353" rotation="-25.4473915 37.4447098 7.96946192" scale="7 6.99999952 7.00000048" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de0289665">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/emp_hero_wall_01/emp_hero_wall_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-24.7191162 111.880524 26.7628784" rotation="0 98.000061 0" scale="1.00000024 1 1.00000024" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de0289666">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small02.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-22.2351074 112.333305 -56.4185181" rotation="-2.82317519 -43.9047508 5.36483574" scale="15.000001 15.0000019 15.0000029" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de0289667">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/emp_hero_wall_01/emp_hero_wall_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-26.1705322 111.880524 16.9100952" rotation="0 98.0000305 0" scale="1.00000036 1 1.00000036" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de0289668">
+              <ECBuilding key="emp_rockmed_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-61.7712402 64.4078674 28.5582886" rotation="0 266.38269 0" scale="2 2 2" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de0289669">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small02.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="29.7041016 87.5608215 -68.130188" rotation="-1.50596106 168.070404 -5.47255278" scale="7.00000143 6.99999952 7.00000095" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de029966a">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small02.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="27.2861328 112.203079 -60.635437" rotation="15.2957153 134.355652 3.79897833" scale="14.9999962 15.0000019 14.9999962" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de029966b">
+              <ECBuilding key="emp_rockmed_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-48.1905518 101.146103 28.8092651" rotation="0 200.636963 0" scale="0.418656707 0.838171899 0.56731534" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de029966c">
+              <ECBuilding key="emp_hero_block_02" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="20.1716309 104.479462 0.68927002" rotation="0 98.4153519 0" scale="1.99999952 2 1.99999952" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de029966d">
+              <ECBuilding key="emp_rockmed_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-56.2753906 68.4082642 10.6001587" rotation="0 -70.0000076 0" scale="2 2 2" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de029966e">
+              <ECBuilding key="emp_hero_block_03" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="17.1451416 90.894928 -5.67388916" rotation="0 7.82153654 0" scale="2 2 4.2639122" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de029966f">
+              <ECBuilding key="emp_infield_stairs_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-51.1374512 92.4389496 35.8162231" rotation="0 201.14949 0" scale="3.74046922 3.22166777 2.59892726" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de0299670">
+              <ECVegetation key="BattleTerrain/vegetation/trees/wh_emp_shrub/shrub_dryc_a.rigid_model_v2" legacy_random_rotation="true"/>
+              <ECTransform position="20.5690918 112.128113 -58.9707642" rotation="0 101.999992 0" scale="1 1 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+            </entity>
+            <entity id="1609e7de0299671">
+              <ECVegetation key="BattleTerrain/vegetation/trees/wh_emp_shrub/shrub_drya_b.rigid_model_v2" legacy_random_rotation="true"/>
+              <ECTransform position="23.1682129 112.128128 -58.5993042" rotation="0 101.999992 0" scale="1 1 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+            </entity>
+            <entity id="1609e7de0299672">
+              <ECBuilding key="emp_hero_block_02" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-21.9281006 105.831573 -32.2265015" rotation="0 98.4153519 0" scale="1.99999976 2 1.99999976" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de0299673">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small02.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-35.6123047 128.984512 1.87567139" rotation="-8.67244053 234.797501 -17.9183598" scale="15.0000029 15.000001 15.0000038" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de0299674">
+              <ECBuilding key="emp_hero_tower_05" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="31.0380859 111.732689 56.4209595" rotation="0 8.00000095 0" scale="1 1 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de0299675">
+              <ECBuilding key="emp_rockmed_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-45.8023682 90.8995209 41.9911499" rotation="0 80.0190659 0" scale="1.03358114 2 1.25467134" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de0299676">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/emp_wall_flag01/emp_wall_flag01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-27.0551758 143.12973 -40.133606" rotation="0 181.999985 0" scale="1 1 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de0299677">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small02.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="52.5882568 84.911438 -50.2402954" rotation="-62.6685295 246.768997 -304.055359" scale="6.99999952 6.99999952 6.99999952" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de0299678">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small02.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-20.5047607 116.33445 -70.3286743" rotation="-16.6801796 60.779911 -17.2487812" scale="14.999999 14.9999981 15.000001" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de0299679">
+              <ECVegetation key="BattleTerrain/vegetation/trees/wh_emp_shrub/shrub_dryb_b.rigid_model_v2" legacy_random_rotation="true"/>
+              <ECTransform position="20.456665 112.128136 -56.5206909" rotation="0 101.999992 0" scale="1 1 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+            </entity>
+            <entity id="1609e7de029967a">
+              <ECBuilding key="emp_hero_block_03" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-10.3581543 90.894928 28.0946655" rotation="0 8.00000095 0" scale="2 2 4.26391268" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de029967b">
+              <ECBuilding key="emp_rockmed_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-42.0239258 88.7050018 26.5829468" rotation="0 155.418274 0" scale="1.03358054 1.99999988 1.25467086" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de029967c">
+              <ECVegetation key="BattleTerrain/vegetation/trees/wh_spruce_tree/wh_spruce_tree_d.rigid_model_v2" legacy_random_rotation="true"/>
+              <ECTransform position="43.840332 108.440926 50.1488647" rotation="0 102.000023 0" scale="1 1 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+            </entity>
+            <entity id="1609e7de029967d">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small04.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-59.9637451 83.5545502 3.70404053" rotation="16.9643936 -19.1658516 -5.93124008" scale="7.00000048 7 6.99999952" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de029967e">
+              <ECVegetation key="BattleTerrain/vegetation/trees/wh_emp_shrub/shrub_drya_a.rigid_model_v2" legacy_random_rotation="true"/>
+              <ECTransform position="-38.8486328 109.77005 -51.3202515" rotation="0 101.999992 0" scale="1 1 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+            </entity>
+            <entity id="1609e7de029967f">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small02.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="48.4089355 109.221359 -39.4743042" rotation="-37.7606583 -61.1465759 17.9632587" scale="7 6.99999952 7" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de0299680">
+              <ECVegetation key="BattleTerrain/vegetation/trees/wh_spruce_tree/wh_spruce_tree_d.rigid_model_v2" legacy_random_rotation="true"/>
+              <ECTransform position="-39.2111816 110.62204 -24.2809448" rotation="0 101.999992 0" scale="1 1 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+            </entity>
+            <entity id="1609e7de0299681">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small02.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-29.7685547 126.90271 9.66973877" rotation="-7.6119318 252.187775 -9.16109943" scale="15.000001 14.999999 15.0000019" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de0299682">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small02.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="62.6071777 90.7598801 21.7490845" rotation="7.37550879 62.0069313 -0.229006976" scale="15.0000029 14.9999981 15.0000029" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de02a9683">
+              <ECVegetation key="BattleTerrain/vegetation/trees/wh_spruce_tree/wh_spruce_tree_i.rigid_model_v2" legacy_random_rotation="true"/>
+              <ECTransform position="-68.6020508 89.4323044 -11.8910522" rotation="0 102.000023 0" scale="1 1 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+            </entity>
+            <entity id="1609e7de02a9684">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small02.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-37.8632813 110.092995 -29.2456665" rotation="44.1097565 219.452271 338.275696" scale="15.0000048 15 15.0000038" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de02a9685">
+              <ECVegetation key="BattleTerrain/vegetation/trees/wh_emp_shrub/shrub_dryb_b.rigid_model_v2" legacy_random_rotation="true"/>
+              <ECTransform position="-20.2392578 115.310371 -73.5945435" rotation="0 101.999992 0" scale="1 1 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+            </entity>
+            <entity id="1609e7de02a9686">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small02.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="58.8574219 79.2730103 -22.56073" rotation="35.9958191 182.420547 325.164154" scale="7.00000095 7 7.00000095" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de02a9687">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small02.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="66.0881348 90.6083755 17.4640503" rotation="-4.06239128 148.268311 -8.88871193" scale="15.000001 15 15.000001" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de02a9688">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small04.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-53.9733887 94.9697723 13.0162964" rotation="8.7454834 12.7083368 17.229784" scale="7.00000048 7.00000048 7" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de02a9689">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small04.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="8.09179688 115.720184 77.3412476" rotation="-52.6639023 -67.4234009 64.1457672" scale="15.0000029 15.000001 15.0000029" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de02a968a">
+              <ECVegetation key="BattleTerrain/vegetation/trees/wh_emp_shrub/shrub_drya_b.rigid_model_v2" legacy_random_rotation="true"/>
+              <ECTransform position="-38.6508789 109.770065 -49.7345581" rotation="0 101.999992 0" scale="1 1 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+            </entity>
+            <entity id="1609e7de02a968b">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small02.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-40.3206787 84.2328949 -72.4214478" rotation="6.84439564 178.407639 6.81187057" scale="15 15.0000019 15.0000019" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de02a968c">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small02.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="47.9343262 108.499184 28.7421265" rotation="4.0951972 32.8919792 -28.9320679" scale="15.000001 15.0000019 15.000001" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de02a968d">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small02.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="46.6158447 109.755585 58.6693726" rotation="3.93674517 14.24051 -7.20649672" scale="14.9999981 14.9999981 15" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de02a968e">
+              <ECVegetation key="BattleTerrain/vegetation/trees/wh_spruce_tree/wh_spruce_tree_h.rigid_model_v2" legacy_random_rotation="true"/>
+              <ECTransform position="-40.2635498 129.837738 8.45672607" rotation="0 101.999992 0" scale="1 1 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+            </entity>
+            <entity id="1609e7de02a968f">
+              <ECVegetation key="BattleTerrain/vegetation/trees/wh_emp_shrub/shrub_dryb_b.rigid_model_v2" legacy_random_rotation="true"/>
+              <ECTransform position="-22.0319824 115.310394 -70.914856" rotation="0 101.999992 0" scale="1 1 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+            </entity>
+            <entity id="1609e7de02a9690">
+              <ECBuilding key="emp_rockmed_02" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-45.6357422 87.7554474 29.434021" rotation="-77.1677856 230.400101 -247.410431" scale="2.00000024 1.99999988 2" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de02a9691">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small02.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="45.2115479 125.861389 -12.1196899" rotation="83.247612 223.71962 277.335083" scale="6.99999809 6.99999905 6.99999857" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de02a9692">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small02.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="41.2536621 129.526993 1.78289795" rotation="76.3491592 265.764587 310.956482" scale="15.000001 15 15.000001" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de02a9693">
+              <ECBuilding key="emp_hero_block_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="6.85717773 84.9125595 57.8637085" rotation="0 187.965714 0" scale="2 2 2" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de02a9694">
+              <ECBuilding key="emp_hero_block_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="3.49243164 86.5887756 14.612854" rotation="0 187.965714 0" scale="2 2 2" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de02a9695">
+              <ECBuilding key="emp_hero_tower_05" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-24.7637939 111.144119 -40.5291138" rotation="0 8.00000095 0" scale="1 1 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de02a9696">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small02.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-39.6391602 110.310852 -50.9425659" rotation="-5.27296305 -43.6058197 11.8184576" scale="15.000001 14.9999981 15" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de02a9697">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small02.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="35.5976563 111.844688 -60.6378784" rotation="-4.12513351 171.949371 -358.579987" scale="15.0000019 15 15.0000029" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de02a9698">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small02.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="4.75341797 91.3328552 -84.552063" rotation="-7.79884624 168.322098 -4.82548761" scale="6.99999714 7 6.99999714" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de02a9699">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small04.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-48.6425781 85.3217087 56.6509399" rotation="-59.2687569 -65.9426575 61.6344299" scale="6.99999857 7 6.99999857" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de02a969a">
+              <ECVegetation key="BattleTerrain/vegetation/trees/wh_spruce_tree/wh_spruce_tree_h.rigid_model_v2" legacy_random_rotation="true"/>
+              <ECTransform position="-4.04589844 112.241516 -66.5540161" rotation="0 101.999962 0" scale="0.999999881 1 0.999999881" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+            </entity>
+            <entity id="1609e7de02a969b">
+              <ECBuilding key="emp_hero_tower_04" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="25.5804443 112.310501 -0.172302246" rotation="0 98.6594772 0" scale="0.999999464 1 0.999999464" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de02a969c">
+              <ECBuilding key="emp_hero_block_03" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="13.0491943 90.894928 -35.1109009" rotation="0 7.82153702 0" scale="1.99999988 2 4.26391172" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de02b969d">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small02.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="51.9492188 85.1197205 -50.6552124" rotation="-20.8730164 169.566025 -8.65088558" scale="6.99999714 6.99999952 6.99999762" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de02b969e">
+              <ECVegetation key="BattleTerrain/vegetation/trees/wh_spruce_tree/wh_spruce_tree_i.rigid_model_v2" legacy_random_rotation="true"/>
+              <ECTransform position="-26.1842041 115.503906 -68.2000122" rotation="0 101.999992 0" scale="1 1 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+            </entity>
+            <entity id="1609e7de02b969f">
+              <ECVegetation key="BattleTerrain/vegetation/trees/wh_spruce_tree/wh_spruce_tree_i.rigid_model_v2" legacy_random_rotation="true"/>
+              <ECTransform position="39.1931152 128.160446 -7.23455811" rotation="0 101.999962 0" scale="0.999999881 1 0.999999881" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+            </entity>
+            <entity id="1609e7de02b96a0">
+              <ECVegetation key="BattleTerrain/vegetation/trees/wh_emp_shrub/shrub_dryc_c.rigid_model_v2" legacy_random_rotation="true"/>
+              <ECTransform position="24.9128418 112.128113 -60.3084106" rotation="0 101.999992 0" scale="1 1 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+            </entity>
+            <entity id="1609e7de02b96a1">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small02.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-29.8321533 111.591293 -52.8518677" rotation="4.69654703 144.36412 10.9167595" scale="15.0000086 14.999999 15.0000086" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de02b96a2">
+              <ECBuilding key="emp_hero_block_02" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="28.1894531 105.721046 48.4992065" rotation="0 98.4153519 0" scale="1.99999976 2 1.99999976" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de02b96a3">
+              <ECBuilding key="emp_rockmed_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-55.75 86.7355194 37.6749878" rotation="0 200.636963 0" scale="0.418656707 0.838171899 0.56731534" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de02b96a4">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/emp_hero_wall_01/emp_hero_wall_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="28.7910156 111.880524 -20.9677124" rotation="0 98.0000763 0" scale="1.00000036 1 1.00000036" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de02b96a5">
+              <ECBuilding key="emp_infield_stairs_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-53.7602539 85.1155396 29.9696655" rotation="0 22.2979279 0" scale="3.74047017 3.22166753 2.00000024" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de02b96a6">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small02.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-6.80883789 90.4399261 -84.2269897" rotation="6.71613884 169.796524 356.478424" scale="15.0000038 14.9999981 15.0000038" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de02b96a7">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small02.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="40.0582275 110.638084 31.6746216" rotation="-2.86211658 -21.9677181 1.39362872" scale="15.0000019 15.000001 14.999999" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de02b96a8">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small02.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="29.2183838 115.940521 79.7741089" rotation="8.79323101 23.5681057 6.13283873" scale="15 15 15" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de02b96a9">
+              <ECVegetation key="BattleTerrain/vegetation/trees/wh_emp_shrub/shrub_drya_b.rigid_model_v2" legacy_random_rotation="true"/>
+              <ECTransform position="-39.6704102 109.77005 -48.4401245" rotation="0 101.999992 0" scale="1 1 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+            </entity>
+            <entity id="1609e7de02b96aa">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small02.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="12.8818359 90.3805466 91.2584839" rotation="29.6861305 -76.5609665 -24.2899761" scale="15.0000029 14.999999 15.0000038" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de02b96ab">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small02.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="22.5131836 112.844452 -60.4616089" rotation="-12.6567564 32.6795158 -14.1789942" scale="15 14.9999981 14.999999" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de02b96ac">
+              <ECVegetation key="BattleTerrain/vegetation/trees/wh_emp_shrub/shrub_dryb_b.rigid_model_v2" legacy_random_rotation="true"/>
+              <ECTransform position="-41.3625488 109.770073 -47.6559448" rotation="0 101.999992 0" scale="1 1 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+            </entity>
+            <entity id="1609e7de02b96ad">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small02.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-34.5366211 109.012054 -80.59552" rotation="-26.0395813 37.384079 7.45404625" scale="7.00000048 6.99999952 7" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de02b96ae">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small02.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-53.2797852 89.3365326 -28.1019897" rotation="-42.1809769 56.3125229 -48.8195267" scale="6.99999905 6.99999952 6.99999952" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de02b96af">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small02.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="38.2883301 108.656082 87.2872925" rotation="-21.6553059 199.048111 -16.5937252" scale="7.00000095 6.99999952 7.00000095" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de02b96b0">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small02.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-33.3642578 128.021927 8.24737549" rotation="7.61191273 72.1877975 -9.16109848" scale="15 15.000001 15.000001" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de02b96b1">
+              <ECBuilding key="emp_rockmed_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-43.4438477 104.630096 26.5341187" rotation="14.2812414 210.433441 303.963837" scale="0.418656826 0.838171899 0.56731534" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de02b96b2">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/emp_hero_gate_01/emp_hero_gate_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-26.5145264 107.646362 28.6740112" rotation="0 98.2780838 0" scale="0.743604302 0.69299531 0.993837416" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de02b96b3">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/emp_hero_wall_01/emp_hero_wall_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-23.6657715 111.880524 -12.6946411" rotation="0 98.000061 0" scale="1.00000036 1 1.00000036" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de02b96b4">
+              <ECVegetation key="BattleTerrain/vegetation/trees/wh_spruce_tree/wh_spruce_tree_h.rigid_model_v2" legacy_random_rotation="true"/>
+              <ECTransform position="17.9348145 115.516853 82.0253296" rotation="0 102.000023 0" scale="1 1 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+            </entity>
+            <entity id="1609e7de02b96b5">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small02.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="45.7454834 110.390327 51.1050415" rotation="26.3823929 81.387207 17.9482727" scale="15.0000029 14.9999981 15.0000029" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de02c96b6">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small04.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-52.3146973 95.1402283 19.8225708" rotation="20.3304806 -78.0541 1.45425773" scale="6.99999952 6.99999952 7.00000048" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de02c96b7">
+              <ECVegetation key="BattleTerrain/vegetation/trees/wh_emp_shrub/shrub_drya_c.rigid_model_v2" legacy_random_rotation="true"/>
+              <ECTransform position="-17.1105957 115.310394 -73.3600464" rotation="0 101.999992 0" scale="1 1 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+            </entity>
+            <entity id="1609e7de02c96b8">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small02.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="59.0529785 80.0170746 -19.5180054" rotation="44.08144 257.402069 277.326477" scale="7.00000095 7.00000048 7.00000143" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de02c96b9">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small02.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-62.0909424 90.6582108 -10.8562622" rotation="-3.50971985 10.1850204 6.12816143" scale="15.0000019 15 15.0000019" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de02c96ba">
+              <ECVegetation key="BattleTerrain/vegetation/trees/wh_emp_shrub/shrub_dryc_a.rigid_model_v2" legacy_random_rotation="true"/>
+              <ECTransform position="-41.25 109.77005 -50.1060181" rotation="0 101.999992 0" scale="1 1 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+            </entity>
+            <entity id="1609e7de02c96bb">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small02.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="43.8181152 127.002037 -11.0026245" rotation="-43.5646019 2.12205315 -4.70327377" scale="6.99999952 7 7" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de02c96bc">
+              <ECVegetation key="BattleTerrain/vegetation/trees/wh_emp_shrub/shrub_dryc_c.rigid_model_v2" legacy_random_rotation="true"/>
+              <ECTransform position="-36.90625 109.77005 -51.4436646" rotation="0 101.999992 0" scale="1 1 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+            </entity>
+            <entity id="1609e7de02c96bd">
+              <ECVegetation key="BattleTerrain/vegetation/trees/wh_emp_shrub/shrub_dryb_b.rigid_model_v2" legacy_random_rotation="true"/>
+              <ECTransform position="22.2492676 112.128113 -59.2003784" rotation="0 101.999992 0" scale="1 1 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+            </entity>
+            <entity id="1609e7de02c96be">
+              <ECBuilding key="emp_hero_block_02" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="21.4655762 105.721046 -38.4470825" rotation="0 98.4153519 0" scale="1.99999976 2 1.99999976" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de02c96bf">
+              <ECBuilding key="emp_rockmed_02" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-49.1101074 81.9055786 29.434021" rotation="-77.1677704 230.400146 -247.410385" scale="2 1.99999988 1.99999988" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de02c96c0">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small02.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-10.4278564 90.2622681 -88.3230591" rotation="-71.1086426 83.0124741 -75.693985" scale="15.0000029 14.9999981 15.0000029" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de02c96c1">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small02.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-22.5087891 83.4153214 -95.5040894" rotation="-34.3144913 34.9613953 -4.12934685" scale="7 7.00000048 7.00000048" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de02c96c2">
+              <ECBuilding key="emp_death_statue_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-42.4020996 124.215912 16.1713867" rotation="0 139.285568 0" scale="2.00000048 2 2.00000048" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de02c96c3">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small02.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="40.027832 108.931076 84.7075806" rotation="35.7275124 -54.2523766 -54.3810425" scale="6.99999857 7 6.99999857" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de02c96c4">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/emp_hero_wall_01/emp_hero_wall_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="30.157959 111.880531 -11.0370483" rotation="0 98.000061 0" scale="1.00000024 1 1.00000024" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de02c96c5">
+              <ECBuilding key="emp_hero_block_03" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-10.3581543 90.894928 -1.82476807" rotation="0 7.82153893 0" scale="1.99999976 2 4.26391172" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de02c96c6">
+              <ECBuilding key="emp_infield_stairs_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-58.2768555 75.7316437 19.0568237" rotation="0 -85.0462646 0" scale="3.74047065 3.22166729 4.06753111" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de02c96c7">
+              <ECVegetation key="BattleTerrain/vegetation/trees/wh_spruce_tree/wh_spruce_tree_h.rigid_model_v2" legacy_random_rotation="true"/>
+              <ECTransform position="44.574707 109.062996 -40.9552612" rotation="0 101.999992 0" scale="1 1 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+            </entity>
+            <entity id="1609e7de02c96c8">
+              <ECBuilding key="emp_death_statue_02" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-55.4608154 90.411232 35.267334" rotation="0 111.646767 0" scale="2.00000024 2 2.00000024" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de02c96c9">
+              <ECVegetation key="BattleTerrain/vegetation/trees/wh_spruce_tree/wh_spruce_tree_h.rigid_model_v2" legacy_random_rotation="true"/>
+              <ECTransform position="-36.5791016 109.779816 36.9729614" rotation="0 101.999962 0" scale="0.999999881 1 0.999999881" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+            </entity>
+            <entity id="1609e7de02c96ca">
+              <ECVegetation key="BattleTerrain/vegetation/trees/wh_emp_shrub/shrub_dryb_b.rigid_model_v2" legacy_random_rotation="true"/>
+              <ECTransform position="-21.3256836 115.310379 -75.0172729" rotation="0 101.999992 0" scale="1 1 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+            </entity>
+            <entity id="1609e7de02c96cb">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small02.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="12.2963867 91.8181152 -75.3743286" rotation="37.1330605 174.855301 20.4092064" scale="7.00000048 7 6.99999952" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de02c96cc">
+              <ECBuilding key="emp_rockmed_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-37.9318848 94.2845459 22.2290649" rotation="0 200.636978 0" scale="1.03358054 1.99999988 1.25467086" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de02c96cd">
+              <ECBuilding key="emp_hero_block_03" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="17.1451416 90.894928 24.2455444" rotation="0 8.00000191 0" scale="2 2 4.2639122" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de02c96ce">
+              <ECBuilding key="emp_rockmed_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-62.3361816 64.4078674 10.5834351" rotation="0 -70.0000076 0" scale="1.99999976 2 1.99999976" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de02c96cf">
+              <ECVegetation key="BattleTerrain/vegetation/trees/wh_emp_shrub/shrub_drya_b.rigid_model_v2" legacy_random_rotation="true"/>
+              <ECTransform position="22.1486816 112.128113 -57.3048706" rotation="0 101.999992 0" scale="1 1 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+            </entity>
+            <entity id="1609e7de02c96d0">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small02.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-43.2156982 108.773361 -23.4053345" rotation="4.19649553 145.031097 33.5666924" scale="15.0000038 15 15.0000048" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de02c96d1">
+              <ECVegetation key="BattleTerrain/vegetation/trees/wh_emp_shrub/shrub_dryc_a.rigid_model_v2" legacy_random_rotation="true"/>
+              <ECTransform position="-21.9194336 115.310379 -73.3649292" rotation="0 101.999992 0" scale="1 1 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+            </entity>
+            <entity id="1609e7de02c96d2">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small02.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-12.3815918 113.802292 -55.6298218" rotation="-10.976222 -43.0106163 14.1251888" scale="15.000001 15.000001 15.000001" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de02d96d3">
+              <ECBuilding key="emp_hero_add_door_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-27.8115234 111.567062 28.8621216" rotation="0 99.1795578 0" scale="5.06001806 3.21144128 2.97702456" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de02d96d4">
+              <ECVegetation key="BattleTerrain/vegetation/trees/wh_spruce_tree/wh_spruce_tree_i.rigid_model_v2" legacy_random_rotation="true"/>
+              <ECTransform position="-58.3391113 90.5957947 -21.6043091" rotation="0 101.999962 0" scale="0.999999881 1 0.999999881" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+            </entity>
+            <entity id="1609e7de02d96d5">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/emp_hero_wall_01/emp_hero_wall_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="28.8239746 111.880524 8.96881104" rotation="0 98.0000305 0" scale="1.00000036 1 1.00000036" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de02d96d6">
+              <ECVegetation key="BattleTerrain/vegetation/trees/wh_emp_shrub/shrub_drya_c.rigid_model_v2" legacy_random_rotation="true"/>
+              <ECTransform position="25.3779297 112.128136 -58.9658813" rotation="0 101.999992 0" scale="1 1 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+            </entity>
+            <entity id="1609e7de02d96d7">
+              <ECBuilding key="emp_hero_tower_05" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="21.1026611 111.732689 -46.8973999" rotation="0 8.00000095 0" scale="1 1 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de02d96d8">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small02.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-14.6154785 116.126297 -70.7461548" rotation="-4.87094831 -43.6991119 9.78559685" scale="15 14.9999981 15" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de02d96d9">
+              <ECVegetation key="BattleTerrain/vegetation/trees/wh_emp_shrub/shrub_drya_b.rigid_model_v2" legacy_random_rotation="true"/>
+              <ECTransform position="-19.3203125 115.310387 -72.9934692" rotation="0 101.999992 0" scale="1 1 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+            </entity>
+            <entity id="1609e7de02d96da">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small02.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="18.8587646 115.908653 79.5054321" rotation="8.97162914 -53.7624207 -5.13356161" scale="15.0000019 14.999999 15.000001" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de02d96db">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small02.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="46.0690918 84.1018524 77.3364868" rotation="7.85692215 -29.3722267 -10.4928713" scale="14.9999981 14.9999981 14.999999" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de02d96dc">
+              <ECBuilding key="emp_hero_block_02" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-15.2043457 105.831573 54.7197876" rotation="0 98.4153519 0" scale="1.99999976 2 1.99999976" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de02d96dd">
+              <ECVegetation key="BattleTerrain/vegetation/trees/wh_emp_shrub/shrub_dryb_b.rigid_model_v2" legacy_random_rotation="true"/>
+              <ECTransform position="-39.5698242 109.77005 -50.3356323" rotation="0 101.999992 0" scale="1 1 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+            </entity>
+            <entity id="1609e7de02d96de">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/emp_hero_wall_01/emp_hero_wall_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="30.2753906 111.880524 18.8215942" rotation="0 98.0000305 0" scale="1.00000024 1 1.00000024" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de02d96df">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small02.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-49.4238281 82.0199432 -64.5897827" rotation="0.0501882285 228.005112 17.2326355" scale="7 6.99999952 6.99999952" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de02d96e0">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/emp_hero_wall_01/emp_hero_wall_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="31.704834 111.880524 28.8944702" rotation="0 97.9999619 0" scale="1 1 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de02d96e1">
+              <ECBuilding key="emp_hero_tower_04" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-19.2138672 112.310493 6.08856201" rotation="0 -81.9017487 0" scale="0.999999523 1 0.999999523" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de02d96e2">
+              <ECBuilding key="emp_infield_stairs_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-30.5964355 102.112862 29.3334351" rotation="0 108.928711 0" scale="3.74047017 2.32816195 3.88019156" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de02d96e3">
+              <ECBuilding key="emp_rockmed_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-52.6176758 77.3410263 29.4259644" rotation="0 92.0001678 0" scale="1.03358078 2 1.25467122" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de02d96e4">
+              <ECBuilding key="emp_rockmed_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-52.6176758 68.4082565 25.2642212" rotation="0 91.9997787 0" scale="1.99999988 2 1.99999988" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de02d96e5">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small02.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="64.2181396 91.0706024 28.5956421" rotation="-22.8032341 60.2790146 -17.5412617" scale="15.000001 15.0000019 14.999999" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7de02d96e6">
+              <ECDecal model_path="rigidmodels/campaign/decals/moss/wef_decal_moss_small02.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="35.3720703 108.989403 89.0726929" rotation="-22.8261108 161.301529 -27.6378002" scale="7.00000143 6.99999952 7.00000238" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+          </entities>
+          <associations>
+            <Logical/>
+            <Transform>
+              <from id="1609e7de02e96e8">
+                <to id="1609e7de0269624"/>
+                <to id="1609e7de0269625"/>
+                <to id="1609e7de0269626"/>
+                <to id="1609e7de0269627"/>
+                <to id="1609e7de0269628"/>
+                <to id="1609e7de0269629"/>
+                <to id="1609e7de026962a"/>
+                <to id="1609e7de026962b"/>
+                <to id="1609e7de026962c"/>
+                <to id="1609e7de026962d"/>
+                <to id="1609e7de026962e"/>
+                <to id="1609e7de026962f"/>
+                <to id="1609e7de0269630"/>
+                <to id="1609e7de0269631"/>
+                <to id="1609e7de0269632"/>
+                <to id="1609e7de0269633"/>
+                <to id="1609e7de0269634"/>
+                <to id="1609e7de0279635"/>
+                <to id="1609e7de0279636"/>
+                <to id="1609e7de0279637"/>
+                <to id="1609e7de0279638"/>
+                <to id="1609e7de0279639"/>
+                <to id="1609e7de027963a"/>
+                <to id="1609e7de027963b"/>
+                <to id="1609e7de027963c"/>
+                <to id="1609e7de027963d"/>
+                <to id="1609e7de027963e"/>
+                <to id="1609e7de027963f"/>
+                <to id="1609e7de0279640"/>
+                <to id="1609e7de0279641"/>
+                <to id="1609e7de0279642"/>
+                <to id="1609e7de0279643"/>
+                <to id="1609e7de0279644"/>
+                <to id="1609e7de0279645"/>
+                <to id="1609e7de0279646"/>
+                <to id="1609e7de0279647"/>
+                <to id="1609e7de0279648"/>
+                <to id="1609e7de0279649"/>
+                <to id="1609e7de027964a"/>
+                <to id="1609e7de027964b"/>
+                <to id="1609e7de027964c"/>
+                <to id="1609e7de027964d"/>
+                <to id="1609e7de027964e"/>
+                <to id="1609e7de028964f"/>
+                <to id="1609e7de0289650"/>
+                <to id="1609e7de0289651"/>
+                <to id="1609e7de0289652"/>
+                <to id="1609e7de0289653"/>
+                <to id="1609e7de0289654"/>
+                <to id="1609e7de0289655"/>
+                <to id="1609e7de0289656"/>
+                <to id="1609e7de0289657"/>
+                <to id="1609e7de0289658"/>
+                <to id="1609e7de0289659"/>
+                <to id="1609e7de028965a"/>
+                <to id="1609e7de028965b"/>
+                <to id="1609e7de028965c"/>
+                <to id="1609e7de028965d"/>
+                <to id="1609e7de028965e"/>
+                <to id="1609e7de028965f"/>
+                <to id="1609e7de0289660"/>
+                <to id="1609e7de0289661"/>
+                <to id="1609e7de0289662"/>
+                <to id="1609e7de0289663"/>
+                <to id="1609e7de0289664"/>
+                <to id="1609e7de0289665"/>
+                <to id="1609e7de0289666"/>
+                <to id="1609e7de0289667"/>
+                <to id="1609e7de0289668"/>
+                <to id="1609e7de0289669"/>
+                <to id="1609e7de029966a"/>
+                <to id="1609e7de029966b"/>
+                <to id="1609e7de029966c"/>
+                <to id="1609e7de029966d"/>
+                <to id="1609e7de029966e"/>
+                <to id="1609e7de029966f"/>
+                <to id="1609e7de0299670"/>
+                <to id="1609e7de0299671"/>
+                <to id="1609e7de0299672"/>
+                <to id="1609e7de0299673"/>
+                <to id="1609e7de0299674"/>
+                <to id="1609e7de0299675"/>
+                <to id="1609e7de0299676"/>
+                <to id="1609e7de0299677"/>
+                <to id="1609e7de0299678"/>
+                <to id="1609e7de0299679"/>
+                <to id="1609e7de029967a"/>
+                <to id="1609e7de029967b"/>
+                <to id="1609e7de029967c"/>
+                <to id="1609e7de029967d"/>
+                <to id="1609e7de029967e"/>
+                <to id="1609e7de029967f"/>
+                <to id="1609e7de0299680"/>
+                <to id="1609e7de0299681"/>
+                <to id="1609e7de0299682"/>
+                <to id="1609e7de02a9683"/>
+                <to id="1609e7de02a9684"/>
+                <to id="1609e7de02a9685"/>
+                <to id="1609e7de02a9686"/>
+                <to id="1609e7de02a9687"/>
+                <to id="1609e7de02a9688"/>
+                <to id="1609e7de02a9689"/>
+                <to id="1609e7de02a968a"/>
+                <to id="1609e7de02a968b"/>
+                <to id="1609e7de02a968c"/>
+                <to id="1609e7de02a968d"/>
+                <to id="1609e7de02a968e"/>
+                <to id="1609e7de02a968f"/>
+                <to id="1609e7de02a9690"/>
+                <to id="1609e7de02a9691"/>
+                <to id="1609e7de02a9692"/>
+                <to id="1609e7de02a9693"/>
+                <to id="1609e7de02a9694"/>
+                <to id="1609e7de02a9695"/>
+                <to id="1609e7de02a9696"/>
+                <to id="1609e7de02a9697"/>
+                <to id="1609e7de02a9698"/>
+                <to id="1609e7de02a9699"/>
+                <to id="1609e7de02a969a"/>
+                <to id="1609e7de02a969b"/>
+                <to id="1609e7de02a969c"/>
+                <to id="1609e7de02b969d"/>
+                <to id="1609e7de02b969e"/>
+                <to id="1609e7de02b969f"/>
+                <to id="1609e7de02b96a0"/>
+                <to id="1609e7de02b96a1"/>
+                <to id="1609e7de02b96a2"/>
+                <to id="1609e7de02b96a3"/>
+                <to id="1609e7de02b96a4"/>
+                <to id="1609e7de02b96a5"/>
+                <to id="1609e7de02b96a6"/>
+                <to id="1609e7de02b96a7"/>
+                <to id="1609e7de02b96a8"/>
+                <to id="1609e7de02b96a9"/>
+                <to id="1609e7de02b96aa"/>
+                <to id="1609e7de02b96ab"/>
+                <to id="1609e7de02b96ac"/>
+                <to id="1609e7de02b96ad"/>
+                <to id="1609e7de02b96ae"/>
+                <to id="1609e7de02b96af"/>
+                <to id="1609e7de02b96b0"/>
+                <to id="1609e7de02b96b1"/>
+                <to id="1609e7de02b96b2"/>
+                <to id="1609e7de02b96b3"/>
+                <to id="1609e7de02b96b4"/>
+                <to id="1609e7de02b96b5"/>
+                <to id="1609e7de02c96b6"/>
+                <to id="1609e7de02c96b7"/>
+                <to id="1609e7de02c96b8"/>
+                <to id="1609e7de02c96b9"/>
+                <to id="1609e7de02c96ba"/>
+                <to id="1609e7de02c96bb"/>
+                <to id="1609e7de02c96bc"/>
+                <to id="1609e7de02c96bd"/>
+                <to id="1609e7de02c96be"/>
+                <to id="1609e7de02c96bf"/>
+                <to id="1609e7de02c96c0"/>
+                <to id="1609e7de02c96c1"/>
+                <to id="1609e7de02c96c2"/>
+                <to id="1609e7de02c96c3"/>
+                <to id="1609e7de02c96c4"/>
+                <to id="1609e7de02c96c5"/>
+                <to id="1609e7de02c96c6"/>
+                <to id="1609e7de02c96c7"/>
+                <to id="1609e7de02c96c8"/>
+                <to id="1609e7de02c96c9"/>
+                <to id="1609e7de02c96ca"/>
+                <to id="1609e7de02c96cb"/>
+                <to id="1609e7de02c96cc"/>
+                <to id="1609e7de02c96cd"/>
+                <to id="1609e7de02c96ce"/>
+                <to id="1609e7de02c96cf"/>
+                <to id="1609e7de02c96d0"/>
+                <to id="1609e7de02c96d1"/>
+                <to id="1609e7de02c96d2"/>
+                <to id="1609e7de02d96d3"/>
+                <to id="1609e7de02d96d4"/>
+                <to id="1609e7de02d96d5"/>
+                <to id="1609e7de02d96d6"/>
+                <to id="1609e7de02d96d7"/>
+                <to id="1609e7de02d96d8"/>
+                <to id="1609e7de02d96d9"/>
+                <to id="1609e7de02d96da"/>
+                <to id="1609e7de02d96db"/>
+                <to id="1609e7de02d96dc"/>
+                <to id="1609e7de02d96dd"/>
+                <to id="1609e7de02d96de"/>
+                <to id="1609e7de02d96df"/>
+                <to id="1609e7de02d96e0"/>
+                <to id="1609e7de02d96e1"/>
+                <to id="1609e7de02d96e2"/>
+                <to id="1609e7de02d96e3"/>
+                <to id="1609e7de02d96e4"/>
+                <to id="1609e7de02d96e5"/>
+                <to id="1609e7de02d96e6"/>
+              </from>
+            </Transform>
+          </associations>
+        </group>
+      </ECGroup>
+      <ECTransform position="0 0 0" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+    </entity>
+  </entities>
+  <associations>
+    <Logical/>
+    <Transform/>
+  </associations>
+</layer>

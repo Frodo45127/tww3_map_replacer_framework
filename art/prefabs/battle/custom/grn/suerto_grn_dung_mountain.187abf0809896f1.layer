@@ -1,0 +1,1151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="41">
+  <entities>
+    <entity id="187abf08093966d">
+      <ECGroup>
+        <group version="41">
+          <entities>
+            <entity id="1609e7da652955c">
+              <ECSignature/>
+              <ECTransform position="774 -12.4949608 1363" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+            </entity>
+            <entity id="1609e7da64b94da">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/grn_dung_pile_small01/grn_dung_pile_small01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="65.4945068 49.8610764 11.2887573" rotation="-1.20498192 138.773071 -16.612318" scale="0.999999881 1 1.00000012" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64b94db">
+              <ECDecal model_path="rigidmodels/decals/generic/dirt_1.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="15.776123 84.5948029 37.4197388" rotation="10.0696793 219.849945 17.5809612" scale="10.0000029 10 10.0000029" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64b94dc">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/grn_poleset_01/grn_poleset_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-16.125 51.074379 -11.3254395" rotation="7.42712021 26.2428589 6.84105444" scale="0.99999994 1 0.999999762" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64b94dd">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/grn_poleset_01/grn_poleset_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-23.0159912 58.9726372 -41.269043" rotation="-3.8761754 -18.7380352 19.234251" scale="1.00000024 1 1.00000012" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64b94de">
+              <ECBuilding key="grn_wall_bridge_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-54.1591797 12.4948807 46.4121094" rotation="0 110.640907 0" scale="1 1 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64b94df">
+              <ECDecal model_path="rigidmodels/decals/generic/grn_decal_mark_white.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-22.9813232 93.2988281 17.2405396" rotation="11.0018034 -41.9546204 8.26224995" scale="10.000001 10 10" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64b94e0">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/grn_hut_large_01/grn_hut_large_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-10.1009521 72.038681 27.1828613" rotation="-13.6629219 -42.5141296 9.61147785" scale="0.99999994 1 0.99999994" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64b94e1">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/grn_poleset_02/grn_poleset_02_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-32.564209 31.049614 -15.8449097" rotation="-21.7095852 -59.283268 21.6032887" scale="1.00000012 1 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64c94e2">
+              <ECBuilding key="grn_rockmed_05" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="40.1607666 6.57439804 39.4625244" rotation="11.9353037 -41.2126923 -17.7788792" scale="12.887496 4.70085335 19.2914619" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64c94e3">
+              <ECDecal model_path="rigidmodels/decals/generic/dirt_1.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="9.02624512 81.4989319 36.7814331" rotation="15.9978323 231.564743 10.4410772" scale="9.99999809 10 9.99999809" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64c94e4">
+              <ECBuilding key="grn_rockmed_04" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="16.0891113 37.0411606 4.52020264" rotation="17.2241096 226.048813 335.141052" scale="13.0232334 18.2588978 13.2642345" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64c94e5">
+              <ECDecal model_path="rigidmodels/decals/generic/dirt_1.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-13.1558838 60.2129211 -27.9157715" rotation="-28.0958328 225.781662 -331.470673" scale="10.0000038 9.99999905 10.0000048" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64c94e6">
+              <ECDecal model_path="rigidmodels/decals/generic/grn_decal_dungmound_2.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="58.3818359 52.5507278 4.21643066" rotation="1.32563043 236.534607 343.430481" scale="6.99999857 7 6.99999952" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64c94e7">
+              <ECDecal model_path="rigidmodels/decals/generic/dirt_1.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-19.7579346 91.0681152 -0.584228516" rotation="39.6163139 223.776642 332.503265" scale="10.0000048 10 10.0000048" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64c94e8">
+              <ECDecal model_path="rigidmodels/decals/generic/dirt_1.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-15.5942383 92.9081726 3.64929199" rotation="31.5941448 225.85498 335.007782" scale="9.99999809 10 9.99999809" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64c94e9">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/grn_hut_large_02/grn_hut_large_02_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="47.3487549 89.8656006 41.4825439" rotation="-1.93470562 138.631195 -359.235046" scale="1 0.999999881 1.00000012" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64c94ea">
+              <ECDecal model_path="rigidmodels/decals/generic/dirt_1.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-3.59069824 60.8901062 -28.611084" rotation="-41.2460899 220.797913 -323.834717" scale="10 10.000001 10" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64c94eb">
+              <ECBuilding key="grn_rockmed_03" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="33.9682617 75.6822968 37.4890747" rotation="-6.99106503 -87.3077545 20.8417835" scale="6.99999857 6.99999905 6.99999905" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64c94ec">
+              <ECDecal model_path="rigidmodels/decals/generic/dirt_1.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-10.2563477 69.6304474 14.3334351" rotation="20.8210392 228.983246 346.087189" scale="10.0000048 10.000001 10.0000048" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64c94ed">
+              <ECDecal model_path="rigidmodels/decals/generic/grn_decal_mark_red.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-50.5919189 37.2200279 4.55175781" rotation="5.93523073 -61.3976212 1.55093348" scale="9.99999905 9.99999809 10" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64c94ee">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/grn_poleset_01/grn_poleset_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="16.2067871 60.4780121 -36.9926147" rotation="-8.230937 172.178909 -353.529388" scale="0.999999881 0.999999821 0.999999762" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64c94ef">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/grn_hut_small_01/grn_hut_small_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-15.3514404 93.9837952 11.7030029" rotation="-9.45302582 41.3361588 -20.9924774" scale="1.00000012 1.00000036 0.99999994" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64c94f0">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/grn_dung_pile_small01/grn_dung_pile_small01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="65.22229 50.1080246 7.65362549" rotation="-1.20498192 138.773071 -16.612318" scale="0.999999881 1 1.00000012" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64c94f1">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/grn_poleset_01/grn_poleset_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-5.42138672 68.0341339 50.2739258" rotation="-24.0901852 115.232147 -29.2749405" scale="1 1 1.00000012" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64c94f2">
+              <ECDecal model_path="rigidmodels/decals/generic/dirt_1.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-2.18237305 68.3762054 13.322998" rotation="16.1556911 228.510315 337.158112" scale="10.0000029 10 10.0000038" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64c94f3">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/grn_hut_large_01/grn_hut_large_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-35.8981934 38.5942535 -1.12426758" rotation="1.13521183 -43.3691101 1.38791108" scale="1 0.99999994 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64c94f4">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/grn_hut_small_01/grn_hut_small_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-20.7125244 93.3834839 7.34075928" rotation="8.93671513 188.048248 352.346191" scale="0.999999762 1 0.99999994" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64d94f5">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/grn_poleset_01/grn_poleset_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-8.79467773 59.8057823 -57.5789185" rotation="13.201251 -81.0600433 -16.7888527" scale="1.00000024 1 1.00000024" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64d94f6">
+              <ECVegetation key="BattleTerrain/vegetation/trees/wh_badlands_dead_tree/grn_dead_tree_d_bespoke.rigid_model_v2" legacy_random_rotation="true"/>
+              <ECTransform position="48.6450195 50.3989563 44.7735596" rotation="76.0256042 80.1557541 66.2612534" scale="0.999999821 1 0.999999821" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+            </entity>
+            <entity id="1609e7da64d94f7">
+              <ECDecal model_path="rigidmodels/decals/generic/grn_decal_dungmound_2.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="64.5684814 51.2388 11.7050781" rotation="3.32299614 235.493607 296.542603" scale="6.99999905 7 6.99999857" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64d94f8">
+              <ECDecal model_path="rigidmodels/decals/generic/dirt_1.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="48.0919189 87.9843445 20.9249878" rotation="17.5431614 229.022736 343.849731" scale="10.0000019 10.0000019 10" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64d94f9">
+              <ECBuilding key="grn_wall_bridge_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-65.2648926 12.4948845 19.1065674" rotation="0 110.640907 0" scale="1 1 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64d94fa">
+              <ECBuilding key="grn_flag_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-53.0510254 56.848999 51.447937" rotation="3.2016511 118.982071 4.33333158" scale="3.99147153 2.57044959 5.00000143" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64d94fb">
+              <ECDecal model_path="rigidmodels/decals/generic/grn_decal_dungmound_2.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="62.4659424 51.3371315 16.3448486" rotation="-1.65326083 236.755875 -14.4353037" scale="7 7 6.99999905" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64d94fc">
+              <ECDecal model_path="rigidmodels/decals/generic/grn_decal_dungmound_2.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="50.0740967 54.3152313 21.289917" rotation="-6.82868624 236.861053 -6.72298241" scale="6.99999905 6.99999952 7" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64d94fd">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/grn_hut_small_01/grn_hut_small_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="28.0808105 71.5135345 -22.3796387" rotation="33.913147 54.0387611 26.7293358" scale="0.99999994 0.99999994 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64d94fe">
+              <ECBuilding key="grn_rockmed_04" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-9.23254395 4.62703323 -21.1210327" rotation="-7.23606586 140.018951 -10.5280256" scale="22.3394737 18.258894 23.4794521" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64d94ff">
+              <ECDecal model_path="rigidmodels/decals/generic/grn_decal_dungmound_2.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="55.1682129 53.2465706 17.7838135" rotation="-3.9816587 236.862061 -11.5662289" scale="7.00000095 7.00000048 7" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64d9500">
+              <ECDecal model_path="rigidmodels/decals/generic/dirt_1.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-1.79431152 69.0554352 17.2634888" rotation="16.1556911 228.510315 337.158112" scale="10.0000029 10 10.0000038" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64d9501">
+              <ECDecal model_path="rigidmodels/decals/generic/dirt_1.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="2.40551758 64.5719223 -49.8339844" rotation="-10.3202248 229.614273 -342.406891" scale="10.0000029 10 10.0000038" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64d9502">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/grn_dung_pile_medium01/grn_dung_pile_medium01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="55.5751953 51.6724091 13.4008179" rotation="-1.20498192 138.773071 -16.612318" scale="0.999999881 1 1.00000012" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64d9503">
+              <ECDecal model_path="rigidmodels/decals/generic/grn_decal_dungmound_2.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="58.0799561 52.6678009 6.75177002" rotation="1.32564402 236.534576 343.43045" scale="6.99999905 6.99999952 6.99999952" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64d9504">
+              <ECDecal model_path="rigidmodels/decals/generic/grn_decal_dungmound_2.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="62.9091797 51.5341873 11.6148682" rotation="27.3736477 231.436081 324.771393" scale="7.00000286 7 7.00000286" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64d9505">
+              <ECBuilding key="grn_rockmed_05" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-14.9794922 25.3399544 6.0065918" rotation="0 40.6324615 0" scale="7.00000095 7.00000048 7.00000095" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64d9506">
+              <ECDecal model_path="rigidmodels/decals/generic/grn_decal_dungmound.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="50.7789307 54.3225136 18.1124268" rotation="-4.40996599 236.853363 -10.0367584" scale="7.00000238 7.00000048 7.00000286" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64d9507">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/grn_poleset_01/grn_poleset_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-23.0006104 55.8088951 -31.4314575" rotation="20.7969379 5.19782114 7.89333773" scale="0.999999821 0.99999994 0.999999881" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64e9508">
+              <ECDecal model_path="rigidmodels/decals/generic/grn_decal_dungmound_2.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="47.9882813 54.0275154 7.37054443" rotation="6.98476982 236.408356 353.100891" scale="7.00000238 6.99999952 7.00000286" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64e9509">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/grn_hut_small_01/grn_hut_small_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-29.7735596 72.2051773 31.4910889" rotation="-9.94266319 -42.3708496 15.4068584" scale="1.00000036 1 1.00000036" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64e950a">
+              <ECDecal model_path="rigidmodels/decals/generic/grn_decal_dungmound_2.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="44.1016846 54.2433128 9.49188232" rotation="6.98476982 236.408356 353.100891" scale="7.00000238 6.99999952 7.00000286" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64e950b">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/grn_hut_large_02/grn_hut_large_02_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-10.2825928 73.2004395 42.1251221" rotation="-5.34525347 -43.321228 1.11552584" scale="1.00000012 1 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64e950c">
+              <ECBuilding key="grn_rockmed_04" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="39.3833008 48.5519142 -18.4837646" rotation="0 228.64093 0" scale="6.99999952 6.99999952 6.99999952" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64e950d">
+              <ECDecal model_path="rigidmodels/decals/generic/dirt_1.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="29.5944824 84.6680603 17.5565796" rotation="26.6900272 229.649826 353.48761" scale="10.000001 10 10.000001" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64e950e">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/grn_dung_pile_large01/grn_dung_pile_large01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="50.923584 54.4815178 12.2879028" rotation="4.17745304 138.532806 356.049103" scale="0.99999994 0.99999994 0.99999994" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64e950f">
+              <ECBuilding key="grn_rope_bridge_small" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="0.593017578 85.2586517 23.5668335" rotation="-27.269434 145.561676 -33.3940926" scale="1 0.999999881 1.00000012" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64e9510">
+              <ECBuilding key="grn_wall_bridge_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-33.5013428 12.4948807 58.1991577" rotation="0 168.6409 0" scale="0.99999994 1 0.99999994" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64e9511">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/grn_poleset_01/grn_poleset_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="14.1986084 58.4034157 -24.4938965" rotation="-8.4736414 164.263474 -354.715515" scale="1.00000036 0.999999881 1.00000024" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64e9512">
+              <ECBuilding key="grn_rope_bridge_small" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-28.7775879 58.9996986 -7.80651855" rotation="-44.9438896 62.0249748 -53.6455688" scale="1.28591919 1.00000012 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64e9513">
+              <ECDecal model_path="rigidmodels/decals/generic/dirt_1.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="48.1739502 88.8751678 24.5480347" rotation="21.928896 228.636719 344.128967" scale="10.0000038 10 10.0000038" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64e9514">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/grn_hut_medium/grn_hut_medium_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-21.8605957 73.3353882 36.5044556" rotation="-5.34525347 -43.321228 1.11552584" scale="1.00000012 1 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64e9515">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/grn_hut_medium/grn_hut_medium_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-11.8093262 64.2062836 -44.1193848" rotation="2.79315639 -43.2586555 -5.65739441" scale="1.00000048 1 1.00000024" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64e9516">
+              <ECDecal model_path="rigidmodels/decals/generic/grn_decal_dungmound_2.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="63.5870361 51.1148529 4.52429199" rotation="1.32564402 236.534576 343.43045" scale="6.99999905 6.99999952 6.99999952" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64e9517">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/grn_wall_huts_medium01/grn_wall_huts_medium01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="33.1148682 88.5249786 29.9163818" rotation="7.81824398 139.274551 12.2478809" scale="1.00000012 1 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64e9518">
+              <ECBuilding key="grn_rockmed_04" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="33.3513184 0 -12.5269775" rotation="17.2240696 226.048798 335.141083" scale="13.0232315 18.258894 13.2642374" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64e9519">
+              <ECDecal model_path="rigidmodels/decals/generic/grn_decal_dungmound_2.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="66.1379395 50.6015892 8.01086426" rotation="-5.40317106 237.276718 -24.340992" scale="7.00000048 6.99999952 7" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64e951a">
+              <ECDecal model_path="rigidmodels/decals/generic/dirt_1.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="0.84387207 60.2630081 -24.9430542" rotation="-3.24383426 230.061081 -328.710693" scale="10.000001 10 10" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64f951b">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/grn_poleset_01/grn_poleset_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-38.6105957 66.8864899 43.5393677" rotation="4.73872519 18.2172108 10.7617226" scale="0.999999881 0.99999994 0.999999821" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64f951c">
+              <ECDecal model_path="rigidmodels/decals/generic/dirt_1.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-5.06176758 69.521347 16.5009766" rotation="16.1556911 228.510315 337.158112" scale="10.0000029 10 10.0000038" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64f951d">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/grn_poleset_01/grn_poleset_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="2.58984375 60.8133163 -57.3590088" rotation="-13.1845331 239.408722 -338.902344" scale="1.0000006 0.999999762 1.0000006" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64f951e">
+              <ECDecal model_path="rigidmodels/decals/generic/dirt_1.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="12.3952637 83.4764099 39.6408691" rotation="12.9112425 219.937759 14.7269535" scale="9.99999809 9.99999905 9.99999809" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64f951f">
+              <ECDecal model_path="rigidmodels/decals/generic/dirt_1.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="3.99499512 61.8689308 -26.8664551" rotation="-18.0452366 228.499451 -339.429718" scale="10.000001 10 10.0000019" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64f9520">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/grn_poleset_01/grn_poleset_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-17.4865723 59.2209625 -50.0534058" rotation="-11.6877432 -39.5173759 23.314127" scale="1.00000048 0.999999821 1.00000036" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64f9521">
+              <ECDecal model_path="rigidmodels/decals/generic/dirt_1.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-32.9766846 72.4223328 38.3619995" rotation="5.12758684 218.833221 5.50260544" scale="10 10 10.0000038" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64f9522">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/grn_poleset_01/grn_poleset_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-16.9122314 68.4215622 53.5873413" rotation="-46.4623604 105.623985 -48.0494614" scale="1 0.99999994 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64f9523">
+              <ECVegetation key="BattleTerrain/vegetation/trees/wh_badlands_dead_tree/grn_dead_tree_b.rigid_model_v2" legacy_random_rotation="true"/>
+              <ECTransform position="-55.2716064 35.4587173 -4.88287354" rotation="-10.1344023 235.965576 -343.424377" scale="0.999999881 0.999999881 0.999999881" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+            </entity>
+            <entity id="1609e7da64f9524">
+              <ECDecal model_path="rigidmodels/decals/generic/dirt_1.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-31.0477295 72.4923248 42.3881836" rotation="4.67361164 -61.399437 2.06212354" scale="10.0000029 10 10.0000019" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64f9525">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/grn_hut_medium/grn_hut_medium_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-28.9710693 37.6378822 -12.9317017" rotation="-8.62028408 -43.6563873 -5.43458271" scale="0.999999821 0.99999994 0.999999881" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64f9526">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/grn_hut_small_01/grn_hut_small_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-5.18164063 64.0046997 -50.6372681" rotation="2.79315639 -43.2586555 -5.65739441" scale="1.00000048 1 1.00000024" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64f9527">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/grn_poleset_02/grn_poleset_02_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-42.8952637 32.0388603 -2.27703857" rotation="1.27759135 2.58954406 4.6072197" scale="1.00000024 1 1.00000036" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64f9528">
+              <ECDecal model_path="rigidmodels/decals/generic/grn_decal_dungmound_2.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="57.7229004 52.4748917 20.1208496" rotation="-3.9816587 236.862061 -11.5662289" scale="7.00000095 7.00000048 7" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64f9529">
+              <ECBuilding key="grn_rope_bridge_small" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-6.5333252 92.772644 3.82458496" rotation="12.3559856 45.2970352 17.7190266" scale="0.999999881 0.999999881 0.99999994" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64f952a">
+              <ECDecal model_path="rigidmodels/decals/generic/dirt_1.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="47.9190674 89.4791718 30.4485474" rotation="5.83069992 230.396698 352.469543" scale="9.99999905 10 10.000001" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64f952b">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/grn_poleset_01/grn_poleset_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-38.2509766 64.2357941 22.6435547" rotation="-15.4642954 -24.8539543 20.3291645" scale="1 0.99999994 1.00000012" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64f952c">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/grn_poleset_02/grn_poleset_02_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-37.9742432 31.496357 -12.1914063" rotation="-10.1309795 -36.8528061 7.15289974" scale="1 0.999999881 1.00000012" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da64f952d">
+              <ECBuilding key="grn_rockmed_06" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="36.545166 36.1812286 15.3262939" rotation="0 228.640884 0" scale="7.00000048 7.00000048 7.00000048" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da650952e">
+              <ECBuilding key="grn_idol_07" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-29.0158691 71.3242188 52.5708618" rotation="0 152.640915 0" scale="0.99999994 1 0.99999994" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da650952f">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/grn_poleset_01/grn_poleset_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="12.2980957 61.5743484 -49.786377" rotation="-8.94747925 221.726212 -344.321381" scale="1 1 0.999999702" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da6509530">
+              <ECDecal model_path="rigidmodels/decals/generic/grn_decal_dungmound_2.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="52.8201904 53.712307 20.6849976" rotation="-4.40996599 236.853363 -10.0367584" scale="7.00000238 7.00000048 7.00000286" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da6509531">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/grn_poleset_01/grn_poleset_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-20.5845947 52.3268242 -21.6054688" rotation="19.6665573 12.6032791 12.0511408" scale="0.999999881 1 0.999999702" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da6509532">
+              <ECBuilding key="grn_rope_bridge_small" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="17.517334 88.5188293 17.4616699" rotation="-40.8432579 116.605629 -46.9111443" scale="0.999999881 0.99999994 1.00000012" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da6509533">
+              <ECBuilding key="grn_wall_bridge_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-64.041748 12.4948807 7.12237549" rotation="0 64.6408997 0" scale="1.00000012 1 1.00000012" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da6509534">
+              <ECDecal model_path="rigidmodels/decals/generic/dirt_1.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="43.9146729 88.2139282 21.0767212" rotation="17.5431614 229.022736 343.849731" scale="10.0000019 10.0000019 10" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da6509535">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/grn_hut_large_02/grn_hut_large_02_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-7.14123535 57.8150673 -16.0587769" rotation="-6.66273069 -42.5646362 18.4878845" scale="1 0.999999881 1.00000012" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da6509536">
+              <ECBuilding key="grn_wall_bridge_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-48.4693604 12.4948921 53.1081543" rotation="0 152.640915 0" scale="0.99999994 1 0.99999994" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da6509537">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/grn_hut_small_01/grn_hut_small_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-22.0294189 73.3277969 45.5012817" rotation="1.85090625 -43.3790855 1.69997084" scale="0.999999881 0.99999994 0.99999994" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da6509538">
+              <ECBuilding key="grn_rockmed_05" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-9.40441895 4.03746796 29.8182983" rotation="0 40.6325417 0" scale="16.7468281 6.99999952 14.2736988" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da6509539">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/grn_hut_small_01/grn_hut_small_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-36.802002 37.9748344 -12.1820068" rotation="-10.8933411 -42.767662 8.47454262" scale="0.99999994 1 0.999999762" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da650953a">
+              <ECDecal model_path="rigidmodels/decals/generic/grn_decal_dungmound_2.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="54.1281738 53.6600456 4.82220459" rotation="3.8734684 236.343063 344.146667" scale="6.99999905 7 6.99999952" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da650953b">
+              <ECDecal model_path="rigidmodels/decals/generic/dirt_1.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="33.3623047 86.6525421 20.7854614" rotation="26.6900272 229.649826 353.48761" scale="10.000001 10 10.000001" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da650953c">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/grn_poleset_02/grn_poleset_02_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-41.6678467 31.9775162 3.59228516" rotation="2.46890235 32.525795 6.332757" scale="1 0.999999821 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da650953d">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/grn_hut_small_01/grn_hut_small_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="10.8798828 95.5197601 -3.3550415" rotation="9.59601974 207.859238 349.458221" scale="0.999999821 1 0.999999762" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da650953e">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/grn_poleset_01/grn_poleset_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-40.0496826 66.1074524 33.3370361" rotation="-10.2036743 9.46001339 9.26990509" scale="1.00000024 1 1.00000024" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da650953f">
+              <ECBuilding key="grn_rockmed_05" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="33.7998047 18.0122795 34.2786255" rotation="13.0886087 136.196411 18.5584011" scale="12.887495 7.00000048 14.7295055" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da6509540">
+              <ECDecal model_path="rigidmodels/decals/generic/dirt_1.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="7.3494873 64.9706268 -46.0714111" rotation="-10.3202248 229.614273 -342.406891" scale="10.0000029 10 10.0000038" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da6519541">
+              <ECDecal model_path="rigidmodels/decals/generic/dirt_1.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="16.6937256 83.7740021 30.9194336" rotation="12.5473433 219.733337 12.7675905" scale="9.99999619 10 9.99999809" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da6519542">
+              <ECVegetation key="BattleTerrain/vegetation/trees/wh_badlands_dead_tree/grn_dead_tree_a.rigid_model_v2" legacy_random_rotation="true"/>
+              <ECTransform position="14.5750732 83.6638947 46.0026245" rotation="-9.1809082 236.067673 -347.167236" scale="1.00000012 1 1.00000012" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+            </entity>
+            <entity id="1609e7da6519543">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/grn_dung_pile_small01/grn_dung_pile_small01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="54.9499512 52.922226 9.36810303" rotation="0.975309968 138.545761 345.182068" scale="0.999999821 0.999999821 0.999999881" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da6519544">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/grn_hut_large_02/grn_hut_large_02_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-22.7382813 71.059433 22.1903076" rotation="-18.1908855 -41.6485825 14.4158554" scale="1.0000006 0.999999881 1.0000006" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da6519545">
+              <ECVegetation key="BattleTerrain/vegetation/trees/wh_badlands_dead_tree/grn_dead_tree_c_bespoke.rigid_model_v2" legacy_random_rotation="true"/>
+              <ECTransform position="-5.03039551 62.4370537 -27.5810547" rotation="15.9795952 130.10228 22.7768097" scale="1.00000012 0.99999994 1.00000012" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+            </entity>
+            <entity id="1609e7da6519546">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/grn_wall_huts_large01/grn_wall_huts_large01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="39.5100098 88.9935913 26.7454224" rotation="9.76925945 127.41288 14.9160395" scale="1 1 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da6519547">
+              <ECVegetation key="BattleTerrain/vegetation/trees/wh_badlands_dead_tree/grn_dead_tree_c.rigid_model_v2" legacy_random_rotation="true"/>
+              <ECTransform position="13.2827148 66.3834915 -56.5631714" rotation="0 236.640915 0" scale="1 1 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+            </entity>
+            <entity id="1609e7da6519548">
+              <ECBuilding key="grn_cheifs_hut" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-55.1221924 12.4948807 30.6641235" rotation="0 110.640907 0" scale="1 1 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da6519549">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/grn_poleset_02/grn_poleset_02_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-41.3082275 32.011692 -6.79693604" rotation="-6.63004494 -10.8749228 8.50322437" scale="1.00000012 0.999999881 0.999999821" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da651954a">
+              <ECDecal model_path="rigidmodels/decals/generic/grn_decal_dungmound_2.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="60.1182861 51.9253616 17.8842163" rotation="-3.9816587 236.862061 -11.5662289" scale="7.00000095 7.00000048 7" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da651954b">
+              <ECDecal model_path="rigidmodels/decals/generic/grn_decal_dungmound.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="55.8671875 53.3030014 8.4934082" rotation="1.32563043 236.534607 343.430481" scale="6.99999857 7 6.99999952" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da651954c">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/grn_dung_pile_small01/grn_dung_pile_small01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="54.0482178 53.630909 15.5886841" rotation="-2.88460732 138.961395 -16.7967453" scale="0.99999994 0.999999881 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da651954d">
+              <ECBuilding key="grn_wall_bridge_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-53.9020996 12.4948654 -5.39862061" rotation="0 44.6408958 0" scale="0.999999881 1 0.999999881" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da651954e">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/grn_hut_large_01/grn_hut_large_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="0.392944336 63.2198105 -38.8282471" rotation="2.79315639 -43.2586555 -5.65739441" scale="1.00000048 1 1.00000024" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da651954f">
+              <ECDecal model_path="rigidmodels/decals/generic/dirt_1.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-11.0655518 62.1538773 -32.5449829" rotation="-30.1243839 225.568741 -332.334625" scale="10 10 10.0000019" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da6519550">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/grn_dung_pile_small01/grn_dung_pile_small01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="57.5592041 52.7043571 15.3905029" rotation="-2.88460732 138.961395 -16.7967453" scale="0.99999994 0.999999881 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da6519551">
+              <ECBuilding key="grn_idol_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="11.515625 94.3051147 -12.3515015" rotation="0 64.6409073 0" scale="0.99999994 1 0.99999994" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da6519552">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/grn_poleset_01/grn_poleset_01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-33.9775391 63.7311172 16.6192017" rotation="-18.4592667 -40.1715393 25.8486137" scale="1 1 1.00000012" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da6519553">
+              <ECDecal model_path="rigidmodels/decals/generic/dirt_1.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="34.3900146 85.9551849 17.7199707" rotation="26.6900272 229.649826 353.48761" scale="10.000001 10 10.000001" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da6519554">
+              <ECDecal model_path="rigidmodels/decals/generic/dirt_1.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-5.8515625 68.69561 11.3988037" rotation="16.1556911 228.510315 337.158112" scale="10.0000029 10 10.0000038" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da6519555">
+              <ECDecal model_path="rigidmodels/decals/generic/grn_decal_dungmound_2.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="52.4165039 53.9692955 7.64489746" rotation="4.91810465 236.632111 359.628845" scale="7.00000238 6.99999905 7.00000334" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da6529556">
+              <ECDecal model_path="rigidmodels/decals/generic/dirt_1.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-6.83813477 60.0039825 -27.6619263" rotation="-29.5633373 227.779114 -343.515076" scale="10.0000019 10 10.0000019" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da6529557">
+              <ECBuilding key="grn_rockmed_05" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECTransform position="-32.6151123 9.2505455 -11.8514404" rotation="0 40.6324692 0" scale="10.1275778 2.94901085 7.00000143" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da6529558">
+              <ECDecal model_path="rigidmodels/decals/generic/grn_decal_dungmound.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="59.5643311 52.573925 14.5892334" rotation="-32.8318443 228.348557 -316.093597" scale="7 7 7" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da6529559">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/grn_dung_pile_small01/grn_dung_pile_small01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="61.3299561 51.1750565 8.75140381" rotation="0.975309968 138.545761 345.182068" scale="2.41127825 0.99999994 3.82359719" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+            <entity id="1609e7da652955a">
+              <ECPropMesh/>
+              <ECMesh model_path="rigidmodels/buildings/grn_wall_huts_small01/grn_wall_huts_small01_piece01_destruct01.rigid_model_v2" opacity="1"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="41.7731934 89.5225067 31.324646" rotation="-2.73102307 60.6591911 1.56496716" scale="1.00000012 1 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+            </entity>
+          </entities>
+          <associations>
+            <Logical/>
+            <Transform>
+              <from id="1609e7da652955c">
+                <to id="1609e7da64b94da"/>
+                <to id="1609e7da64b94db"/>
+                <to id="1609e7da64b94dc"/>
+                <to id="1609e7da64b94dd"/>
+                <to id="1609e7da64b94de"/>
+                <to id="1609e7da64b94df"/>
+                <to id="1609e7da64b94e0"/>
+                <to id="1609e7da64b94e1"/>
+                <to id="1609e7da64c94e2"/>
+                <to id="1609e7da64c94e3"/>
+                <to id="1609e7da64c94e4"/>
+                <to id="1609e7da64c94e5"/>
+                <to id="1609e7da64c94e6"/>
+                <to id="1609e7da64c94e7"/>
+                <to id="1609e7da64c94e8"/>
+                <to id="1609e7da64c94e9"/>
+                <to id="1609e7da64c94ea"/>
+                <to id="1609e7da64c94eb"/>
+                <to id="1609e7da64c94ec"/>
+                <to id="1609e7da64c94ed"/>
+                <to id="1609e7da64c94ee"/>
+                <to id="1609e7da64c94ef"/>
+                <to id="1609e7da64c94f0"/>
+                <to id="1609e7da64c94f1"/>
+                <to id="1609e7da64c94f2"/>
+                <to id="1609e7da64c94f3"/>
+                <to id="1609e7da64c94f4"/>
+                <to id="1609e7da64d94f5"/>
+                <to id="1609e7da64d94f6"/>
+                <to id="1609e7da64d94f7"/>
+                <to id="1609e7da64d94f8"/>
+                <to id="1609e7da64d94f9"/>
+                <to id="1609e7da64d94fa"/>
+                <to id="1609e7da64d94fb"/>
+                <to id="1609e7da64d94fc"/>
+                <to id="1609e7da64d94fd"/>
+                <to id="1609e7da64d94fe"/>
+                <to id="1609e7da64d94ff"/>
+                <to id="1609e7da64d9500"/>
+                <to id="1609e7da64d9501"/>
+                <to id="1609e7da64d9502"/>
+                <to id="1609e7da64d9503"/>
+                <to id="1609e7da64d9504"/>
+                <to id="1609e7da64d9505"/>
+                <to id="1609e7da64d9506"/>
+                <to id="1609e7da64d9507"/>
+                <to id="1609e7da64e9508"/>
+                <to id="1609e7da64e9509"/>
+                <to id="1609e7da64e950a"/>
+                <to id="1609e7da64e950b"/>
+                <to id="1609e7da64e950c"/>
+                <to id="1609e7da64e950d"/>
+                <to id="1609e7da64e950e"/>
+                <to id="1609e7da64e950f"/>
+                <to id="1609e7da64e9510"/>
+                <to id="1609e7da64e9511"/>
+                <to id="1609e7da64e9512"/>
+                <to id="1609e7da64e9513"/>
+                <to id="1609e7da64e9514"/>
+                <to id="1609e7da64e9515"/>
+                <to id="1609e7da64e9516"/>
+                <to id="1609e7da64e9517"/>
+                <to id="1609e7da64e9518"/>
+                <to id="1609e7da64e9519"/>
+                <to id="1609e7da64e951a"/>
+                <to id="1609e7da64f951b"/>
+                <to id="1609e7da64f951c"/>
+                <to id="1609e7da64f951d"/>
+                <to id="1609e7da64f951e"/>
+                <to id="1609e7da64f951f"/>
+                <to id="1609e7da64f9520"/>
+                <to id="1609e7da64f9521"/>
+                <to id="1609e7da64f9522"/>
+                <to id="1609e7da64f9523"/>
+                <to id="1609e7da64f9524"/>
+                <to id="1609e7da64f9525"/>
+                <to id="1609e7da64f9526"/>
+                <to id="1609e7da64f9527"/>
+                <to id="1609e7da64f9528"/>
+                <to id="1609e7da64f9529"/>
+                <to id="1609e7da64f952a"/>
+                <to id="1609e7da64f952b"/>
+                <to id="1609e7da64f952c"/>
+                <to id="1609e7da64f952d"/>
+                <to id="1609e7da650952e"/>
+                <to id="1609e7da650952f"/>
+                <to id="1609e7da6509530"/>
+                <to id="1609e7da6509531"/>
+                <to id="1609e7da6509532"/>
+                <to id="1609e7da6509533"/>
+                <to id="1609e7da6509534"/>
+                <to id="1609e7da6509535"/>
+                <to id="1609e7da6509536"/>
+                <to id="1609e7da6509537"/>
+                <to id="1609e7da6509538"/>
+                <to id="1609e7da6509539"/>
+                <to id="1609e7da650953a"/>
+                <to id="1609e7da650953b"/>
+                <to id="1609e7da650953c"/>
+                <to id="1609e7da650953d"/>
+                <to id="1609e7da650953e"/>
+                <to id="1609e7da650953f"/>
+                <to id="1609e7da6509540"/>
+                <to id="1609e7da6519541"/>
+                <to id="1609e7da6519542"/>
+                <to id="1609e7da6519543"/>
+                <to id="1609e7da6519544"/>
+                <to id="1609e7da6519545"/>
+                <to id="1609e7da6519546"/>
+                <to id="1609e7da6519547"/>
+                <to id="1609e7da6519548"/>
+                <to id="1609e7da6519549"/>
+                <to id="1609e7da651954a"/>
+                <to id="1609e7da651954b"/>
+                <to id="1609e7da651954c"/>
+                <to id="1609e7da651954d"/>
+                <to id="1609e7da651954e"/>
+                <to id="1609e7da651954f"/>
+                <to id="1609e7da6519550"/>
+                <to id="1609e7da6519551"/>
+                <to id="1609e7da6519552"/>
+                <to id="1609e7da6519553"/>
+                <to id="1609e7da6519554"/>
+                <to id="1609e7da6519555"/>
+                <to id="1609e7da6529556"/>
+                <to id="1609e7da6529557"/>
+                <to id="1609e7da6529558"/>
+                <to id="1609e7da6529559"/>
+                <to id="1609e7da652955a"/>
+              </from>
+            </Transform>
+          </associations>
+        </group>
+      </ECGroup>
+      <ECTransform position="0 0 0" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+    </entity>
+  </entities>
+  <associations>
+    <Logical/>
+    <Transform/>
+  </associations>
+</layer>
