@@ -1,0 +1,7 @@
+key	category	model	audio_material	hit_points	gun_type	onscreen_name	ignition_threshold	radar_icon	visible_in_public_ted	fortwall_penetration_chance	collision_3d	destruct_thresholds	joiner	auxiliary	burn_rate	height_map_mesh	ground_type	can_burn	audio_count_as_urban	ability_radius	shares_reload_between_emitters	togleable_icon_path	audio_construction_type_switch	audio_faction_switch	tower_group	destructible
+#battlefield_buildings_tables;29;db/battlefield_buildings_tables/fro_settlements																										
+fro_nuln_university_of_magic	generic	emp_hero_tower_07	rock	15		fro_nuln_university_of_magic	100		true	0	true		false	false	1.0000	false	rock	false	true	0.0000	false				default_value	always_indestructible
+fro_nuln_garrison_headquarters	generic	emp_hero_tower_07	rock	15		fro_nuln_garrison_headquarters	100		true	0	true		false	false	1.0000	false	rock	false	true	0.0000	false				default_value	always_indestructible
+fro_nuln_industrielplatz	generic	emp_hero_tower_07	rock	15		fro_nuln_industrielplatz	100		true	0	true		false	false	1.0000	false	rock	false	true	0.0000	false				default_value	always_indestructible
+fro_nuln_palace	generic	emp_hero_tower_07	rock	15		fro_nuln_palace	100		true	0	true		false	false	1.0000	false	rock	false	true	0.0000	false				default_value	always_indestructible
+fro_nuln_marktplatz	generic	emp_hero_tower_07	rock	15		fro_nuln_marktplatz	100		true	0	true		false	false	1.0000	false	rock	false	true	0.0000	false				default_value	always_indestructible

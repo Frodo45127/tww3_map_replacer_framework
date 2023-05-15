@@ -2,3 +2,5 @@
 \!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!map_assets_and_replacer.sublime-workspace
 .luarc.json
 .git
+prefabs/*.xml
+prefabs/campaign/*.xml
