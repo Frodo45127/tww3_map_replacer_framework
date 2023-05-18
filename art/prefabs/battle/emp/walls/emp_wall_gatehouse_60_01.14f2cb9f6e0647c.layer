@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="41">
+  <entities>
+    <entity id="14f2cbaf53d647e">
+      <ECBuilding key="emp_wall_flag01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="51.3711815 18.8368511 5.45509052" rotation="0 -89.9657288 0" scale="0.999998152 1 0.999998152" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="wall_flag01"/>
+    </entity>
+    <entity id="14fdb18ca263e21">
+      <ECBuilding key="emp_wall_flag01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="8.69015026 18.7394943 5.31608963" rotation="0 -89.9657288 0" scale="0.999997675 1 0.999997675" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="wall_flag01"/>
+    </entity>
+  </entities>
+  <associations>
+    <Logical/>
+    <Transform/>
+  </associations>
+</layer>

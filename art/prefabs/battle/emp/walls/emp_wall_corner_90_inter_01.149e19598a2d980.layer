@@ -1,0 +1,93 @@
+<layer version="12">
+    <entities>
+        <entity id="149e195e168d981" name="emp_wall_merlon01">
+            <ECBuilding capture_location="" indestructible="false" key="emp_wall_merlon01" dirt_level="0" destruction_level="0" tech_level="TL_TECH_LEVEL1" burn="false" burn_amount="0"/>
+            <ECTransform rotation="0 0 0" scale="1 1 1" position="2 0 0"/>
+            <ECTerrainClamp active="false"/>
+        </entity>
+        <entity id="149e195f10fd982" name="emp_wall_merlon02">
+            <ECBuilding capture_location="" indestructible="false" key="emp_wall_merlon02" dirt_level="0" destruction_level="0" tech_level="TL_TECH_LEVEL1" burn="false" burn_amount="0"/>
+            <ECTransform rotation="0 0 0" scale="1 1 1" position="6 0 0"/>
+            <ECTerrainClamp active="false"/>
+        </entity>
+        <entity id="149e196024ed983" name="emp_wall_machicolation01">
+            <ECBuilding capture_location="" indestructible="false" key="emp_wall_machicolation01" dirt_level="0" destruction_level="0" tech_level="TL_TECH_LEVEL1" burn="false" burn_amount="0"/>
+            <ECTransform rotation="0 0 0" scale="1 1 1" position="0 0 0"/>
+            <ECTerrainClamp active="false"/>
+        </entity>
+        <entity id="149e1960fb6d984" name="emp_wall_machicolation02">
+            <ECBuilding capture_location="" indestructible="false" key="emp_wall_machicolation02" dirt_level="0" destruction_level="0" tech_level="TL_TECH_LEVEL1" burn="false" burn_amount="0"/>
+            <ECTransform rotation="0 0 0" scale="1 1 1" position="4 0 0"/>
+            <ECTerrainClamp active="false"/>
+        </entity>
+        <entity id="149e197b48fd989" name="emp_wall_merlon01">
+            <ECBuilding capture_location="" indestructible="false" key="emp_wall_merlon01" dirt_level="0" destruction_level="0" tech_level="TL_TECH_LEVEL1" burn="false" burn_amount="0"/>
+            <ECTransform rotation="0 0 0" scale="1 1 1" position="8.89310074 0 0.023809433"/>
+            <ECTerrainClamp active="false"/>
+        </entity>
+        <entity id="149e1b1b391d9b2" name="emp_wall_corner_90_inter">
+            <ECBuilding capture_location="" indestructible="false" key="emp_wall_corner_90_inter" dirt_level="0" destruction_level="0" tech_level="TL_TECH_LEVEL1" burn="false" burn_amount="0"/>
+            <ECTransform rotation="0 0 0" scale="1 1 1" position="0 0 0"/>
+            <ECTerrainClamp active="false"/>
+        </entity>
+        <entity id="149e1b2d7dad9b3" name="emp_wall_machicolation01">
+            <ECBuilding capture_location="" indestructible="false" key="emp_wall_machicolation01" dirt_level="0" destruction_level="0" tech_level="TL_TECH_LEVEL1" burn="false" burn_amount="0"/>
+            <ECTransform rotation="0 0 0" scale="1 1 1" position="8 0 0"/>
+            <ECTerrainClamp active="false"/>
+        </entity>
+        <entity id="149e1b304fcd9b4" name="emp_wall_machicolation01">
+            <ECBuilding capture_location="" indestructible="false" key="emp_wall_machicolation01" dirt_level="0" destruction_level="0" tech_level="TL_TECH_LEVEL1" burn="false" burn_amount="0"/>
+            <ECTransform rotation="0 89.9802094 0" scale="1 1 1" position="20 0 -12"/>
+            <ECTerrainClamp active="false"/>
+        </entity>
+        <entity id="149e1b424aad9b6" name="emp_wall_machicolation03">
+            <ECBuilding capture_location="" indestructible="false" key="emp_wall_machicolation03" dirt_level="0" destruction_level="0" tech_level="TL_TECH_LEVEL1" burn="false" burn_amount="0"/>
+            <ECTransform rotation="0 89.9802094 0" scale="1 1 1" position="20 0 -16"/>
+            <ECTerrainClamp active="false"/>
+        </entity>
+        <entity id="149e1b49fa9d9b7" name="emp_wall_machicolation01">
+            <ECBuilding capture_location="" indestructible="false" key="emp_wall_machicolation01" dirt_level="0" destruction_level="0" tech_level="TL_TECH_LEVEL1" burn="false" burn_amount="0"/>
+            <ECTransform rotation="0 89.9802094 0" scale="1 1 1" position="20 0 -8"/>
+            <ECTerrainClamp active="false"/>
+        </entity>
+        <entity id="149e1b5d3efd9b8" name="emp_wall_merlon01">
+            <ECBuilding capture_location="" indestructible="false" key="emp_wall_merlon01" dirt_level="0" destruction_level="0" tech_level="TL_TECH_LEVEL1" burn="false" burn_amount="0"/>
+            <ECTransform rotation="0 89.9802094 0" scale="1 1 1" position="20 0 -11.1505461"/>
+            <ECTerrainClamp active="false"/>
+        </entity>
+        <entity id="149e1b6c621d9ba" name="emp_wall_merlon01">
+            <ECBuilding capture_location="" indestructible="false" key="emp_wall_merlon01" dirt_level="0" destruction_level="0" tech_level="TL_TECH_LEVEL1" burn="false" burn_amount="0"/>
+            <ECTransform rotation="0 89.9802094 0" scale="1 1 1" position="20 0 -18"/>
+            <ECTerrainClamp active="false"/>
+        </entity>
+        <entity id="149e1b77dded9bc" name="emp_wall_merlon02">
+            <ECBuilding capture_location="" indestructible="false" key="emp_wall_merlon02" dirt_level="0" destruction_level="0" tech_level="TL_TECH_LEVEL1" burn="false" burn_amount="0"/>
+            <ECTransform rotation="0 89.9802094 0" scale="1 1 1" position="20 0 -15"/>
+            <ECTerrainClamp active="false"/>
+        </entity>
+        <entity id="149e1b8ee23d9bd" name="emp_wall_dormer01">
+            <ECBuilding capture_location="" indestructible="false" key="emp_wall_dormer01" dirt_level="0" destruction_level="0" tech_level="TL_TECH_LEVEL1" burn="false" burn_amount="0"/>
+            <ECTransform rotation="0 0 0" scale="1 1 1" position="7.42195225 6.60435104 -10.2967482"/>
+            <ECTerrainClamp active="false"/>
+        </entity>
+        <entity id="149e1b94d76d9be" name="emp_wall_dormer01">
+            <ECBuilding capture_location="" indestructible="false" key="emp_wall_dormer01" dirt_level="0" destruction_level="0" tech_level="TL_TECH_LEVEL1" burn="false" burn_amount="0"/>
+            <ECTransform rotation="0 0 0" scale="1 1 1" position="3.52433586 6.60435104 -10.3034992"/>
+            <ECTerrainClamp active="false"/>
+        </entity>
+        <entity id="149e1bd84e3d9bf" name="emp_wall_structure03">
+            <ECBuilding capture_location="" indestructible="false" key="emp_wall_structure03" dirt_level="0" destruction_level="0" tech_level="TL_TECH_LEVEL1" burn="false" burn_amount="0"/>
+            <ECTransform rotation="0 -89.9802094 0" scale="1 1 1" position="18 0 -17"/>
+            <ECTerrainClamp active="false"/>
+        </entity>
+        <entity id="149e1bde528d9c0" name="emp_wall_structure03">
+            <ECBuilding capture_location="" indestructible="false" key="emp_wall_structure03" dirt_level="0" destruction_level="0" tech_level="TL_TECH_LEVEL1" burn="false" burn_amount="0"/>
+            <ECTransform rotation="0 -89.9802094 0" scale="1 1 1" position="18.3101597 0 -8"/>
+            <ECTerrainClamp active="false"/>
+        </entity>
+    </entities>
+    <associations>
+        <LOGICAL/>
+        <TRANSFORM/>
+    </associations>
+</layer>

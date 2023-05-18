@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="41">
+  <entities>
+    <entity id="14ec06e7a9a20b1">
+      <ECPointLight colour="234 84 14 255" colour_scale="500000" radius="9" animation_type="LAT_NONE" animation_speed_scale="0 0" colour_min="0" random_offset="0" falloff_type="WPLFT_SMOOTH" for_light_probes_only="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECTransform position="24.9081478 11.1617928 -6.6983552" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+    </entity>
+    <entity id="14ec06f979e20b3">
+      <ECPointLight colour="234 84 14 255" colour_scale="500000" radius="9" animation_type="LAT_NONE" animation_speed_scale="0 0" colour_min="0" random_offset="0" falloff_type="WPLFT_SMOOTH" for_light_probes_only="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECTransform position="35.2675858 11.1617928 -6.6983552" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+    </entity>
+    <entity id="14ec0702d0420b5">
+      <ECPointLight colour="234 84 14 255" colour_scale="500000" radius="9" animation_type="LAT_NONE" animation_speed_scale="0 0" colour_min="0" random_offset="0" falloff_type="WPLFT_SMOOTH" for_light_probes_only="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECTransform position="36.2370605 3.05617428 1.71815205" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+    </entity>
+    <entity id="14ec0704bfb20b7">
+      <ECPointLight colour="234 84 14 255" colour_scale="500000" radius="9" animation_type="LAT_NONE" animation_speed_scale="0 0" colour_min="0" random_offset="0" falloff_type="WPLFT_SMOOTH" for_light_probes_only="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECTransform position="23.6060143 3.05617428 -11.1910477" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+    </entity>
+    <entity id="14ec06fb0bd20b4">
+      <ECPointLight colour="234 84 14 255" colour_scale="500000" radius="9" animation_type="LAT_NONE" animation_speed_scale="0 0" colour_min="0" random_offset="0" falloff_type="WPLFT_SMOOTH" for_light_probes_only="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECTransform position="36.2370605 3.05617428 -11.1910477" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+    </entity>
+    <entity id="14ec0704bfb20b6">
+      <ECPointLight colour="234 84 14 255" colour_scale="500000" radius="9" animation_type="LAT_NONE" animation_speed_scale="0 0" colour_min="0" random_offset="0" falloff_type="WPLFT_SMOOTH" for_light_probes_only="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECTransform position="23.6060143 3.05617428 1.71815205" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+    </entity>
+    <entity id="1658fb753eec25d" name="Layer 1">
+      <ECLayer export="true" bmd_export_type=""/>
+      <ECToggleableBuildingsSlot enabled="false" type="TBST_TOWERS" capture_location="" script_id="" map_barrier_record_key="" ground_melee_attack_allowed="true"/>
+    </entity>
+    <entity id="14ec06c79dd20aa">
+      <ECPointLight colour="255 121 43 255" colour_scale="700000" radius="5" animation_type="LAT_NONE" animation_speed_scale="0 0" colour_min="0" random_offset="0" falloff_type="WPLFT_SMOOTH" for_light_probes_only="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECTransform position="18.3781509 22.9074821 -14.48032" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+    </entity>
+    <entity id="14ec06df4af20b0">
+      <ECPointLight colour="255 121 43 255" colour_scale="700000" radius="5" animation_type="LAT_NONE" animation_speed_scale="0 0" colour_min="0" random_offset="0" falloff_type="WPLFT_SMOOTH" for_light_probes_only="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECTransform position="41.5551147 22.9458008 -14.1282587" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+    </entity>
+    <entity id="14ec06d278720ac">
+      <ECPointLight colour="255 121 43 255" colour_scale="700000" radius="5" animation_type="LAT_NONE" animation_speed_scale="0 0" colour_min="0" random_offset="0" falloff_type="WPLFT_SMOOTH" for_light_probes_only="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECTransform position="9.93020248 19.2129898 -13.0530939" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+    </entity>
+    <entity id="165c2b3e5782826">
+      <ECPrefab key="glb_barrelpack_01" use_culture_mask="true" valid_ids="1"/>
+      <ECTransform position="6.74171019 15.0381413 6.70805645" rotation="0 257.000061 0" scale="0.899999976 0.899999976 0.899999976" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+    </entity>
+    <entity id="165c2b408502831">
+      <ECPrefab key="glb_barrelpack_01" use_culture_mask="true" valid_ids="1"/>
+      <ECTransform position="13.1690073 7.06646347 4.18782997" rotation="0 257.000061 0" scale="1.10000002 1.10000002 1.10000002" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+    </entity>
+    <entity id="165c2b40fa3283c">
+      <ECPrefab key="glb_barrelpack_01" use_culture_mask="true" valid_ids="1"/>
+      <ECTransform position="7.4740448 7.06646156 3.60847282" rotation="0 -76.9999847 0" scale="1.10000002 1.10000002 1.10000002" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+    </entity>
+    <entity id="165c2b4618a287a">
+      <ECPrefab key="glb_barrelpack_01" use_culture_mask="true" valid_ids="1"/>
+      <ECTransform position="50.8972588 15.0381432 6.6173687" rotation="0 -76.9999847 0" scale="0.899999976 0.899999976 0.899999976" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+    </entity>
+    <entity id="180fa59673bbaf8">
+      <ECPointLight colour="255 121 43 255" colour_scale="700000" radius="5" animation_type="LAT_NONE" animation_speed_scale="0 0" colour_min="0" random_offset="0" falloff_type="WPLFT_SMOOTH" for_light_probes_only="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECTransform position="49.7770271 19.2129898 -13.0530939" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+    </entity>
+  </entities>
+  <associations>
+    <Logical>
+      <from id="1658fb753eec25d">
+        <to id="14ec06c79dd20aa"/>
+        <to id="14ec06df4af20b0"/>
+        <to id="14ec06d278720ac"/>
+        <to id="165c2b3e5782826"/>
+        <to id="165c2b408502831"/>
+        <to id="165c2b40fa3283c"/>
+        <to id="165c2b4618a287a"/>
+        <to id="180fa59673bbaf8"/>
+      </from>
+    </Logical>
+    <Transform/>
+  </associations>
+</layer>

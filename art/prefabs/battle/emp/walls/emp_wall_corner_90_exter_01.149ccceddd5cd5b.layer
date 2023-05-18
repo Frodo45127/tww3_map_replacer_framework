@@ -1,0 +1,13 @@
+<layer version="12">
+    <entities>
+        <entity id="149ccceddd5cd5a" name="emp_wall_corner_90_exter">
+            <ECBuilding capture_location="" indestructible="false" key="emp_wall_corner_90_exter" dirt_level="0" destruction_level="0" tech_level="TL_TECH_LEVEL1" burn="false" burn_amount="0"/>
+            <ECTransform rotation="0 0 0" scale="1 1 1" position="0 0 0"/>
+            <ECTerrainClamp active="false"/>
+        </entity>
+    </entities>
+    <associations>
+        <LOGICAL/>
+        <TRANSFORM/>
+    </associations>
+</layer>

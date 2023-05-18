@@ -1,0 +1,1221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="41">
+  <entities>
+    <entity id="18820e650d53aef" name="Reference">
+      <ECLayer export="false" bmd_export_type=""/>
+      <ECToggleableBuildingsSlot enabled="false" type="TBST_TOWERS" capture_location="" script_id="" map_barrier_record_key="" ground_melee_attack_allowed="true"/>
+    </entity>
+    <entity id="18820e715563c2c">
+      <ECPrefab key="blk_ksl_watch_tower_01" use_culture_mask="true" valid_ids="1">
+        <override id="1690ae4b7940e38" name="ksl_tower_30m_01">
+          <ECBuilding damage="0" indestructible="false" toggleable="true" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" visible_beyond_outfield="false"/>
+        </override>
+      </ECPrefab>
+      <ECTransform position="0 -3.81469727e-06 0" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+    </entity>
+    <entity id="18820ee95803c9e">
+      <ECBuilding key="emp_wall_structure02" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="-3 0 0" rotation="0 90 0" scale="0.999999881 1 0.999999881" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="wall_structure02"/>
+    </entity>
+    <entity id="18820ee78cf3c9d">
+      <ECBuilding key="emp_wall_structure02" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="0 0 -3" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="wall_structure02"/>
+    </entity>
+    <entity id="18820ef8c7f3ca0">
+      <ECBuilding key="emp_wall_structure02" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="3 0 0" rotation="0 -90 0" scale="0.999999881 1 0.999999881" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="wall_structure02"/>
+    </entity>
+    <entity id="18820efc4753ca2">
+      <ECBuilding key="emp_wall_structure02" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="0 0 3" rotation="0 180.000031 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="wall_structure02"/>
+    </entity>
+    <entity id="18820f24136519f">
+      <ECBuilding key="glb_wooden_bridge_planks_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="-3 8 -1" rotation="0 90 0" scale="0.999999881 1 0.999999881" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="glb_wooden_bridge_planks_01"/>
+    </entity>
+    <entity id="18820f504f051a1">
+      <ECBuilding key="glb_wooden_bridge_planks_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="-1 8 3" rotation="0 180.000031 0" scale="0.999999821 1 0.999999821" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="glb_wooden_bridge_planks_01"/>
+    </entity>
+    <entity id="18820f52e8751a3">
+      <ECBuilding key="glb_wooden_bridge_planks_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="3 8 1" rotation="0 -90 0" scale="0.999999523 1 0.999999523" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="glb_wooden_bridge_planks_01"/>
+    </entity>
+    <entity id="18820f59dca51a5">
+      <ECBuilding key="glb_wooden_bridge_planks_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="1 8 -3" rotation="0 0 0" scale="0.999999821 1 0.999999821" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="glb_wooden_bridge_planks_01"/>
+    </entity>
+    <entity id="18820f6dbc15216">
+      <ECBuilding key="glb_wooden_bridge_planks_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="0 14 3" rotation="-89.9999924 180 -180" scale="0.999999821 0.999999881 0.999999702" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="glb_wooden_bridge_planks_01"/>
+    </entity>
+    <entity id="18820f71e2d5218">
+      <ECBuilding key="glb_wooden_bridge_planks_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="3 14 0" rotation="-89.9999619 90 -180" scale="0.999999762 0.999999762 0.999999523" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="glb_wooden_bridge_planks_01"/>
+    </entity>
+    <entity id="18820f778bc521a">
+      <ECBuilding key="glb_wooden_bridge_planks_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="-3 14 0" rotation="89.9999619 -90 0" scale="0.999999583 0.999999583 0.999999344" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="glb_wooden_bridge_planks_01"/>
+    </entity>
+    <entity id="18820f7bcef521c">
+      <ECBuilding key="glb_wooden_bridge_planks_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="0 14 -3" rotation="-89.9999924 0 -180" scale="0.999999821 0.999999821 0.999999642" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="glb_wooden_bridge_planks_01"/>
+    </entity>
+    <entity id="18820f852fa5223">
+      <ECBuilding key="glb_wooden_bridge_planks_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="3 14 1" rotation="0 -90 0" scale="0.800000012 1 0.800000012" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="glb_wooden_bridge_planks_01"/>
+    </entity>
+    <entity id="18820f852fa5224">
+      <ECBuilding key="glb_wooden_bridge_planks_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="-3 14 -1" rotation="0 90 0" scale="0.800000012 1 0.800000012" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="glb_wooden_bridge_planks_01"/>
+    </entity>
+    <entity id="18820f852fa5222">
+      <ECBuilding key="glb_wooden_bridge_planks_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="1 14 -3" rotation="0 0 0" scale="0.800000012 1 0.800000012" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="glb_wooden_bridge_planks_01"/>
+    </entity>
+    <entity id="18820f852fa5221">
+      <ECBuilding key="glb_wooden_bridge_planks_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="-1 14 3" rotation="0 180.000031 0" scale="0.800000012 1 0.800000012" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="glb_wooden_bridge_planks_01"/>
+    </entity>
+    <entity id="18820f9f4305225">
+      <ECBuilding key="glb_stairs_wooden_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="2 14 0" rotation="0 0 0" scale="0.800000012 1 0.800000012" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="glb_stairs_wooden_01"/>
+    </entity>
+    <entity id="18820fa129b5226">
+      <ECBuilding key="glb_stairs_wooden_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="-2 14 0" rotation="0 180.000015 0" scale="0.800000012 1 0.800000012" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="glb_stairs_wooden_01"/>
+    </entity>
+    <entity id="18820fa2b045227">
+      <ECBuilding key="glb_stairs_wooden_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="0 14 2" rotation="180 270 -180" scale="0.800000012 1 0.800000012" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="glb_stairs_wooden_01"/>
+    </entity>
+    <entity id="18820fa4b755228">
+      <ECBuilding key="glb_stairs_wooden_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="0 14 -2" rotation="0 90 0" scale="0.800000012 1 0.800000012" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="glb_stairs_wooden_01"/>
+    </entity>
+    <entity id="18820fb81dd5237">
+      <ECBuilding key="glb_wooden_bridge_planks_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="-3 15 4" rotation="-90 44.9999809 -89.9999924" scale="0.49999994 0.5 0.499999911" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="glb_wooden_bridge_planks_01"/>
+    </entity>
+    <entity id="18820fc04cf5239">
+      <ECBuilding key="glb_wooden_bridge_planks_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="0 15 4" rotation="-90 44.9999809 -89.9999924" scale="0.49999994 0.5 0.499999911" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="glb_wooden_bridge_planks_01"/>
+    </entity>
+    <entity id="18820fce9cc523d">
+      <ECBuilding key="glb_wooden_bridge_planks_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="-1 16 4" rotation="-8.14222008e-13 90 0" scale="0.499999821 0.5 0.499999791" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="glb_wooden_bridge_planks_01"/>
+    </entity>
+    <entity id="18820fce9cb523c">
+      <ECBuilding key="glb_wooden_bridge_planks_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="-4 16 4" rotation="-8.14222008e-13 90 0" scale="0.499999821 0.5 0.499999791" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="glb_wooden_bridge_planks_01"/>
+    </entity>
+    <entity id="18820fd65f2523f">
+      <ECBuilding key="glb_wooden_bridge_planks_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="1 16 4" rotation="-1.22133336e-12 90 0" scale="0.499999791 0.5 0.499999762" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="glb_wooden_bridge_planks_01"/>
+    </entity>
+    <entity id="18820fed05b5245">
+      <ECBuilding key="glb_wooden_bridge_planks_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="-1 16 -4" rotation="-8.142219e-13 -90 0" scale="0.499999702 0.5 0.499999672" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="glb_wooden_bridge_planks_01"/>
+    </entity>
+    <entity id="18820fed05b5243">
+      <ECBuilding key="glb_wooden_bridge_planks_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="4.33333349 16 -4" rotation="-1.2213338e-12 -90 0" scale="0.499999732 0.5 0.499999702" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="glb_wooden_bridge_planks_01"/>
+    </entity>
+    <entity id="18820fed05b5244">
+      <ECBuilding key="glb_wooden_bridge_planks_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="2.33333349 16 -4" rotation="-8.14221845e-13 -90 0" scale="0.499999732 0.5 0.499999702" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="glb_wooden_bridge_planks_01"/>
+    </entity>
+    <entity id="18820ff5b435247">
+      <ECBuilding key="glb_wooden_bridge_planks_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="-4 16 -2" rotation="-8.14222008e-13 0 0" scale="0.499999702 0.5 0.499999672" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="glb_wooden_bridge_planks_01"/>
+    </entity>
+    <entity id="18820ff9aa65249">
+      <ECBuilding key="glb_wooden_bridge_planks_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="4 16 2" rotation="0 180.000031 0" scale="0.499999702 0.5 0.499999672" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="glb_wooden_bridge_planks_01"/>
+    </entity>
+    <entity id="18820ffcae4524b">
+      <ECBuilding key="glb_wooden_bridge_planks_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="-4 16 1" rotation="-8.14222008e-13 0 0" scale="0.499999702 0.5 0.499999672" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="glb_wooden_bridge_planks_01"/>
+    </entity>
+    <entity id="18820ffdc05524d">
+      <ECBuilding key="glb_wooden_bridge_planks_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="-4 16 -4" rotation="-8.14222008e-13 0 0" scale="0.499999702 0.5 0.499999672" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="glb_wooden_bridge_planks_01"/>
+    </entity>
+    <entity id="18820fff77a524f">
+      <ECBuilding key="glb_wooden_bridge_planks_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="4 16 4" rotation="0 180.000031 0" scale="0.499999702 0.5 0.499999672" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="glb_wooden_bridge_planks_01"/>
+    </entity>
+    <entity id="18821000a015251">
+      <ECBuilding key="glb_wooden_bridge_planks_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="4 16 -1" rotation="0 180.000031 0" scale="0.499999702 0.5 0.499999672" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="glb_wooden_bridge_planks_01"/>
+    </entity>
+    <entity id="18821002e155255">
+      <ECBuilding key="glb_wooden_bridge_planks_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="3 15 -4" rotation="89.9999924 -44.9794884 -89.9999924" scale="0.499999911 0.49999997 0.499999881" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="glb_wooden_bridge_planks_01"/>
+    </entity>
+    <entity id="1882100cd4c5257">
+      <ECBuilding key="glb_wooden_bridge_planks_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="0 15 -4" rotation="89.9999924 -44.9794884 -89.9999924" scale="0.49999994 0.49999997 0.499999881" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="glb_wooden_bridge_planks_01"/>
+    </entity>
+    <entity id="1882100e7245259">
+      <ECBuilding key="glb_wooden_bridge_planks_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="4 15 0" rotation="0 180.000031 -314.977631" scale="0.499999911 0.49999994 0.499999791" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="glb_wooden_bridge_planks_01"/>
+    </entity>
+    <entity id="18821012837525b">
+      <ECBuilding key="glb_wooden_bridge_planks_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="-4 15 -3" rotation="0 0 -45.0256767" scale="0.49999997 0.49999997 0.499999821" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="glb_wooden_bridge_planks_01"/>
+    </entity>
+    <entity id="188210191e2525d">
+      <ECBuilding key="glb_wooden_bridge_planks_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="4 15 3" rotation="0 180.000031 -314.977631" scale="0.49999994 0.49999997 0.499999791" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="glb_wooden_bridge_planks_01"/>
+    </entity>
+    <entity id="1882101ad6c525f">
+      <ECBuilding key="glb_wooden_bridge_planks_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="-4 15 0" rotation="0 0 -45.0256767" scale="0.49999994 0.49999994 0.499999821" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="glb_wooden_bridge_planks_01"/>
+    </entity>
+    <entity id="1882107dcaf5270">
+      <ECBuilding key="glb_fence_02" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="-5 16.2283344 -2.69094706" rotation="0 90 0" scale="0.49999994 0.5 0.49999994" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="glb_fence_02"/>
+    </entity>
+    <entity id="1882107eaee5271">
+      <ECBuilding key="glb_fence_02" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="-5 16.2283344 2.95254374" rotation="0 90 0" scale="0.49999994 0.5 0.49999994" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="glb_fence_02"/>
+    </entity>
+    <entity id="1882107f8845272">
+      <ECBuilding key="glb_fence_02" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="-5 16.2283344 1" rotation="0 90 0" scale="0.49999997 0.5 0.49999997" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="glb_fence_02"/>
+    </entity>
+    <entity id="1882107fc405273">
+      <ECBuilding key="glb_fence_02" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="-5 16.2283344 -1" rotation="0 90 0" scale="0.49999997 0.5 0.49999997" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="glb_fence_02"/>
+    </entity>
+    <entity id="18821088338527a">
+      <ECBuilding key="glb_fence_02" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="5.00212431 16.1689453 0.849771023" rotation="0 90 0" scale="0.499999881 0.5 0.499999881" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="glb_fence_02"/>
+    </entity>
+    <entity id="18821088338527b">
+      <ECBuilding key="glb_fence_02" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="5.00212431 16.1689453 2.80231476" rotation="0 90 0" scale="0.499999851 0.5 0.499999851" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="glb_fence_02"/>
+    </entity>
+    <entity id="188210883385279">
+      <ECBuilding key="glb_fence_02" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="5.00212431 16.1689453 -1.15022898" rotation="0 90 0" scale="0.499999881 0.5 0.499999881" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="glb_fence_02"/>
+    </entity>
+    <entity id="188210883375278">
+      <ECBuilding key="glb_fence_02" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="5.00212431 16.1689453 -2.84117603" rotation="0 90 0" scale="0.499999851 0.5 0.499999851" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="glb_fence_02"/>
+    </entity>
+    <entity id="188210940e2528a">
+      <ECGroup>
+        <group version="41">
+          <entities>
+            <entity id="188210940e25289">
+              <ECSignature/>
+              <ECTransform position="0.0716511607 16.2283344 5.0873313" rotation="0 90 0" scale="0.99999994 1 0.99999994" pivot="0 0 0"/>
+            </entity>
+            <entity id="188210940e25284">
+              <ECBuilding key="glb_fence_02" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+              <ECWater is_water="false"/>
+              <ECTransform position="0 0 2.82174492" rotation="0 90 0" scale="0.499999881 0.5 0.499999881" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECPrefabOverride enabled="false" id="glb_fence_02"/>
+            </entity>
+            <entity id="188210940e25285">
+              <ECBuilding key="glb_fence_02" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+              <ECWater is_water="false"/>
+              <ECTransform position="0 0 -2.82174492" rotation="0 90 0" scale="0.499999881 0.5 0.499999881" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECPrefabOverride enabled="false" id="glb_fence_02"/>
+            </entity>
+            <entity id="188210940e25286">
+              <ECBuilding key="glb_fence_02" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+              <ECWater is_water="false"/>
+              <ECTransform position="0 0 0.86920166" rotation="0 90 0" scale="0.499999911 0.5 0.499999911" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECPrefabOverride enabled="false" id="glb_fence_02"/>
+            </entity>
+            <entity id="188210940e25287">
+              <ECBuilding key="glb_fence_02" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+              <ECWater is_water="false"/>
+              <ECTransform position="0 0 -1.13079834" rotation="0 90 0" scale="0.499999911 0.5 0.499999911" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECPrefabOverride enabled="false" id="glb_fence_02"/>
+            </entity>
+          </entities>
+          <associations>
+            <Logical/>
+            <Transform>
+              <from id="188210940e25289">
+                <to id="188210940e25284"/>
+                <to id="188210940e25285"/>
+                <to id="188210940e25286"/>
+                <to id="188210940e25287"/>
+              </from>
+            </Transform>
+          </associations>
+        </group>
+      </ECGroup>
+      <ECTransform position="0.0716511607 16.2283344 5.0873313" rotation="0 90 0" scale="0.99999994 1 0.99999994" pivot="0 0 0"/>
+    </entity>
+    <entity id="18821098b235292">
+      <ECGroup>
+        <group version="41">
+          <entities>
+            <entity id="188210940e25289">
+              <ECSignature/>
+              <ECTransform position="-0.0238882899 16.2283344 -5.16984177" rotation="0 -90 0" scale="0.999999821 1 0.999999821" pivot="0 0 0"/>
+            </entity>
+            <entity id="188210940e25284">
+              <ECBuilding key="glb_fence_02" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+              <ECWater is_water="false"/>
+              <ECTransform position="0 0 2.82174492" rotation="0 90 0" scale="0.499999881 0.5 0.499999881" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECPrefabOverride enabled="false" id="glb_fence_02"/>
+            </entity>
+            <entity id="188210940e25285">
+              <ECBuilding key="glb_fence_02" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+              <ECWater is_water="false"/>
+              <ECTransform position="0 0 -2.82174492" rotation="0 90 0" scale="0.499999881 0.5 0.499999881" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECPrefabOverride enabled="false" id="glb_fence_02"/>
+            </entity>
+            <entity id="188210940e25286">
+              <ECBuilding key="glb_fence_02" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+              <ECWater is_water="false"/>
+              <ECTransform position="0 0 0.86920166" rotation="0 90 0" scale="0.499999911 0.5 0.499999911" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECPrefabOverride enabled="false" id="glb_fence_02"/>
+            </entity>
+            <entity id="188210940e25287">
+              <ECBuilding key="glb_fence_02" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+              <ECWater is_water="false"/>
+              <ECTransform position="0 0 -1.13079834" rotation="0 90 0" scale="0.499999911 0.5 0.499999911" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECPrefabOverride enabled="false" id="glb_fence_02"/>
+            </entity>
+          </entities>
+          <associations>
+            <Logical/>
+            <Transform>
+              <from id="188210940e25289">
+                <to id="188210940e25284"/>
+                <to id="188210940e25285"/>
+                <to id="188210940e25286"/>
+                <to id="188210940e25287"/>
+              </from>
+            </Transform>
+          </associations>
+        </group>
+      </ECGroup>
+      <ECTransform position="-0.0238882899 16.2283344 -5.16984177" rotation="0 -90 0" scale="0.999999821 1 0.999999821" pivot="0 0 0"/>
+    </entity>
+    <entity id="188210d8baf23b4">
+      <ECBuilding key="glb_wooden_bridge_planks_02" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="-4 16 4" rotation="-8.14222008e-13 90 0" scale="0.499999821 0.5 0.499999791" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="glb_wooden_bridge_planks_02"/>
+    </entity>
+    <entity id="188210d8bae23b1">
+      <ECBuilding key="glb_wooden_bridge_planks_02" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="4 16 4" rotation="0 180.000031 0" scale="0.499999702 0.5 0.499999672" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="glb_wooden_bridge_planks_02"/>
+    </entity>
+    <entity id="188210d8bae23b3">
+      <ECBuilding key="glb_wooden_bridge_planks_02" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="4.33333349 16 -4" rotation="-1.2213338e-12 -90 0" scale="0.499999732 0.5 0.499999702" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="glb_wooden_bridge_planks_02"/>
+    </entity>
+    <entity id="188210d8bae23b2">
+      <ECBuilding key="glb_wooden_bridge_planks_02" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="-4 16 -4" rotation="-8.14222008e-13 0 0" scale="0.499999702 0.5 0.499999672" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="glb_wooden_bridge_planks_02"/>
+    </entity>
+    <entity id="188210e4ab423cd">
+      <ECPrefab key="glb_brazier_01" use_culture_mask="true" valid_ids="1"/>
+      <ECTransform position="-4.34531021 16.1573963 -4.45230103" rotation="0 0 0" scale="0.5 0.5 0.5" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+    </entity>
+    <entity id="188210e95be23d4">
+      <ECPrefab key="glb_brazier_01" use_culture_mask="true" valid_ids="1"/>
+      <ECTransform position="-4.34531021 16.1573963 4.48024845" rotation="0 0 0" scale="0.5 0.5 0.5" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+    </entity>
+    <entity id="188210ebf7a23dd">
+      <ECPrefab key="glb_brazier_01" use_culture_mask="true" valid_ids="1"/>
+      <ECTransform position="4.47028923 16.1573963 -4.45230103" rotation="0 0 0" scale="0.5 0.5 0.5" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+    </entity>
+    <entity id="188210ebf7923dc">
+      <ECPrefab key="glb_brazier_01" use_culture_mask="true" valid_ids="1"/>
+      <ECTransform position="4.47028923 16.1573963 4.48024845" rotation="0 0 0" scale="0.5 0.5 0.5" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+    </entity>
+    <entity id="1882110aa1126fb">
+      <ECPrefab key="glb_woodpile_01" use_culture_mask="true" valid_ids="1"/>
+      <ECTransform position="1.68802524 1.65714312 -1.88973153" rotation="45.0000191 180.000214 269.999603" scale="0.749996364 0.749996543 0.749996364" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+    </entity>
+    <entity id="1882112c8bb2715">
+      <ECPrefab key="glb_woodpile_01" use_culture_mask="true" valid_ids="1"/>
+      <ECTransform position="-1.59455252 2.14159155 1.81206775" rotation="45.0000191 -0.000321018888 89.999733" scale="0.749996364 0.749996662 0.749996364" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+    </entity>
+    <entity id="1882112d5352722">
+      <ECPrefab key="glb_woodpile_01" use_culture_mask="true" valid_ids="1"/>
+      <ECTransform position="1.4692812 1.65713227 2.23662829" rotation="0 180.000244 269.999542" scale="0.749996066 0.749996245 0.749995947" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+    </entity>
+    <entity id="1882112ec73272f">
+      <ECPrefab key="glb_woodpile_01" use_culture_mask="true" valid_ids="1"/>
+      <ECTransform position="-1.81301057 2.34930086 -1.57107055" rotation="-45.0000038 -0.000259547174 89.9996872" scale="0.749996245 0.749996364 0.749996305" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+    </entity>
+    <entity id="18821168df7273b">
+      <ECBuilding key="brt_slum_bridge_02" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="0 16 4" rotation="0 0 0" scale="0.5 0.5 0.5" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="slum_bridge_02"/>
+    </entity>
+    <entity id="18821169bf9273c">
+      <ECBuilding key="brt_slum_bridge_02" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="0 16 -4" rotation="0 0 0" scale="0.5 0.5 0.5" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="slum_bridge_02"/>
+    </entity>
+    <entity id="1882116d186273d">
+      <ECBuilding key="brt_slum_bridge_02" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="-4 16 0" rotation="180 270 -180" scale="0.5 0.5 0.5" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="slum_bridge_02"/>
+    </entity>
+    <entity id="1882116dc51273e">
+      <ECBuilding key="brt_slum_bridge_02" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="4 16 0" rotation="180 270 -180" scale="0.5 0.5 0.5" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="slum_bridge_02"/>
+    </entity>
+    <entity id="1882118510c273f">
+      <ECBuilding key="brt_balcony_03" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="4 8 2" rotation="180 270 -180" scale="0.5 0.5 0.5" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="balcony_03"/>
+    </entity>
+    <entity id="18821185e0c2740">
+      <ECBuilding key="brt_balcony_03" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="4 8 -2" rotation="180 270 -180" scale="0.5 0.5 0.5" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="balcony_03"/>
+    </entity>
+    <entity id="18821187e012741">
+      <ECBuilding key="brt_balcony_03" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="2 8 -4" rotation="0 0 0" scale="0.5 0.5 0.5" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="balcony_03"/>
+    </entity>
+    <entity id="188211882b32742">
+      <ECBuilding key="brt_balcony_03" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="-2 8 -4" rotation="0 0 0" scale="0.5 0.5 0.5" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="balcony_03"/>
+    </entity>
+    <entity id="18821189e8c2743">
+      <ECBuilding key="brt_balcony_03" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="-4 8 -2" rotation="0 90 0" scale="0.5 0.5 0.5" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="balcony_03"/>
+    </entity>
+    <entity id="1882118a5252744">
+      <ECBuilding key="brt_balcony_03" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="-4 8 2" rotation="0 90 0" scale="0.5 0.5 0.5" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="balcony_03"/>
+    </entity>
+    <entity id="1882118b76f2745">
+      <ECBuilding key="brt_balcony_03" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="-2 8 4" rotation="0 180.000015 0" scale="0.5 0.5 0.5" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="balcony_03"/>
+    </entity>
+    <entity id="1882118bf002746">
+      <ECBuilding key="brt_balcony_03" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="2 8 4" rotation="0 180.000015 0" scale="0.5 0.5 0.5" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="balcony_03"/>
+    </entity>
+    <entity id="188212412652897">
+      <ECPrefab key="glb_woodpile_01" use_culture_mask="true" valid_ids="1"/>
+      <ECTransform position="-1.59455252 12.9776468 1.81206775" rotation="45.0000191 -0.000321018888 89.999733" scale="0.5 0.5 0.5" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+    </entity>
+    <entity id="188212412652898">
+      <ECPrefab key="glb_woodpile_01" use_culture_mask="true" valid_ids="1"/>
+      <ECTransform position="1.4692812 12.4931879 2.23662829" rotation="0 180.000244 269.999542" scale="0.49999994 0.49999994 0.499999881" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+    </entity>
+    <entity id="188212412652896">
+      <ECPrefab key="glb_woodpile_01" use_culture_mask="true" valid_ids="1"/>
+      <ECTransform position="-1.81301045 13.1853571 -1.57107055" rotation="-45.0000038 -0.000259547174 89.9996872" scale="0.5 0.5 0.5" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+    </entity>
+    <entity id="188212412652899">
+      <ECPrefab key="glb_woodpile_01" use_culture_mask="true" valid_ids="1"/>
+      <ECTransform position="1.68802524 12.4931993 -1.88973153" rotation="45.0000191 180.000214 269.999603" scale="0.5 0.5 0.5" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+    </entity>
+    <entity id="1882125b52a28d1">
+      <ECPrefab key="glb_woodpile_01" use_culture_mask="true" valid_ids="1"/>
+      <ECTransform position="-0.383121252 14.7777882 -4.14210987" rotation="45.0000038 0 0" scale="0.5 0.5 0.5" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+    </entity>
+    <entity id="18821263af528de">
+      <ECPrefab key="glb_woodpile_01" use_culture_mask="true" valid_ids="1"/>
+      <ECTransform position="0.210636079 14.7777882 4.14519501" rotation="45.0000038 180.000031 4.09811328e-05" scale="0.499999881 0.49999994 0.499999821" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+    </entity>
+    <entity id="1882126c2b92908">
+      <ECGroup>
+        <group version="41">
+          <entities>
+            <entity id="1882126c2b92907">
+              <ECSignature/>
+              <ECTransform position="0.0210500658 14.7777882 0.00154256821" rotation="0 90 0" scale="1 1 1" pivot="0 0 0"/>
+            </entity>
+            <entity id="1882126c2b92904">
+              <ECPrefab key="glb_woodpile_01" use_culture_mask="true" valid_ids="1"/>
+              <ECTransform position="0.296878666 0 4.14365244" rotation="45.0000038 180.000031 4.09811328e-05" scale="0.499999881 0.49999994 0.499999821" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+            </entity>
+            <entity id="1882126c2b92905">
+              <ECPrefab key="glb_woodpile_01" use_culture_mask="true" valid_ids="1"/>
+              <ECTransform position="-0.296878666 0 -4.14365244" rotation="45.0000038 0 0" scale="0.5 0.5 0.5" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+            </entity>
+          </entities>
+          <associations>
+            <Logical/>
+            <Transform>
+              <from id="1882126c2b92907">
+                <to id="1882126c2b92904"/>
+                <to id="1882126c2b92905"/>
+              </from>
+            </Transform>
+          </associations>
+        </group>
+      </ECGroup>
+      <ECTransform position="0.0210500658 14.7777882 0.00154256821" rotation="0 90 0" scale="1 1 1" pivot="0 0 0"/>
+    </entity>
+    <entity id="1882129a1d8291f">
+      <ECBuilding key="vmp_vc_porthole_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="-3.14012432 13.0041227 1.85277545" rotation="0 90 0" scale="0.49999997 0.5 0.49999997" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="vc_porthole_01"/>
+    </entity>
+    <entity id="1882129aa002920">
+      <ECBuilding key="vmp_vc_porthole_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="-3.12925196 13.0009508 -1.6728096" rotation="0 90 0" scale="0.499999911 0.5 0.499999911" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="vc_porthole_01"/>
+    </entity>
+    <entity id="1882129c1782921">
+      <ECBuilding key="vmp_vc_porthole_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="-1.6933639 12.9761171 3.12942839" rotation="0 180.000015 0" scale="0.499999881 0.5 0.499999881" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="vc_porthole_01"/>
+    </entity>
+    <entity id="1882129c82c2922">
+      <ECBuilding key="vmp_vc_porthole_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="1.95841992 12.9906569 3.13504505" rotation="0 180.000015 0" scale="0.499999881 0.5 0.499999881" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="vc_porthole_01"/>
+    </entity>
+    <entity id="1882129e18a2923">
+      <ECBuilding key="vmp_vc_porthole_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="3.12244081 12.997324 1.79483569" rotation="0 -90 0" scale="0.50000006 0.5 0.50000006" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="vc_porthole_01"/>
+    </entity>
+    <entity id="1882129ee1c2924">
+      <ECBuilding key="vmp_vc_porthole_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="3.13509512 13.0099735 -1.92122102" rotation="0 -90 0" scale="0.50000006 0.5 0.50000006" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="vc_porthole_01"/>
+    </entity>
+    <entity id="188212a09d82925">
+      <ECBuilding key="vmp_vc_porthole_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="1.95754075 12.9976254 -3.12309742" rotation="0 0 0" scale="0.5 0.5 0.5" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="vc_porthole_01"/>
+    </entity>
+    <entity id="188212a1ae62926">
+      <ECBuilding key="vmp_vc_porthole_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="-1.9878813 13.0040417 -3.13095236" rotation="0 0 0" scale="0.5 0.5 0.5" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="vc_porthole_01"/>
+    </entity>
+    <entity id="188212ad3c12927">
+      <ECBuildingProjectileEmitter specialized_emitter=""/>
+      <ECTransform position="-20.1659164 25.7797852 -37.3053665" rotation="0 90 0" scale="9.99999809 10 9.99999809" pivot="0 0 0"/>
+    </entity>
+    <entity id="188212b13242929">
+      <ECBuildingProjectileEmitter specialized_emitter=""/>
+      <ECTransform position="19.54842 25.7797852 -37.3053665" rotation="0 90 0" scale="9.99999714 10 9.99999714" pivot="0 0 0"/>
+    </entity>
+    <entity id="188212b77cc292b">
+      <ECBuildingProjectileEmitter specialized_emitter=""/>
+      <ECTransform position="19.54842 25.7797852 37.4400177" rotation="0 -90 0" scale="9.99999428 10 9.99999428" pivot="0 0 0"/>
+    </entity>
+    <entity id="188212b83cb292d">
+      <ECBuildingProjectileEmitter specialized_emitter=""/>
+      <ECTransform position="36.6166115 25.7797852 18.2223644" rotation="0 0 0" scale="9.99999619 10 9.99999619" pivot="0 0 0"/>
+    </entity>
+    <entity id="188212b927a292f">
+      <ECBuildingProjectileEmitter specialized_emitter=""/>
+      <ECTransform position="-37.174942 25.7797852 18.5258503" rotation="0 180.000031 0" scale="9.99999523 10 9.99999523" pivot="0 0 0"/>
+    </entity>
+    <entity id="188212c19ee2931">
+      <ECBuildingProjectileEmitter specialized_emitter=""/>
+      <ECTransform position="-37.174942 25.7797852 -16.7783604" rotation="0 180.000031 0" scale="9.99999523 10 9.99999523" pivot="0 0 0"/>
+    </entity>
+    <entity id="188212cd8572933">
+      <ECBuildingProjectileEmitter specialized_emitter=""/>
+      <ECTransform position="-16.9658031 25.7797852 37.4400177" rotation="0 -90 0" scale="9.99999428 10 9.99999428" pivot="0 0 0"/>
+    </entity>
+    <entity id="188212dbd182935">
+      <ECBuildingProjectileEmitter specialized_emitter=""/>
+      <ECTransform position="36.6166115 25.7797852 -19.2301559" rotation="0 0 0" scale="9.99999619 10 9.99999619" pivot="0 0 0"/>
+    </entity>
+    <entity id="1882146c3d22936">
+      <ECBuilding key="emp_tower_placement_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="0 10.5579348 0" rotation="0 0 0" scale="0.100000001 0.100000001 0.100000001" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="tower_placement_01"/>
+    </entity>
+    <entity id="1882212c0bd148e">
+      <ECPrefab key="glb_table_pub_01" use_culture_mask="true" valid_ids="1"/>
+      <ECTransform position="0.0269132853 16.0261192 3.89688635" rotation="0 0 0" scale="0.5 0.5 0.5" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+    </entity>
+    <entity id="188221307fb14b4">
+      <ECPrefab key="glb_scalesdeco_04" use_culture_mask="true" valid_ids="1"/>
+      <ECTransform position="-3.92847419 16.0494843 2.92963815" rotation="0 0 0" scale="0.5 0.5 0.5" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+    </entity>
+    <entity id="1882213250e14d0">
+      <ECPrefab key="glb_scalesdeco_05" use_culture_mask="true" valid_ids="1"/>
+      <ECTransform position="-3.54225826 8.19419479 -1.95389366" rotation="0 -3.99999475 0" scale="0.5 0.5 0.5" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+    </entity>
+    <entity id="188221344aa14e5">
+      <ECPrefab key="glb_scalesdeco_06" use_culture_mask="true" valid_ids="1"/>
+      <ECTransform position="2.73806453 16.0385666 -4.16450644" rotation="0 97.000061 0" scale="0.5 0.5 0.5" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+    </entity>
+    <entity id="1882213684514f5">
+      <ECPrefab key="glb_scalesdeco_05" use_culture_mask="true" valid_ids="1"/>
+      <ECTransform position="-4.28367805 16.0352345 -2.79435682" rotation="0 179.000015 0" scale="0.5 0.5 0.5" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+    </entity>
+    <entity id="188221388d91505">
+      <ECPrefab key="glb_scalesdeco_06" use_culture_mask="true" valid_ids="1"/>
+      <ECTransform position="-2.87231994 16.0533867 -3.70828748" rotation="0 -68.9999847 0" scale="0.5 0.5 0.5" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+    </entity>
+    <entity id="188221426e9154f">
+      <ECPrefab key="glb_barrelpack_01" use_culture_mask="true" valid_ids="1"/>
+      <ECTransform position="3.8419888 16.0301342 2.25304699" rotation="0 14.999999 0" scale="0.5 0.5 0.5" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+    </entity>
+    <entity id="1882215075f1584">
+      <ECDecal model_path="rigidmodels/decals/generic/dwf_dcl_crack_02.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="-3.03892326 11.7809792 -0.103426337" rotation="47.9819107 269.315857 45.6780777" scale="4 4 4" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+    </entity>
+    <entity id="188221530ed1585">
+      <ECDecal model_path="rigidmodels/decals/generic/dwf_dcl_crack_04.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="-0.0506700277 11.7683897 -3.03948593" rotation="87.1103592 177.69899 226.416275" scale="4 4 4" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+    </entity>
+    <entity id="188221551ab1586">
+      <ECDecal model_path="rigidmodels/decals/generic/dwf_dcl_crack_05.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="3.05727625 11.9894524 -0.461934179" rotation="-19.2242088 268.455902 -74.4406586" scale="4 4 4" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+    </entity>
+    <entity id="1882217a7421898">
+      <ECBuilding key="chs_battle_props_brazier_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="0 20.1403618 0" rotation="0 0 0" scale="4 4 4" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="chs_battle_props_brazier_01"/>
+    </entity>
+    <entity id="18822197d21189b">
+      <ECVFX vfx="wh_main_generic_fire_nosmoke_loop" autoplay="true" scale="1" instance_name=""/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECBattleProperties allow_in_outfield="false"/>
+      <ECTransform position="0 20.5388374 0" rotation="0 -52.0000076 0" scale="0.49999997 0.5 0.49999997" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+    </entity>
+    <entity id="188221e72fb1935">
+      <ECBuilding key="emp_hero_add_shi_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="-4.1373353 14.8626575 2" rotation="-45.0000191 90 0" scale="1.39999986 1.39999998 1.39999986" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="hero_add_shi_01"/>
+    </entity>
+    <entity id="188221f7ed71938">
+      <ECBuilding key="emp_hero_add_shi_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="-4.1373353 14.8626575 -1.60792291" rotation="-45.0000191 90 0" scale="1.39999986 1.39999998 1.39999998" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="hero_add_shi_01"/>
+    </entity>
+    <entity id="188222b3ae3b1e7">
+      <ECBuilding key="glb_wall_platform_trapdoor01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="-0.00350141525 14.0684175 0.0838041902" rotation="0 90 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="glb_wall_platform_trapdoor01"/>
+    </entity>
+    <entity id="188222bbf27b1e8">
+      <ECBuilding key="glb_wall_platform_trapdoor01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="-0.0190650523 7.74072981 -0.100778103" rotation="180 -90 0" scale="1.00000012 1 1.00000012" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="glb_wall_platform_trapdoor01"/>
+    </entity>
+    <entity id="188222d4f19b1e9">
+      <ECBuilding key="glb_scaffold_04" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="1.24620068 14.2942047 -1.35714674" rotation="180 270 -180" scale="0.800000012 0.800000012 0.800000012" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="glb_scaffold_04"/>
+    </entity>
+    <entity id="188222e2e9fb1f2">
+      <ECGroup>
+        <group version="41">
+          <entities>
+            <entity id="188222e2e9fb1f1">
+              <ECSignature/>
+              <ECTransform position="-0.025660634 14.8626575 -4.08643341" rotation="0 -90 0" scale="0.999999702 1 0.999999702" pivot="0 0 0"/>
+            </entity>
+            <entity id="188222e2e9fb1ee">
+              <ECBuilding key="emp_hero_add_shi_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+              <ECWater is_water="false"/>
+              <ECTransform position="0 0 -1.80396152" rotation="-45.0000305 90 0" scale="1.39999986 1.39999998 1.39999998" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECPrefabOverride enabled="false" id="hero_add_shi_01"/>
+            </entity>
+            <entity id="188222e2e9fb1ef">
+              <ECBuilding key="emp_hero_add_shi_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+              <ECWater is_water="false"/>
+              <ECTransform position="0 0 1.80396152" rotation="-45.0000305 90 0" scale="1.39999986 1.39999998 1.39999986" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECPrefabOverride enabled="false" id="hero_add_shi_01"/>
+            </entity>
+          </entities>
+          <associations>
+            <Logical/>
+            <Transform>
+              <from id="188222e2e9fb1f1">
+                <to id="188222e2e9fb1ee"/>
+                <to id="188222e2e9fb1ef"/>
+              </from>
+            </Transform>
+          </associations>
+        </group>
+      </ECGroup>
+      <ECTransform position="-0.025660634 14.8626575 -4.08643341" rotation="0 -90 0" scale="0.999999762 1 0.999999762" pivot="0 0 0"/>
+    </entity>
+    <entity id="188222ea17fb1f8">
+      <ECGroup>
+        <group version="41">
+          <entities>
+            <entity id="188222e2e9fb1f1">
+              <ECSignature/>
+              <ECTransform position="4.195683 14.8626575 -0.00810551643" rotation="0 180.000031 0" scale="0.999999702 1 0.999999702" pivot="0 0 0"/>
+            </entity>
+            <entity id="188222e2e9fb1ee">
+              <ECBuilding key="emp_hero_add_shi_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+              <ECWater is_water="false"/>
+              <ECTransform position="0 0 -1.80396152" rotation="-45.0000305 90 0" scale="1.39999986 1.39999998 1.39999998" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECPrefabOverride enabled="false" id="hero_add_shi_01"/>
+            </entity>
+            <entity id="188222e2e9fb1ef">
+              <ECBuilding key="emp_hero_add_shi_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+              <ECWater is_water="false"/>
+              <ECTransform position="0 0 1.80396152" rotation="-45.0000305 90 0" scale="1.39999986 1.39999998 1.39999986" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECPrefabOverride enabled="false" id="hero_add_shi_01"/>
+            </entity>
+          </entities>
+          <associations>
+            <Logical/>
+            <Transform>
+              <from id="188222e2e9fb1f1">
+                <to id="188222e2e9fb1ee"/>
+                <to id="188222e2e9fb1ef"/>
+              </from>
+            </Transform>
+          </associations>
+        </group>
+      </ECGroup>
+      <ECTransform position="4.195683 14.8626575 -0.00810551643" rotation="0 180.000031 0" scale="0.999999702 1 0.999999702" pivot="0 0 0"/>
+    </entity>
+    <entity id="188222f1261b202">
+      <ECGroup>
+        <group version="41">
+          <entities>
+            <entity id="188222e2e9fb1f1">
+              <ECSignature/>
+              <ECTransform position="0.21138525 14.8626575 4.22359705" rotation="0 90 0" scale="0.999999523 1 0.999999523" pivot="0 0 0"/>
+            </entity>
+            <entity id="188222e2e9fb1ee">
+              <ECBuilding key="emp_hero_add_shi_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+              <ECWater is_water="false"/>
+              <ECTransform position="0 0 -1.80396152" rotation="-45.0000305 90 0" scale="1.39999986 1.39999998 1.39999998" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECPrefabOverride enabled="false" id="hero_add_shi_01"/>
+            </entity>
+            <entity id="188222e2e9fb1ef">
+              <ECBuilding key="emp_hero_add_shi_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+              <ECWater is_water="false"/>
+              <ECTransform position="0 0 1.80396152" rotation="-45.0000305 90 0" scale="1.39999986 1.39999998 1.39999986" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECPrefabOverride enabled="false" id="hero_add_shi_01"/>
+            </entity>
+          </entities>
+          <associations>
+            <Logical/>
+            <Transform>
+              <from id="188222e2e9fb1f1">
+                <to id="188222e2e9fb1ee"/>
+                <to id="188222e2e9fb1ef"/>
+              </from>
+            </Transform>
+          </associations>
+        </group>
+      </ECGroup>
+      <ECTransform position="0.21138525 14.8626575 4.22359705" rotation="0 90 0" scale="0.999999583 1 0.999999583" pivot="0 0 0"/>
+    </entity>
+    <entity id="188222f8566b207">
+      <ECBuilding key="glb_wooden_stairs_02" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="-0.357994854 -1.90734863e-06 -3.03687382" rotation="-89.9999771 -48.5835228 89.9999695" scale="0.600000083 0.600000024 0.600000083" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="glb_wooden_stairs_02"/>
+    </entity>
+    <entity id="188223233e8c1bb">
+      <ECBuilding key="glb_spiketrap_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="-2.34242392 4.76837158e-07 -0.106211007" rotation="0 99.0000153 0" scale="0.600000024 0.600000024 0.600000024" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="glb_spiketrap_01"/>
+    </entity>
+    <entity id="18822323cb2c1bc">
+      <ECBuilding key="glb_spiketrap_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="1.86575317 0 -0.320091665" rotation="0 81.0000381 0" scale="0.600000024 0.600000024 0.600000024" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="glb_spiketrap_01"/>
+    </entity>
+    <entity id="188223249bbc1bd">
+      <ECBuilding key="glb_spiketrap_01" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="0.0277284384 2.38418579e-07 2.53979754" rotation="0 176 0" scale="0.600000024 0.600000024 0.600000024" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="glb_spiketrap_01"/>
+    </entity>
+  </entities>
+  <associations>
+    <Logical>
+      <from id="18820e650d53aef">
+        <to id="18820e715563c2c"/>
+      </from>
+    </Logical>
+    <Transform>
+      <from id="1882146c3d22936">
+        <to id="188212b83cb292d"/>
+        <to id="188212ad3c12927"/>
+        <to id="188212b13242929"/>
+        <to id="188212dbd182935"/>
+        <to id="188212b77cc292b"/>
+        <to id="188212cd8572933"/>
+        <to id="188212b927a292f"/>
+        <to id="188212c19ee2931"/>
+      </from>
+    </Transform>
+  </associations>
+</layer>

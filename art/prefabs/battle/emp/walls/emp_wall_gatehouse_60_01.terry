@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="27" id="149ccbcaf5cccf9">
+  <pc type="QTU::ProjectPrefab">
+    <data database="battle" is_skybox="0"/>
+  </pc>
+  <pc type="QTU::Scene">
+    <data version="41">
+      <entity id="149ccbd4a9fcd19" name="Default">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="14ec068a258209a" name="lights">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+      <entity id="14f2cb9f6e0647c" name="File Layer 1">
+        <ECFileLayer export="true" bmd_export_type=""/>
+      </entity>
+    </data>
+  </pc>
+  <pc type="QTU::Terrain"/>
+</project>

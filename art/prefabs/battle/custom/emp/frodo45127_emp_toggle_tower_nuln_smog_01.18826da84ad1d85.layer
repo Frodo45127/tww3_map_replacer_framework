@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer version="41">
+  <entities>
+    <entity id="18826da84ad1d86" name="Reference">
+      <ECLayer export="false" bmd_export_type=""/>
+      <ECToggleableBuildingsSlot enabled="false" type="TBST_TOWERS" capture_location="" script_id="" map_barrier_record_key="" ground_melee_attack_allowed="true"/>
+    </entity>
+    <entity id="1882700d53c25aa">
+      <ECPrefab key="blk_ksl_watch_tower_01" use_culture_mask="true" valid_ids="1">
+        <override id="1690ae4b7940e38" name="ksl_tower_30m_01">
+          <ECBuilding damage="0" indestructible="false" toggleable="true" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" visible_beyond_outfield="false"/>
+        </override>
+      </ECPrefab>
+      <ECTransform position="0 3.81469727e-06 0" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+    </entity>
+    <entity id="1882d001a36e5cc" name="Layer 1">
+      <ECLayer export="true" bmd_export_type=""/>
+      <ECToggleableBuildingsSlot enabled="false" type="TBST_TOWERS" capture_location="" script_id="" map_barrier_record_key="" ground_melee_attack_allowed="true"/>
+    </entity>
+    <entity id="1882d08d157e614">
+      <ECGroup>
+        <group version="41">
+          <entities>
+            <entity id="1882d08d157e613">
+              <ECSignature/>
+              <ECTransform position="0.0297927931 -14.999999 -0.251355171" rotation="0 1.02452832e-05 0" scale="1 1 1" pivot="0 0 0"/>
+            </entity>
+            <entity id="1882d08d155e5f1">
+              <ECBuilding key="chd_chimney_large_02a_top" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+              <ECWater is_water="false"/>
+              <ECTransform position="-0.0233088918 35.0021324 0.159009367" rotation="0 5.44280774e-05 0" scale="0.399999946 0.399999976 0.399999946" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECPrefabOverride enabled="false" id="chd_chimney_large_02a_top"/>
+            </entity>
+            <entity id="1882d08d155e5f2">
+              <ECSoundMarker key="Sound_Environment_Chd_Chimney_Fires_Loop"/>
+              <ECTransform position="-0.0531942844 30.5356369 -7.81218147" rotation="0 -1.74227978e-06 0" scale="0.370621264 0.311627716 0.361483157" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+            </entity>
+            <entity id="1882d08d155e5f3">
+              <ECVFX vfx="wh3_dlc23_enviro_explosion_smoke_plume_fire_base" autoplay="true" scale="1" instance_name=""/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-0.0102464613 45.4468727 0.464704335" rotation="0.0189844966 82.3999786 0.0178461317" scale="0.299999595 0.299999982 0.299999595" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+            </entity>
+            <entity id="1882d08d155e5f4">
+              <ECBuilding key="chd_chimney_large_02a_mid" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+              <ECWater is_water="false"/>
+              <ECTransform position="-0.0233088918 27.0074902 0.159009367" rotation="0 5.44280774e-05 0" scale="0.399999946 0.399999976 0.399999946" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECPrefabOverride enabled="false" id="chd_chimney_large_02a_mid"/>
+            </entity>
+            <entity id="1882d08d155e5f5">
+              <ECBuilding key="chd_chimney_small_01b" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+              <ECWater is_water="false"/>
+              <ECTransform position="-0.0297942162 20.2661972 -7.99644279" rotation="-1.36603776e-05 180.000031 -180.000015" scale="0.49999994 0.499999493 0.499999702" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECPrefabOverride enabled="false" id="chd_chimney_small_01b"/>
+            </entity>
+            <entity id="1882d08d155e5f6">
+              <ECVFX vfx="wh3_dlc23_enviro_explosion_smoke_plume_fire_base" autoplay="true" scale="1" instance_name=""/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-0.0118160248 29.8197479 7.99335337" rotation="0.0189844929 82.3999786 0.0178461298" scale="0.277965516 0.233720809 0.271111876" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+            </entity>
+            <entity id="1882d08d155e5f7">
+              <ECBuilding key="chd_chimney_small_01b" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+              <ECWater is_water="false"/>
+              <ECTransform position="1.77110875 19 0.251354843" rotation="0 90 0" scale="0.999999881 0.99999994 0.999999881" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECPrefabOverride enabled="false" id="chd_chimney_small_01b"/>
+            </entity>
+            <entity id="1882d08d155e5f8">
+              <ECVFX vfx="wh3_dlc20_enviro_iron_smoke" autoplay="true" scale="1" instance_name=""/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-0.158194423 14.5767097 11.0125389" rotation="4.09811328e-05 180.000092 179.999985" scale="0.99999994 0.999998689 0.999998927" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+            </entity>
+            <entity id="1882d08d155e5f9">
+              <ECVFX vfx="wh3_main_enviro_large_volume_smoke" autoplay="true" scale="1" instance_name=""/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="0.434052974 45.8470688 0.221353441" rotation="0 1.02452841e-05 0" scale="1 0.99999994 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+            </entity>
+            <entity id="1882d08d155e5fa">
+              <ECBuilding key="chd_chimney_small_01b" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+              <ECWater is_water="false"/>
+              <ECTransform position="-0.0297931135 19 -1.63781238" rotation="0 180.000092 0" scale="0.999999702 0.99999994 0.999999702" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECPrefabOverride enabled="false" id="chd_chimney_small_01b"/>
+            </entity>
+            <entity id="1882d08d155e5fb">
+              <ECBuilding key="chd_chimney_small_01b" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+              <ECWater is_water="false"/>
+              <ECTransform position="-0.029792428 19 1.99512279" rotation="0 1.02452841e-05 0" scale="1 0.99999994 1" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECPrefabOverride enabled="false" id="chd_chimney_small_01b"/>
+            </entity>
+            <entity id="1882d08d155e5fc">
+              <ECVFX vfx="wh3_general_huge_mist" autoplay="true" scale="1" instance_name=""/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-0.0297927391 0 0.251355171" rotation="0 5.44280774e-05 0" scale="0.399999946 0.399999976 0.399999946" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+            </entity>
+            <entity id="1882d08d155e5fd">
+              <ECBuilding key="chd_chimney_small_01b" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+              <ECWater is_water="false"/>
+              <ECTransform position="-7.92814732 20.2661972 0.251356483" rotation="0 90 -180" scale="0.49999994 0.499999911 0.49999994" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECPrefabOverride enabled="false" id="chd_chimney_small_01b"/>
+            </entity>
+            <entity id="1882d08d155e5fe">
+              <ECSoundMarker key="Sound_Environment_Chd_Chimney_Fires_Loop"/>
+              <ECTransform position="-0.0531942844 30.5356369 -7.81218147" rotation="0 -1.74227978e-06 0" scale="0.370621264 0.311627716 0.361483157" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+            </entity>
+            <entity id="1882d08d155e5ff">
+              <ECSoundMarker key="Sound_Environment_Chd_Chimney_Fires_Loop"/>
+              <ECTransform position="-0.0555641726 46.3657722 0.334107876" rotation="0 5.44280774e-05 0" scale="0.399999946 0.399999976 0.399999946" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+            </entity>
+            <entity id="1882d08d156e600">
+              <ECVFX vfx="wh3_dlc23_enviro_large_chimney_smoke" autoplay="true" scale="1" instance_name=""/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-0.00561499596 31.1616592 -7.87092113" rotation="0.0189844929 82.3999786 0.0178461298" scale="0.667117178 0.560929835 0.65066874" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+            </entity>
+            <entity id="1882d08d156e601">
+              <ECBuilding key="chd_chimney_small_01b" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+              <ECWater is_water="false"/>
+              <ECTransform position="-1.85983002 19 0.251355559" rotation="0 -90 0" scale="1.00000024 0.99999994 1.00000024" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECPrefabOverride enabled="false" id="chd_chimney_small_01b"/>
+            </entity>
+            <entity id="1882d08d156e602">
+              <ECVFX vfx="wh3_dlc23_enviro_large_chimney_smoke" autoplay="true" scale="1" instance_name=""/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="7.88933754 31.1616592 -0.0475361347" rotation="0.0189844966 82.3999786 0.0178461317" scale="0.667117357 0.560929835 0.6506688" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+            </entity>
+            <entity id="1882d08d156e603">
+              <ECVFX vfx="wh3_dlc20_enviro_iron_smoke" autoplay="true" scale="1" instance_name=""/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="10.9334927 14.5767107 0.184283257" rotation="4.09811328e-05 180.000092 179.999985" scale="0.99999994 0.999998689 0.999998927" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+            </entity>
+            <entity id="1882d08d156e604">
+              <ECVFX vfx="wh3_dlc20_enviro_iron_smoke" autoplay="true" scale="1" instance_name=""/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-0.158198714 14.5767097 -11.0125389" rotation="4.09811328e-05 180.000092 179.999985" scale="0.99999994 0.999998689 0.999998927" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+            </entity>
+            <entity id="1882d08d156e605">
+              <ECBuilding key="chd_chimney_large_02a_base" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+              <ECWater is_water="false"/>
+              <ECTransform position="-0.0233088918 14.999999 0.159009367" rotation="0 5.44280774e-05 0" scale="0.399999946 0.399999976 0.399999946" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECPrefabOverride enabled="false" id="chd_chimney_large_02a_base"/>
+            </entity>
+            <entity id="1882d08d156e606">
+              <ECSoundMarker key="Sound_Environment_Chd_Chimney_Fires_Loop"/>
+              <ECTransform position="-8.05105782 30.5356369 0.0387690067" rotation="0 -1.74227978e-06 0" scale="0.370621264 0.311627716 0.361483157" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+            </entity>
+            <entity id="1882d08d156e607">
+              <ECVFX vfx="wh3_dlc23_enviro_explosion_smoke_plume_fire_base" autoplay="true" scale="1" instance_name=""/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="7.88313341 29.8197479 0.1316154" rotation="0.0189844929 82.3999786 0.0178461298" scale="0.277965516 0.233720809 0.271111876" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+            </entity>
+            <entity id="1882d08d156e608">
+              <ECSoundMarker key="Sound_Environment_Chd_Chimney_Fires_Loop"/>
+              <ECTransform position="-0.0531914234 30.5356369 7.87294006" rotation="0 -1.74227978e-06 0" scale="0.370621264 0.311627716 0.361483157" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+            </entity>
+            <entity id="1882d08d156e609">
+              <ECBuilding key="chd_chimney_small_01b" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+              <ECWater is_water="false"/>
+              <ECTransform position="7.95522213 20.2661972 0.251353621" rotation="-2.73207552e-05 270 -180" scale="0.499999732 0.499999732 0.499999851" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECPrefabOverride enabled="false" id="chd_chimney_small_01b"/>
+            </entity>
+            <entity id="1882d08d156e60a">
+              <ECVFX vfx="wh3_dlc23_enviro_explosion_smoke_plume_fire_base" autoplay="true" scale="1" instance_name=""/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-8.0096817 29.8197479 0.159181595" rotation="0.0189844929 82.3999786 0.0178461298" scale="0.277965516 0.233720809 0.271111876" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+            </entity>
+            <entity id="1882d08d156e60b">
+              <ECVFX vfx="wh3_dlc23_enviro_large_chimney_smoke" autoplay="true" scale="1" instance_name=""/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-0.00561201572 31.1616592 7.81420183" rotation="0.0189844929 82.3999786 0.0178461298" scale="0.667117357 0.560929835 0.65066874" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+            </entity>
+            <entity id="1882d08d156e60c">
+              <ECVFX vfx="wh3_dlc20_enviro_iron_smoke" autoplay="true" scale="1" instance_name=""/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-10.9334927 14.5767107 0.184286952" rotation="4.09811328e-05 180.000092 179.999985" scale="0.99999994 0.999998689 0.999998927" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+            </entity>
+            <entity id="1882d08d156e60d">
+              <ECVFX vfx="wh3_dlc23_enviro_explosion_smoke_plume_fire_base" autoplay="true" scale="1" instance_name=""/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-0.0118188858 29.8197479 -7.6917696" rotation="0.0189844929 82.3999786 0.0178461298" scale="0.277965516 0.233720809 0.271111876" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+            </entity>
+            <entity id="1882d08d156e60e">
+              <ECSoundMarker key="Sound_Environment_Chd_Chimney_Fires_Loop"/>
+              <ECTransform position="7.84175825 30.5356369 0.0112024546" rotation="0 -1.74227978e-06 0" scale="0.370621264 0.311627716 0.361483157" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+            </entity>
+            <entity id="1882d08d156e60f">
+              <ECVFX vfx="wh3_dlc23_enviro_large_chimney_smoke" autoplay="true" scale="1" instance_name=""/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-8.0034771 31.1616592 -0.019969821" rotation="0.0189844966 82.3999786 0.0178461317" scale="0.667117357 0.560929835 0.65066874" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+            </entity>
+            <entity id="1882d08d156e610">
+              <ECVFX vfx="wh3_dlc23_enviro_large_chimney_smoke" autoplay="true" scale="1" instance_name=""/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+              <ECBattleProperties allow_in_outfield="false"/>
+              <ECTransform position="-0.00402128883 47.1693192 0.271300316" rotation="0.0189844649 82.3999634 0.0178461056" scale="0.719998896 0.719999909 0.719998896" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+            </entity>
+            <entity id="1882d08d156e611">
+              <ECBuilding key="chd_chimney_small_01b" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+              <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+              <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+              <ECWater is_water="false"/>
+              <ECTransform position="-0.0297913551 20.2661972 7.99935675" rotation="-3.72736338e-07 -1.19528304e-05 179.999985" scale="0.499999881 0.499999791 0.5" pivot="0 0 0"/>
+              <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+              <ECPrefabOverride enabled="false" id="chd_chimney_small_01b"/>
+            </entity>
+          </entities>
+          <associations>
+            <Logical/>
+            <Transform>
+              <from id="1882d08d157e613">
+                <to id="1882d08d155e5f1"/>
+                <to id="1882d08d155e5f2"/>
+                <to id="1882d08d155e5f3"/>
+                <to id="1882d08d155e5f4"/>
+                <to id="1882d08d155e5f5"/>
+                <to id="1882d08d155e5f6"/>
+                <to id="1882d08d155e5f7"/>
+                <to id="1882d08d155e5f8"/>
+                <to id="1882d08d155e5f9"/>
+                <to id="1882d08d155e5fa"/>
+                <to id="1882d08d155e5fb"/>
+                <to id="1882d08d155e5fc"/>
+                <to id="1882d08d155e5fd"/>
+                <to id="1882d08d155e5fe"/>
+                <to id="1882d08d155e5ff"/>
+                <to id="1882d08d156e600"/>
+                <to id="1882d08d156e601"/>
+                <to id="1882d08d156e602"/>
+                <to id="1882d08d156e603"/>
+                <to id="1882d08d156e604"/>
+                <to id="1882d08d156e605"/>
+                <to id="1882d08d156e606"/>
+                <to id="1882d08d156e607"/>
+                <to id="1882d08d156e608"/>
+                <to id="1882d08d156e609"/>
+                <to id="1882d08d156e60a"/>
+                <to id="1882d08d156e60b"/>
+                <to id="1882d08d156e60c"/>
+                <to id="1882d08d156e60d"/>
+                <to id="1882d08d156e60e"/>
+                <to id="1882d08d156e60f"/>
+                <to id="1882d08d156e610"/>
+                <to id="1882d08d156e611"/>
+              </from>
+            </Transform>
+          </associations>
+        </group>
+      </ECGroup>
+      <ECTransform position="-1.2118156 -21.4285698 -0.364936888" rotation="0 80.0000458 0" scale="5.00000048 1.42857146 5.00000048" pivot="0 0 0"/>
+    </entity>
+    <entity id="1882d07733ae5f0">
+      <ECBuilding key="fro_nuln_tower_smog" damage="0" indestructible="false" toggleable="true" key_building="true" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="0 0 0" rotation="0 -80.0000458 0" scale="0.199999988 0.699999988 0.199999988" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="fro_nuln_tower_smog"/>
+    </entity>
+  </entities>
+  <associations>
+    <Logical>
+      <from id="18826da84ad1d86">
+        <to id="1882700d53c25aa"/>
+      </from>
+      <from id="1882d001a36e5cc">
+        <to id="1882d08d157e614"/>
+      </from>
+    </Logical>
+    <Transform>
+      <from id="1882d07733ae5f0">
+        <to id="1882d08d157e614"/>
+      </from>
+    </Transform>
+  </associations>
+</layer>

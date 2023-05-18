@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="11">
+  <load_config excluded_components="" tile_window="0,0,0,0" view_3d_needed="1"/>
+  <settings>
+    <environment_file value="Weather/battle/wh_day_clear_03.environment_group"/>
+    <water_plane value="false"/>
+    <show_skybox value="true"/>
+    <prefab_terrain_texture value="grass01"/>
+    <prefab_terrain_size_tiles value="8"/>
+    <climate value="default"/>
+    <season value="SL_NO_SEASON"/>
+    <faction value=""/>
+    <camera_type value="BattleDebug"/>
+    <rotation_mode value="Pan"/>
+    <drag_mode value="GroundPlane"/>
+    <undo_stack_limit value="100"/>
+    <type_filtering>
+      <ai_hint value="false"/>
+      <ai_separator value="false"/>
+      <battle_catchment_area value="false"/>
+      <battle_catchment_area value="false"/>
+      <battle_catchment_area_boundary value="false"/>
+      <battle_xml_layer value="false"/>
+      <battlefield_zone value="false"/>
+      <box value="false"/>
+      <building value="false"/>
+      <building_projectile_emitter value="false"/>
+      <camera value="false"/>
+      <camera_constraint_volume value="false"/>
+      <camera_zone value="false"/>
+      <campaign_settlement value="false"/>
+      <capture_location value="false"/>
+      <circle value="false"/>
+      <composite_scene value="false"/>
+      <custom_mesh value="false"/>
+      <decal value="false"/>
+      <deployment_zone value="false"/>
+      <deployment_zone_region value="false"/>
+      <ef_line value="false"/>
+      <environment_volume value="false"/>
+      <faction_prefab value="false"/>
+      <file_layer value="false"/>
+      <go_region value="false"/>
+      <group value="false"/>
+      <houdini_asset value="false"/>
+      <layer value="false"/>
+      <layout value="false"/>
+      <legacy_siege_ai_boundary value="false"/>
+      <legacy_siege_ai_edge value="false"/>
+      <legacy_siege_ai_node value="false"/>
+      <light_probe value="false"/>
+      <lite_building_outline value="false"/>
+      <live_prefab value="false"/>
+      <marker value="false"/>
+      <nogo_region value="false"/>
+      <playable_area value="false"/>
+      <point_cloud value="false"/>
+      <point_light value="false"/>
+      <polygon_mesh value="false"/>
+      <polyline_2d value="false"/>
+      <prefab value="false"/>
+      <procedural_exclusion_zone value="false"/>
+      <prop value="false"/>
+      <raw_spline value="false"/>
+      <rectangle value="false"/>
+      <river value="false"/>
+      <siege_ai_node value="false"/>
+      <sound_environment value="false"/>
+      <sound_marker value="false"/>
+      <sphere value="false"/>
+      <spline_2d value="false"/>
+      <spline_3d value="false"/>
+      <spot_light value="false"/>
+      <tape_measure value="false"/>
+      <terrain_hole value="false"/>
+      <unit value="false"/>
+      <vfx value="false"/>
+      <vegetation value="false"/>
+    </type_filtering>
+  </settings>
+  <scene active_layer="18820e650d53aee">
+    <invisible_entities value="18820e650d53aef"/>
+    <frozen_entities value="18821263af528de;1882126c2b92908;18820f24136519f;18820f52e8751a3;188212a09d82925;188210ebf7923dc;18820f7bcef521c;18821012837525b;1882112ec73272f;18820f6dbc15216;1882107eaee5271;18821098b235292;1882129c1782921;1882110aa1126fb;188210883375278;188210d8baf23b4;188210940e2528a;1882107dcaf5270;1882125b52a28d1;18820fed05b5244;188210191e2525d;18820fed05b5245;188212412652898;18820fed05b5243;188212412652899;18820ffdc05524d;1882129aa002920;188212412652896;18820f9f4305225;18820f71e2d5218;188212412652897;18820fb81dd5237;18820fce9cc523d;1882100e7245259;18820fc04cf5239;1882107fc405273;188210e4ab423cd;18820ffcae4524b;188212a1ae62926;18820fa129b5226;18820f504f051a1;1882129c82c2922;18820fff77a524f;18820ff9aa65249;18820fa2b045227;18821002e155255;188210d8bae23b1;188210d8bae23b3;1882129a1d8291f;188210d8bae23b2;1882129ee1c2924;18820fce9cb523c;188210e95be23d4;18820f852fa5221;18820f852fa5222;18820f59dca51a5;18820f852fa5223;18820f852fa5224;188210883385279;18821088338527a;18821088338527b;1882107f8845272;18820f778bc521a;1882112c8bb2715;1882112d5352722;18820e650d53aef;18820fa4b755228;1882101ad6c525f;188210ebf7a23dd;18821000a015251;1882100cd4c5257;18820ff5b435247;18820fd65f2523f;1882129e18a2923"/>
+  </scene>
+  <terrain/>
+  <camera_2d position_x="0" position_y="0" zoom="-1"/>
+  <camera_3d version="1">
+    <camera_default version="41">
+      <entity id="18820e651de3af1" name="Default Camera">
+        <ECCamera vertical_fov="65" aspect_ratio="1.16384184" near_clip="1" far_clip="13000"/>
+        <ECTransform position="-6.18439245 28.674263 -24.1914864" rotation="38.1029701 -11.7304544 0" scale="1 1 1" pivot="0 0 0"/>
+      </entity>
+    </camera_default>
+    <target_distance value="1.9261595"/>
+    <ortho_params value="0,0,100"/>
+  </camera_3d>
+</project>
