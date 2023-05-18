@@ -7,83 +7,209 @@
 
 --- Object with all the maps to replace. DO NOT ADD DIRECTLY TO THIS. USE THE HELPERS.
 map_replacer = {
-    main_warhammer = {
-        coastal_battle = {},
-        domination = {},
-        fort_relief = {},
-        fort_sally = {},
-        fort_standard = {},
-        land_ambush = {},
-        land_bridge = {},
-        land_normal = {},
-        naval_blockade = {},
-        naval_breakout = {},
-        naval_normal = {},
-        overthrow = {},
-        port_assault = {},
-        region_slot = {},
-        settlement_relief = {},
-        settlement_sally = {},
-        settlement_standard = {},
-        settlement_unfortified = {},
-        survival = {},
-        trial = {},
-        underground_intercept = {},
-        unfortified_port = {},
-        unspecified = {},
-    },
-    wh3_main_chaos = {
-        coastal_battle = {},
-        domination = {},
-        fort_relief = {},
-        fort_sally = {},
-        fort_standard = {},
-        land_ambush = {},
-        land_bridge = {},
-        land_normal = {},
-        naval_blockade = {},
-        naval_breakout = {},
-        naval_normal = {},
-        overthrow = {},
-        port_assault = {},
-        region_slot = {},
-        settlement_relief = {},
-        settlement_sally = {},
-        settlement_standard = {},
-        settlement_unfortified = {},
-        survival = {},
-        trial = {},
-        underground_intercept = {},
-        unfortified_port = {},
-        unspecified = {},
+    enabled = true,
+    campaigns = {
+        main_warhammer = {
+            coastal_battle = {},
+            domination = {},
+            fort_relief = {},
+            fort_sally = {},
+            fort_standard = {},
+            land_ambush = {},
+            land_bridge = {},
+            land_normal = {},
+            naval_blockade = {},
+            naval_breakout = {},
+            naval_normal = {},
+            overthrow = {},
+            port_assault = {},
+            region_slot = {},
+            settlement_relief = {},
+            settlement_sally = {},
+            settlement_standard = {},
+            settlement_unfortified = {},
+            survival = {},
+            trial = {},
+            underground_intercept = {},
+            unfortified_port = {},
+            unspecified = {},
+        },
+        wh3_main_chaos = {
+            coastal_battle = {},
+            domination = {},
+            fort_relief = {},
+            fort_sally = {},
+            fort_standard = {},
+            land_ambush = {},
+            land_bridge = {},
+            land_normal = {},
+            naval_blockade = {},
+            naval_breakout = {},
+            naval_normal = {},
+            overthrow = {},
+            port_assault = {},
+            region_slot = {},
+            settlement_relief = {},
+            settlement_sally = {},
+            settlement_standard = {},
+            settlement_unfortified = {},
+            survival = {},
+            trial = {},
+            underground_intercept = {},
+            unfortified_port = {},
+            unspecified = {},
 
-    },
-    wh3_main_prologue = {
-        coastal_battle = {},
-        domination = {},
-        fort_relief = {},
-        fort_sally = {},
-        fort_standard = {},
-        land_ambush = {},
-        land_bridge = {},
-        land_normal = {},
-        naval_blockade = {},
-        naval_breakout = {},
-        naval_normal = {},
-        overthrow = {},
-        port_assault = {},
-        region_slot = {},
-        settlement_relief = {},
-        settlement_sally = {},
-        settlement_standard = {},
-        settlement_unfortified = {},
-        survival = {},
-        trial = {},
-        underground_intercept = {},
-        unfortified_port = {},
-        unspecified = {},
-    },
+        },
+        wh3_main_prologue = {
+            coastal_battle = {},
+            domination = {},
+            fort_relief = {},
+            fort_sally = {},
+            fort_standard = {},
+            land_ambush = {},
+            land_bridge = {},
+            land_normal = {},
+            naval_blockade = {},
+            naval_breakout = {},
+            naval_normal = {},
+            overthrow = {},
+            port_assault = {},
+            region_slot = {},
+            settlement_relief = {},
+            settlement_sally = {},
+            settlement_standard = {},
+            settlement_unfortified = {},
+            survival = {},
+            trial = {},
+            underground_intercept = {},
+            unfortified_port = {},
+            unspecified = {},
+        },
+    }
 }
+
+-- Function to setup the save/load from savegame logic for items.
+--
+-- Pretty much a reusable function to load data from save and set it to be saved on the next save.
+---@param item table #Object/Table to save.
+---@param save_key string #Unique key to identify the saved data.
+local function setup_save(item, save_key)
+    local old_data = cm:get_saved_value(save_key);
+    if old_data ~= nil then
+
+        -- For tables we only set data IF IT'S IN THE CURRENT TABLE.
+        -- This makes it so we can add/remove maps between saves.
+        if is_table(old_data) then
+            for campaign_key, campaign_replacements in pairs(item) do
+                for battle_type_key, battle_type_replacements in pairs(campaign_replacements) do
+
+                    -- Coordinate-based replacements are requested from MCT using the unique key, if they have it.
+                    if battle_type_replacements["coordinate_based"] ~= nil and old_data[campaign_key][battle_type_key]["coordinate_based"] ~= nil then
+                        for _, replacement in ipairs(battle_type_replacements["coordinate_based"]) do
+                            if replacement["unique_key"] ~= nil then
+
+                                local old_replacement = nil;
+                                for _, old_replacements in ipairs(old_data[campaign_key][battle_type_key]["coordinate_based"]) do
+                                    if old_replacements.unique_key == replacement.unique_key then
+                                        old_replacement = old_replacements;
+                                        break;
+                                    end
+                                end
+
+                                if old_replacement ~= nil then
+                                    replacement.enabled = old_replacement.enabled;
+                                end
+                            end
+                        end
+                    end
+
+                    if battle_type_replacements["region_based"] ~= nil and old_data[campaign_key][battle_type_key]["region_based"] ~= nil then
+                        for region_key, replacement in pairs(battle_type_replacements["region_based"]) do
+                            if old_data[campaign_key][battle_type_key]["region_based"][region_key] ~= nil then
+                                replacement.enabled = old_data[campaign_key][battle_type_key]["region_based"][region_key].enabled;
+                            end
+                        end
+                    end
+
+                    if battle_type_replacements["province_based"] ~= nil and old_data[campaign_key][battle_type_key]["province_based"] ~= nil then
+                        for province_key, replacement in pairs(battle_type_replacements["province_based"]) do
+                            if old_data[campaign_key][battle_type_key]["province_based"][province_key] ~= nil then
+                                replacement.enabled = old_data[campaign_key][battle_type_key]["province_based"][province_key].enabled;
+                            end
+                        end
+                    end
+                end
+            end
+        else
+            item = old_data;
+        end
+    end
+    cm:set_saved_value(save_key, item);
+end
+
+--[[-------------------------------------------------------------------------------------------------------------
+    MCT logic (listeners and helpers), so the users can configure the maps they want.
+
+    Contains the logic to load settings to/from the MCT automagically. Users should not touch this.
+]]---------------------------------------------------------------------------------------------------------------
+
+-- Listener to initialize the mod from the MCT settings, if available.
+core:add_listener(
+    "MapReplacerSettingsLoader",
+    "MctInitialized",
+    true,
+    function(context)
+        map_replacer:load_from_mct(context:mct());
+    end,
+    true
+)
+
+-- Listener to update the mod mid-campaign from the MCT settings, if available.
+core:add_listener(
+    "MapReplacerSettingsMidCamnpaignLoader",
+    "MctFinalized",
+    true,
+    function(context)
+        map_replacer:load_from_mct(context:mct());
+    end,
+    true
+)
+
+-- Function to load settings from the mct.
+---@param mct userdata #MCT object.
+function map_replacer:load_from_mct(mct)
+    out("Frodo45127: Saving settings from MCT.")
+
+    local mod = mct:get_mod_by_key("map_replacer")
+
+    self.enabled = mod:get_option_by_key("a_mod_config__enable"):get_finalized_setting();
+
+    for campaign_key, campaign_replacements in pairs(self.campaigns) do
+        for battle_type_key, battle_type_replacements in pairs(campaign_replacements) do
+
+            -- Coordinate-based replacements are requested from MCT using the unique key, if they have it.
+            if battle_type_replacements["coordinate_based"] ~= nil then
+                for _, replacement in ipairs(battle_type_replacements["coordinate_based"]) do
+                    if replacement["unique_key"] ~= nil then
+                        replacement.enabled = mod:get_option_by_key(campaign_key .. "_coordinate_based_" .. battle_type_key .. "_" .. replacement["unique_key"]):get_finalized_setting();
+                    end
+                end
+            end
+
+            if battle_type_replacements["region_based"] ~= nil then
+                for region_key, replacement in pairs(battle_type_replacements["region_based"]) do
+                    replacement.enabled = mod:get_option_by_key(campaign_key .. "region_based" .. battle_type_key .. "_" .. region_key):get_finalized_setting();
+                end
+            end
+
+            if battle_type_replacements["province_based"] ~= nil then
+                for province_key, replacement in pairs(battle_type_replacements["province_based"]) do
+                    replacement.enabled = mod:get_option_by_key(campaign_key .. "province_based" .. battle_type_key .. "_" .. province_key):get_finalized_setting();
+                end
+            end
+        end
+    end
+end
 
 -- Listener to swap the battle map with a custom one pre-battle.
 core:add_listener(
@@ -91,7 +217,7 @@ core:add_listener(
     "PendingBattle",
     function(context)
         local pending_battle = context:pending_battle();
-        return not pending_battle:has_been_fought();
+        return map_replacer.enabled == true and not pending_battle:has_been_fought();
     end,
     function(context)
         local campaign_key = cm:get_campaign_name();
@@ -168,7 +294,8 @@ end
 ---@param pos_y integer #Y Coordinate around where the replacement will be applied.
 ---@param range integer #Range from the provided coordinate where the replacement will be applied.
 ---@param tile_upgrade_key string #Upgrade key to use for map replacing.
-function map_replacer:add_coordinate_replacement(campaign_key, battle_type, pos_x, pos_y, range, tile_upgrade_key)
+---@param unique_key string #Unique key to identify this specific replacement for MCT. If not passed, the replacement will not be configurable in MCT.
+function map_replacer:add_coordinate_replacement(campaign_key, battle_type, pos_x, pos_y, range, tile_upgrade_key, unique_key)
     if self[campaign_key] == nil then
         out("Frodo45127: map_replacer:add_coordinate_replacement() called but supplied campaign [" .. tostring(campaign_key) .. "] is not valid.");
         return;
@@ -206,6 +333,7 @@ function map_replacer:add_coordinate_replacement(campaign_key, battle_type, pos_
     -- NOTE: range is stored Squared because the distance function returns the result squared. For more info why, check pitagoras stuff. Weird dude.
     local coords = {
         enabled = true,
+        key = unique_key,
         x = pos_x,
         y = pos_y,
         range = range ^ 2,
@@ -297,3 +425,12 @@ function map_replacer:add_province_replacement(campaign_key, battle_type, provin
 
     out("Frodo45127: added replacement map for Campaign " .. tostring(campaign_key).. ", [" .. tostring(battle_type) .. "], Province: " .. tostring(province_key) .. ", tile_upgrade_key: " .. tostring(tile_upgrade_key) .. ".");
 end
+
+
+-- Initialize the mod with the last saved values.
+cm:add_first_tick_callback(
+    function ()
+        setup_save(map_replacer.enabled, "map_replacer_enabled");
+        setup_save(map_replacer.campaigns, "map_replacer_campaigns");
+    end
+)
