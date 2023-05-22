@@ -256,8 +256,8 @@ function map_replacer:check_for_map_replacement(campaign_key, battle_type, regio
 
     -- Use the last match for coords.
     local chosen_replacement = nil;
-    if self[campaign_key][battle_type]["coordinate_based"] ~= nil then
-        for _, replacement in ipairs(self[campaign_key][battle_type]["coordinate_based"]) do
+    if self.campaigns[campaign_key][battle_type]["coordinate_based"] ~= nil then
+        for _, replacement in ipairs(self.campaigns[campaign_key][battle_type]["coordinate_based"]) do
             if replacement.enabled == true then
                 local distance = distance_squared(attacker_general:logical_position_x(), attacker_general:logical_position_y(), replacement.x, replacement.y);
                 out("Frodo45127: distance: " .. tostring(distance));
@@ -273,13 +273,13 @@ function map_replacer:check_for_map_replacement(campaign_key, battle_type, regio
         cm:pending_battle_add_scripted_tile_upgrade_tag(tile_upgrade_key);
         out("Frodo45127: Campaign " .. tostring(campaign_key) .. ", selected upgrade key " .. tostring(tile_upgrade_key) .. " for battle in coords X: " .. tostring(chosen_replacement.x) .. ", Y: " .. tostring(chosen_replacement.x) .. ", Range: " .. tostring(chosen_replacement.range) .. ".");
 
-    elseif not is_naval and self[campaign_key][battle_type]["region_based"] ~= nil and self[campaign_key][battle_type]["region_based"][region_name] ~= nil and self[campaign_key][battle_type]["region_based"][region_name]["enabled"] == true then
-        local tile_upgrade_key = self[campaign_key][battle_type]["region_based"][region_name];
+    elseif not is_naval and self.campaigns[campaign_key][battle_type]["region_based"] ~= nil and self.campaigns[campaign_key][battle_type]["region_based"][region_name] ~= nil and self.campaigns[campaign_key][battle_type]["region_based"][region_name]["enabled"] == true then
+        local tile_upgrade_key = self.campaigns[campaign_key][battle_type]["region_based"][region_name];
         cm:pending_battle_add_scripted_tile_upgrade_tag(tile_upgrade_key);
         out("Frodo45127: Campaign " .. tostring(campaign_key) .. ", selected upgrade key " .. tostring(tile_upgrade_key) .. " for battle in region " .. tostring(region_name) .. ".");
 
-    elseif not is_naval and self[campaign_key][battle_type]["province_based"] ~= nil and self[campaign_key][battle_type]["province_based"][province_name] ~= nil and self[campaign_key][battle_type]["province_based"][province_name]["enabled"] == true then
-        local tile_upgrade_key = self[campaign_key][battle_type]["province_based"][province_name];
+    elseif not is_naval and self.campaigns[campaign_key][battle_type]["province_based"] ~= nil and self.campaigns[campaign_key][battle_type]["province_based"][province_name] ~= nil and self.campaigns[campaign_key][battle_type]["province_based"][province_name]["enabled"] == true then
+        local tile_upgrade_key = self.campaigns[campaign_key][battle_type]["province_based"][province_name];
         cm:pending_battle_add_scripted_tile_upgrade_tag(tile_upgrade_key);
         out("Frodo45127: Campaign " .. tostring(campaign_key) .. ", selected upgrade key " .. tostring(tile_upgrade_key) .. " for battle in province " .. tostring(province_name) .. ".");
     end
@@ -296,12 +296,12 @@ end
 ---@param tile_upgrade_key string #Upgrade key to use for map replacing.
 ---@param unique_key string #Unique key to identify this specific replacement for MCT. If not passed, the replacement will not be configurable in MCT.
 function map_replacer:add_coordinate_replacement(campaign_key, battle_type, pos_x, pos_y, range, tile_upgrade_key, unique_key)
-    if self[campaign_key] == nil then
+    if self.campaigns[campaign_key] == nil then
         out("Frodo45127: map_replacer:add_coordinate_replacement() called but supplied campaign [" .. tostring(campaign_key) .. "] is not valid.");
         return;
     end
 
-    if self[campaign_key][battle_type] == nil then
+    if self.campaigns[campaign_key][battle_type] == nil then
         out("Frodo45127: map_replacer:add_coordinate_replacement() called but supplied battle type [" .. tostring(battle_type) .. "] is not valid.");
         return;
     end
@@ -326,8 +326,8 @@ function map_replacer:add_coordinate_replacement(campaign_key, battle_type, pos_
         return;
     end;
 
-    if not self[campaign_key][battle_type]["coordinate_based"] ~= nil then
-        self[campaign_key][battle_type]["coordinate_based"] = {};
+    if not self.campaigns[campaign_key][battle_type]["coordinate_based"] ~= nil then
+        self.campaigns[campaign_key][battle_type]["coordinate_based"] = {};
     end
 
     -- NOTE: range is stored Squared because the distance function returns the result squared. For more info why, check pitagoras stuff. Weird dude.
@@ -340,7 +340,7 @@ function map_replacer:add_coordinate_replacement(campaign_key, battle_type, pos_
         tile_upgrade_key = tile_upgrade_key,
     };
 
-    table.insert(self[campaign_key][battle_type]["coordinate_based"], coords);
+    table.insert(self.campaigns[campaign_key][battle_type]["coordinate_based"], coords);
 
     out("Frodo45127: added replacement map for Campaign " .. tostring(campaign_key).. ", [" .. tostring(battle_type) .. "], Coordinates X: " .. tostring(coords.x) .. ", Y: " .. tostring(coords.y) .. ", Range: " .. tostring(coords.range) .. ", tile_upgrade_key: " .. tostring(coords.tile_upgrade_key) .. ".");
 end
@@ -351,12 +351,12 @@ end
 ---@param region_key string #Key of the region the battle takes place.
 ---@param tile_upgrade_key string #Upgrade key to use for map replacing.
 function map_replacer:add_region_replacement(campaign_key, battle_type, region_key, tile_upgrade_key)
-    if self[campaign_key] == nil then
+    if self.campaigns[campaign_key] == nil then
         out("Frodo45127: map_replacer:add_region_replacement() called but supplied campaign [" .. tostring(campaign_key) .. "] is not valid.");
         return;
     end
 
-    if self[campaign_key][battle_type] == nil then
+    if self.campaigns[campaign_key][battle_type] == nil then
         out("Frodo45127: map_replacer:add_region_replacement() called but supplied battle type [" .. tostring(battle_type) .. "] is not valid.");
         return;
     end
@@ -371,8 +371,8 @@ function map_replacer:add_region_replacement(campaign_key, battle_type, region_k
         return;
     end;
 
-    if not self[campaign_key][battle_type]["region_based"] ~= nil then
-        self[campaign_key][battle_type]["region_based"] = {};
+    if not self.campaigns[campaign_key][battle_type]["region_based"] ~= nil then
+        self.campaigns[campaign_key][battle_type]["region_based"] = {};
     end
 
     local replacement = {
@@ -380,7 +380,7 @@ function map_replacer:add_region_replacement(campaign_key, battle_type, region_k
         tile_upgrade_key = tile_upgrade_key,
     };
 
-    self[campaign_key][battle_type]["region_based"][region_key] = replacement;
+    self.campaigns[campaign_key][battle_type]["region_based"][region_key] = replacement;
 
     out("Frodo45127: added replacement map for Campaign " .. tostring(campaign_key).. ", [" .. tostring(battle_type) .. "], Region: " .. tostring(region_key) .. ", tile_upgrade_key: " .. tostring(tile_upgrade_key) .. ".");
 end
@@ -392,12 +392,12 @@ end
 ---@param province_key string #Key of the province the battle takes place.
 ---@param tile_upgrade_key string #Upgrade key to use for map replacing.
 function map_replacer:add_province_replacement(campaign_key, battle_type, province_key, tile_upgrade_key)
-    if self[campaign_key] == nil then
+    if self.campaigns[campaign_key] == nil then
         out("Frodo45127: map_replacer:add_province_replacement() called but supplied campaign [" .. tostring(campaign_key) .. "] is not valid.");
         return;
     end
 
-    if self[campaign_key][battle_type] == nil then
+    if self.campaigns[campaign_key][battle_type] == nil then
         out("Frodo45127: map_replacer:add_province_replacement() called but supplied battle type [" .. tostring(battle_type) .. "] is not valid.");
         return;
     end
@@ -412,8 +412,8 @@ function map_replacer:add_province_replacement(campaign_key, battle_type, provin
         return;
     end;
 
-    if not self[campaign_key][battle_type]["province_based"] ~= nil then
-        self[campaign_key][battle_type]["province_based"] = {};
+    if not self.campaigns[campaign_key][battle_type]["province_based"] ~= nil then
+        self.campaigns[campaign_key][battle_type]["province_based"] = {};
     end
 
     local replacement = {
@@ -421,7 +421,7 @@ function map_replacer:add_province_replacement(campaign_key, battle_type, provin
         tile_upgrade_key = tile_upgrade_key,
     };
 
-    self[campaign_key][battle_type]["province_based"][province_key] = replacement;
+    self.campaigns[campaign_key][battle_type]["province_based"][province_key] = replacement;
 
     out("Frodo45127: added replacement map for Campaign " .. tostring(campaign_key).. ", [" .. tostring(battle_type) .. "], Province: " .. tostring(province_key) .. ", tile_upgrade_key: " .. tostring(tile_upgrade_key) .. ".");
 end
