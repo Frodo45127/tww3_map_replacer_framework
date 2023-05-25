@@ -274,12 +274,12 @@ function map_replacer:check_for_map_replacement(campaign_key, battle_type, regio
         out("Frodo45127: Campaign " .. tostring(campaign_key) .. ", selected upgrade key " .. tostring(tile_upgrade_key) .. " for battle in coords X: " .. tostring(chosen_replacement.x) .. ", Y: " .. tostring(chosen_replacement.x) .. ", Range: " .. tostring(chosen_replacement.range) .. ".");
 
     elseif not is_naval and self.campaigns[campaign_key][battle_type]["region_based"] ~= nil and self.campaigns[campaign_key][battle_type]["region_based"][region_name] ~= nil and self.campaigns[campaign_key][battle_type]["region_based"][region_name]["enabled"] == true then
-        local tile_upgrade_key = self.campaigns[campaign_key][battle_type]["region_based"][region_name];
+        local tile_upgrade_key = self.campaigns[campaign_key][battle_type]["region_based"][region_name].tile_upgrade_key;
         cm:pending_battle_add_scripted_tile_upgrade_tag(tile_upgrade_key);
         out("Frodo45127: Campaign " .. tostring(campaign_key) .. ", selected upgrade key " .. tostring(tile_upgrade_key) .. " for battle in region " .. tostring(region_name) .. ".");
 
     elseif not is_naval and self.campaigns[campaign_key][battle_type]["province_based"] ~= nil and self.campaigns[campaign_key][battle_type]["province_based"][province_name] ~= nil and self.campaigns[campaign_key][battle_type]["province_based"][province_name]["enabled"] == true then
-        local tile_upgrade_key = self.campaigns[campaign_key][battle_type]["province_based"][province_name];
+        local tile_upgrade_key = self.campaigns[campaign_key][battle_type]["province_based"][province_name].tile_upgrade_key;
         cm:pending_battle_add_scripted_tile_upgrade_tag(tile_upgrade_key);
         out("Frodo45127: Campaign " .. tostring(campaign_key) .. ", selected upgrade key " .. tostring(tile_upgrade_key) .. " for battle in province " .. tostring(province_name) .. ".");
     end
