@@ -69,6 +69,8 @@ end
 ---@param setting_key string #Key of the setting we're loading.
 ---@param default_value boolean #Default value of the setting we're loading.
 function mct_map_replacer_load_checkbox(section_key, battle_type_key, setting_key, default_value)
+    out("Frodo45127: Loading checkbox for " .. tostring(section_key) .. ", " .. tostring(battle_type_key) .. ", " .. tostring(setting_key) .. ", " .. tostring(default_value) .. ".")
+
     local mct = get_mct()
     local mod = mct:get_mod_by_key("map_replacer");
 
