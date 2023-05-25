@@ -1,0 +1,8 @@
+base_battlefield_building	culture	prefab_path	settlement_gun_type	survival_gun_type	settlement_construction_delay	settlement_dismantle_delay	survival_construction_delay	survival_dismantle_delay
+#toggle_system_building_variants_tables;2;db/toggle_system_building_variants_tables/fro_settlements								
+fro_nuln_placement_barricade_oil_leak	wh_main_emp_empire	prefabs\frodo45127_emp_barricade_oil_leak_01.bmd			30.0000	15.0000	30.0000	15.0000
+fro_nuln_placement_barricade_oil_pit	wh_main_emp_empire	prefabs\frodo45127_emp_barricade_oil_pit_01.bmd			30.0000	15.0000	30.0000	15.0000
+fro_nuln_placement_tower_gatling	wh_main_emp_empire	prefabs\frodo45127_emp_toggle_tower_nuln_gatling_01.bmd			90.0000	45.0000	30.0000	30.0000
+fro_nuln_placement_tower_magic	wh_main_emp_empire	prefabs\frodo45127_emp_toggle_tower_nuln_magic_01.bmd			90.0000	45.0000	30.0000	30.0000
+fro_nuln_placement_tower_mortar	wh_main_emp_empire	prefabs\frodo45127_emp_toggle_tower_mortar_01.bmd			90.0000	45.0000	30.0000	30.0000
+fro_nuln_placement_tower_smog	wh_main_emp_empire	prefabs\frodo45127_emp_toggle_tower_nuln_smog_01.bmd			90.0000	45.0000	30.0000	30.0000

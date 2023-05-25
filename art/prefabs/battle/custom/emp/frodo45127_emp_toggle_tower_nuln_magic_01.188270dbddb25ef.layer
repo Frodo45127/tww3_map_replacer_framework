@@ -14,25 +14,34 @@
       <ECTransform position="0 3.81469727e-06 0" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
       <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
     </entity>
+    <entity id="188365b7bd5fa9e">
+      <ECBuilding key="emp_hero_tower_04" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
+      <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
+      <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
+      <ECWater is_water="false"/>
+      <ECTransform position="0 -25 0" rotation="0 0 0" scale="0.699999988 0.699999988 0.699999988" pivot="0 0 0"/>
+      <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
+      <ECPrefabOverride enabled="false" id="hero_tower_04"/>
+    </entity>
     <entity id="1882ac1afe099a2" name="Extras">
       <ECLayer export="true" bmd_export_type=""/>
       <ECToggleableBuildingsSlot enabled="false" type="TBST_TOWERS" capture_location="" script_id="" map_barrier_record_key="" ground_melee_attack_allowed="true"/>
     </entity>
     <entity id="1882acf8f65a06c">
       <ECBuildingProjectileEmitter specialized_emitter=""/>
-      <ECTransform position="0 30 -5" rotation="0 90 0" scale="4.99999809 1.66666663 4.99999809" pivot="0 0 0"/>
+      <ECTransform position="1.06293809 30.0000019 -0.706060767" rotation="0 90 0" scale="2.49999928 1.66666675 2.94117546" pivot="0 0 0"/>
     </entity>
     <entity id="1882ad000b9a06e">
       <ECBuildingProjectileEmitter specialized_emitter=""/>
-      <ECTransform position="0 30 5" rotation="0 -90 0" scale="4.99999762 1.66666663 4.99999762" pivot="0 0 0"/>
+      <ECTransform position="1.06293809 30.0000019 4.29393959" rotation="0 -90 0" scale="2.49999881 1.66666675 2.94117498" pivot="0 0 0"/>
     </entity>
     <entity id="1882ad02b05a070">
       <ECBuildingProjectileEmitter specialized_emitter=""/>
-      <ECTransform position="5 30 0" rotation="0 0 0" scale="4.99999762 1.66666663 4.99999762" pivot="0 0 0"/>
+      <ECTransform position="4.00411463 30.0000019 1.79393935" rotation="0 0 0" scale="2.94117498 1.66666675 2.49999905" pivot="0 0 0"/>
     </entity>
     <entity id="1882ad05126a072">
       <ECBuildingProjectileEmitter specialized_emitter=""/>
-      <ECTransform position="-5 30 0" rotation="0 180.000031 0" scale="4.99999666 1.66666663 4.99999666" pivot="0 0 0"/>
+      <ECTransform position="-1.87823856 30.0000019 1.79393947" rotation="0 180.000031 0" scale="2.94117427 1.66666675 2.49999809" pivot="0 0 0"/>
     </entity>
     <entity id="1882ad0efd1a0a2">
       <ECGroup>
@@ -40,7 +49,7 @@
           <entities>
             <entity id="1882ad0efd1a0a1">
               <ECSignature/>
-              <ECTransform position="1 0 1" rotation="0 0 0" scale="1 1 1" pivot="0 0 0"/>
+              <ECTransform position="0.787895322 0 0.618834734" rotation="0 0 0" scale="1.1400001 1.05000019 1.20000017" pivot="0 0 0"/>
             </entity>
             <entity id="1882ad0efcfa073">
               <ECDecal model_path="rigidmodels/decals/generic/dwf_dcl_crack_02.rigid_model_v2" parallax_scale="0" tiling="0" normal_mode="DNM_BLEND" apply_to_terrain="true" apply_to_objects="true" render_above_snow="false"/>
@@ -422,14 +431,14 @@
           </associations>
         </group>
       </ECGroup>
-      <ECTransform position="5 0 5" rotation="0 0 0" scale="5 1.66666663 5" pivot="0 0 0"/>
+      <ECTransform position="3.38027716 0 3.34102631" rotation="0 0 0" scale="3.35294127 1.75000024 3.00000048" pivot="0 0 0"/>
     </entity>
-    <entity id="1882d87132e4ce1">
+    <entity id="188365cf189faa0">
       <ECBuilding key="fro_nuln_tower_magic" damage="0" indestructible="false" toggleable="true" key_building="true" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
       <ECMeshRenderSettings cast_shadow="true" receive_decals="true" render_into_skydome_fog="false"/>
       <ECVisibilitySettingsBattle visible_in_tactical_view="true" visible_in_tactical_view_only="false"/>
       <ECWater is_water="false"/>
-      <ECTransform position="0 0 0" rotation="0 0 0" scale="0.200000003 0.600000024 0.200000003" pivot="0 0 0"/>
+      <ECTransform position="-0.361398935 0 -0.717575788" rotation="0 0 0" scale="0.340000004 0.600000024 0.400000006" pivot="0 0 0"/>
       <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
       <ECPrefabOverride enabled="false" id="fro_nuln_tower_magic"/>
     </entity>
@@ -438,6 +447,7 @@
     <Logical>
       <from id="188270dc81925fd">
         <to id="188270dc81925fe"/>
+        <to id="188365b7bd5fa9e"/>
       </from>
       <from id="1882ac1afe099a2">
         <to id="1882acf8f65a06c"/>
@@ -448,12 +458,12 @@
       </from>
     </Logical>
     <Transform>
-      <from id="1882d87132e4ce1">
+      <from id="188365cf189faa0">
+        <to id="1882ad0efd1a0a2"/>
         <to id="1882ad02b05a070"/>
         <to id="1882ad000b9a06e"/>
         <to id="1882ad05126a072"/>
         <to id="1882acf8f65a06c"/>
-        <to id="1882ad0efd1a0a2"/>
       </from>
     </Transform>
   </associations>

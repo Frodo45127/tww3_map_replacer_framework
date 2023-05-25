@@ -3,5 +3,7 @@ id	duration	effect_type	requested_stance	unbreakable	cant_move	freeze_fatigue	fa
 fro_nuln_university_of_magic	-1.0000	positive		false	false	false	0.0000	0.0000	0.0000	0.0000	0	0	false	0.0000	0.0000	true	0				false	true	true	0.0000			false	0.0000	0.0000	false
 fro_nuln_garrison_headquarters	-1.0000	positive		false	false	false	0.0000	0.0000	0.0000	0.0000	0	0	false	0.0000	0.0000	false	0				false	true	true	0.0000			false	0.0000	0.0000	false
 fro_nuln_industrielplatz	-1.0000	positive		false	false	false	0.0000	0.0000	0.0000	0.0000	0	0	false	0.0000	0.0000	false	0				false	true	true	0.0000			false	0.0000	0.0000	false
-fro_nuln_palace	-1.0000	positive		true	false	false	0.0000	0.0000	0.0000	0.0000	0	0	false	0.0000	0.0000	false	0				false	true	true	0.0000			false	0.0000	0.0000	false
-fro_nuln_marktplatz	-1.0000	positive		false	false	false	-0.0500	0.0000	0.0000	0.0000	0	0	false	0.0000	0.0000	false	0				false	true	true	0.0000			false	0.0000	0.0000	false
+fro_nuln_palace	-1.0000	positive		true	false	false	0.0000	0.0000	0.0000	0.0000	0	0	false	0.0000	0.0000	false	0				false	true	false	0.0000			false	0.0000	0.0000	false
+fro_nuln_marktplatz	-1.0000	positive		false	false	false	-0.0100	0.0000	0.0000	0.0000	0	0	false	0.0000	0.0000	false	0				false	true	true	0.0000			false	0.0000	0.0000	false
+fro_nuln_tower_smug	-1.0000	negative		false	false	false	0.0000	0.0000	0.0000	0.0000	0	0	false	0.0000	0.0000	false	0				false	true	true	0.0000			false	0.0000	0.0000	false
+fro_nuln_barricade_oil_leak	-1.0000	negative		false	false	false	0.0000	0.0000	0.0000	0.0000	0	0	false	0.0000	0.0000	false	0				false	true	true	0.0000			false	0.0000	0.0000	false

@@ -1,0 +1,8 @@
+item_type	currency_type	cost_value
+#battle_currency_buildings_cost_values_tables;0;db/battle_currency_buildings_cost_values_tables/fro_settlements		
+fro_nuln_barricade_oil_leak	supplies_currency	600.0000
+fro_nuln_barricade_oil_pit	supplies_currency	600.0000
+fro_nuln_tower_gatling	supplies_currency	2000.0000
+fro_nuln_tower_magic	winds_of_magic_reserve	20.0000
+fro_nuln_tower_mortar	supplies_currency	1400.0000
+fro_nuln_tower_smog	supplies_currency	900.0000

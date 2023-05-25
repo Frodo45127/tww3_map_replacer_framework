@@ -1,0 +1,31 @@
+<material>
+ <name>vfx_lightning.xml</name>
+ <shader>shaders/rigid_glow_vertexalpha.xml.shader</shader>
+ <sort_override>230</sort_override>
+ <textures>
+  <texture>
+   <slot version="2">t_xml_dither</slot>
+   <source>commontextures/dither.dds</source>
+  </texture>
+  <texture>
+   <slot version="2">t_xml_ba602a21_c5ea_445c_bed4_92f79937d1f6</slot>
+   <source>commontextures\kou_tower_winds_of_magic_noise.dds</source>
+  </texture>
+  <texture>
+   <slot version="2">t_xml_22978e9e_9de2_416d_a786_7d34d7d64e47</slot>
+   <source>commontextures\kou_tower_winds_of_magic_specular.dds</source>
+  </texture>
+ </textures>
+ <params>
+  <param>
+   <name>colour</name>
+   <type>float3</type>
+   <value>0.5,0.6,2</value>
+  </param>
+  <param>
+   <name>emissive_strength</name>
+   <type>float</type>
+   <value>16</value>
+  </param>
+ </params>
+</material>

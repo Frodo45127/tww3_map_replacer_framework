@@ -1,10 +1,16 @@
 phase	stat	value	how
 #special_ability_phase_stat_effects_tables;3;db/special_ability_phase_stat_effects_tables/fro_settlements			
+fro_nuln_barricade_oil_leak	stat_resistance_flame	0.7500	mult
 fro_nuln_garrison_headquarters	stat_melee_defence	15.0000	add
 fro_nuln_garrison_headquarters	stat_melee_attack	15.0000	add
 fro_nuln_industrielplatz	stat_armour	15.0000	add
 fro_nuln_industrielplatz	stat_shield_defence	15.0000	add
 fro_nuln_industrielplatz	scalar_missile_damage_ap	1.2500	mult
 fro_nuln_marktplatz	stat_resistance_all	1.0500	mult
+fro_nuln_tower_smug	scalar_miscast_chance	1.2500	mult
+fro_nuln_tower_smug	scalar_missile_range	0.7500	mult
+fro_nuln_tower_smug	stat_accuracy	0.7500	mult
+fro_nuln_tower_smug	scalar_speed	0.7500	mult
+fro_nuln_tower_smug	stat_visibility_sight	0.5000	mult
 fro_nuln_university_of_magic	scalar_spell_mastery	1.5000	mult
 fro_nuln_university_of_magic	scalar_miscast_chance	0.5000	mult

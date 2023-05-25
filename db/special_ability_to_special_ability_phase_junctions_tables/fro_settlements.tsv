@@ -5,3 +5,5 @@ order	special_ability	target_self	target_friends	target_enemies	phase
 1	fro_nuln_industrielplatz	true	true	false	fro_nuln_industrielplatz
 1	fro_nuln_palace	true	true	false	fro_nuln_palace
 1	fro_nuln_marktplatz	true	true	false	fro_nuln_marktplatz
+1	fro_nuln_tower_smug	true	true	true	fro_nuln_tower_smug
+1	fro_nuln_barricade_oil_leak	true	true	true	fro_nuln_barricade_oil_leak

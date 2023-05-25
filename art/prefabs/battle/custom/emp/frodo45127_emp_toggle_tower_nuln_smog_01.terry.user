@@ -88,7 +88,7 @@
     <camera_default version="41">
       <entity id="18826da85ec1d88" name="Default Camera">
         <ECCamera vertical_fov="65" aspect_ratio="1.09200966" near_clip="1" far_clip="13000"/>
-        <ECTransform position="-38.5849228 57.325428 13.4633274" rotation="39.5083809 94.7714691 2.73207552e-05" scale="1 1 1" pivot="0 0 0"/>
+        <ECTransform position="-38.5849228 57.325428 13.4633274" rotation="39.508503 94.7714233 360" scale="1 1 1" pivot="0 0 0"/>
       </entity>
     </camera_default>
     <target_distance value="6.37403011"/>

@@ -1,0 +1,4 @@
+[Prefab]
+	<Files> = ...*.terry
+	TargetPath = prefabs/campaign
+	RootFolder = true

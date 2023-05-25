@@ -1,0 +1,6 @@
+key	precursor	default_projectile	audio_type	use_secondary_ammo_pool
+#missile_weapons_tables;11;db/missile_weapons_tables/fro_settlements				
+fro_emp_nuln_magic_ray	false	fro_emp_nuln_magic_ray	warpfiregun	false
+fro_emp_nuln_mortar	false	fro_emp_nuln_mortar_shell	mortar	false
+fro_emp_nuln_oil_pit	false	fro_emp_nuln_oil_pit	drakegun	false
+fro_emp_nuln_volley	false	fro_emp_nuln_volley	gatling_gun	false

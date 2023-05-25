@@ -78,8 +78,8 @@
       <vegetation value="false"/>
     </type_filtering>
   </settings>
-  <scene active_layer="188270dbddb25ef">
-    <invisible_entities value="188270dc81925fd"/>
+  <scene active_layer="188270dc81925fd">
+    <invisible_entities value="188365b7bd5fa9e;188270dc81925fd"/>
     <frozen_entities value=""/>
   </scene>
   <terrain/>
@@ -88,10 +88,10 @@
     <camera_default version="41">
       <entity id="188270dbddc25f2" name="Default Camera">
         <ECCamera vertical_fov="65" aspect_ratio="1.09200966" near_clip="1" far_clip="13000"/>
-        <ECTransform position="-25.5094166 21.1434021 3.45299983" rotation="43.4458046 94.9103165 359.999969" scale="1 1 1" pivot="0 0 0"/>
+        <ECTransform position="14.6555872 24.3643818 -18.7280598" rotation="42.7743073 -57.6319695 3.18955722e-06" scale="1 1 1" pivot="0 0 0"/>
       </entity>
     </camera_default>
-    <target_distance value="17.4824867"/>
+    <target_distance value="17.5737572"/>
     <ortho_params value="0,0,100"/>
   </camera_3d>
 </project>

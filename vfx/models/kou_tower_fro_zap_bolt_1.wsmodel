@@ -1,0 +1,6 @@
+<model>
+	<geometry>vfx\models\kou_tower_fro_zap_bolt_1.rigid_model_v2</geometry>
+	<materials>
+		<material>materials\vfx\kou_tower_fro_vfx_lightning.xml.material</material>
+	</materials>
+</model>

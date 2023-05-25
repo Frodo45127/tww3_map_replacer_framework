@@ -24,7 +24,7 @@
           <entities>
             <entity id="1882d08d157e613">
               <ECSignature/>
-              <ECTransform position="0.0297927931 -14.999999 -0.251355171" rotation="0 1.02452832e-05 0" scale="1 1 1" pivot="0 0 0"/>
+              <ECTransform position="0.0297928303 -14.999999 -0.251355141" rotation="0 8.53773656e-07 0" scale="0.99999994 1 0.99999994" pivot="0 0 0"/>
             </entity>
             <entity id="1882d08d155e5f1">
               <ECBuilding key="chd_chimney_large_02a_top" damage="0" indestructible="false" toggleable="false" key_building="false" hide_tooltip="false" settlement_level_configurable="false" capture_location="" export_as_prop="false" visible_beyond_outfield="false"/>
@@ -319,7 +319,7 @@
       <ECWater is_water="false"/>
       <ECTransform position="0 0 0" rotation="0 -80.0000458 0" scale="0.199999988 0.699999988 0.199999988" pivot="0 0 0"/>
       <ECTerrainClamp active="false" clamp_to_sea_level="false" terrain_oriented="false" fit_height_to_terrain="false"/>
-      <ECPrefabOverride enabled="false" id="fro_nuln_tower_smog"/>
+      <ECPrefabOverride enabled="true" id="fro_nuln_tower_smog"/>
     </entity>
   </entities>
   <associations>

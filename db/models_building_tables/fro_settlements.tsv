@@ -1,0 +1,3 @@
+key	display_path	logic_file_override	collision_file_override	logic_file	collision_file
+#models_building_tables;8;db/models_building_tables/fro_settlements					
+dust_voley_emp_tower	custom	rigidmodels/buildings/dust_voley_emp_tower/dust_voley_emp_tower_tech.cs2.parsed	rigidmodels/buildings/dust_voley_emp_tower/dust_voley_emp_tower_tech.cs2.collision		

@@ -78,7 +78,7 @@
       <vegetation value="false"/>
     </type_filtering>
   </settings>
-  <scene active_layer="188223a9c58c1be">
+  <scene active_layer="188458eb10930cf">
     <invisible_entities value=""/>
     <frozen_entities value=""/>
   </scene>
@@ -87,8 +87,8 @@
   <camera_3d version="1">
     <camera_default version="41">
       <entity id="188223a9c58c1c1" name="Default Camera">
-        <ECCamera vertical_fov="65" aspect_ratio="1.16384184" near_clip="1" far_clip="13000"/>
-        <ECTransform position="18.7879829 22.0463867 -10.5645046" rotation="47.5626755 -64.3753204 -7.89664591e-06" scale="1 1 1" pivot="0 0 0"/>
+        <ECCamera vertical_fov="65" aspect_ratio="1.09200966" near_clip="1" far_clip="13000"/>
+        <ECTransform position="-14.8988361 19.6005383 20.6213074" rotation="53.9918785 139.984116 360" scale="1 1 1" pivot="0 0 0"/>
       </entity>
     </camera_default>
     <target_distance value="14.7634163"/>
