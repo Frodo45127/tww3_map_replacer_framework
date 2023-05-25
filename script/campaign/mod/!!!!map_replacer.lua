@@ -428,7 +428,7 @@ end
 
 
 -- Initialize the mod with the last saved values.
-cm:add_first_tick_callback(
+cm:add_pre_first_tick_callback(
     function ()
         setup_save(map_replacer.enabled, "map_replacer_enabled");
         setup_save(map_replacer.campaigns, "map_replacer_campaigns");
