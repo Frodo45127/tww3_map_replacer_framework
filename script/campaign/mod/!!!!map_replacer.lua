@@ -198,13 +198,13 @@ function map_replacer:load_from_mct(mct)
 
             if battle_type_replacements["region_based"] ~= nil then
                 for region_key, replacement in pairs(battle_type_replacements["region_based"]) do
-                    replacement.enabled = mod:get_option_by_key(campaign_key .. "region_based" .. battle_type_key .. "_" .. region_key):get_finalized_setting();
+                    replacement.enabled = mod:get_option_by_key(campaign_key .. "_region_based_" .. battle_type_key .. "_" .. region_key):get_finalized_setting();
                 end
             end
 
             if battle_type_replacements["province_based"] ~= nil then
                 for province_key, replacement in pairs(battle_type_replacements["province_based"]) do
-                    replacement.enabled = mod:get_option_by_key(campaign_key .. "province_based" .. battle_type_key .. "_" .. province_key):get_finalized_setting();
+                    replacement.enabled = mod:get_option_by_key(campaign_key .. "_province_based_" .. battle_type_key .. "_" .. province_key):get_finalized_setting();
                 end
             end
         end
