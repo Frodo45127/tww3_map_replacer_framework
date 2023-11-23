@@ -14,3 +14,9 @@ mct_map_rep_wh3_main_chaos_region_based	Realm of Chaos (region-based)	true
 mct_map_rep_wh3_main_prologue_coordinate_based	Prologue (coordinate-based)	true
 mct_map_rep_wh3_main_prologue_province_based	Prologue (province-based)	true
 mct_map_rep_wh3_main_prologue_region_based	Prologue (region-based)	true
+mct_map_rep_cr_combi_expanded_coordinate_based	Immortal Empires Expanded (coordinate-based)	true
+mct_map_rep_cr_combi_expanded_province_based	Immortal Empires Expanded (province-based)	true
+mct_map_rep_cr_combi_expanded_region_based	Immortal Empires Expanded (region-based)	true
+mct_map_rep_cr_oldworld_coordinate_based	The Old World (coordinate-based)	true
+mct_map_rep_cr_oldworld_province_based	The Old World (province-based)	true
+mct_map_rep_cr_oldworld_region_based	The Old World (region-based)	true

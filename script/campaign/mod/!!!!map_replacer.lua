@@ -8,85 +8,67 @@
 --- Object with all the maps to replace. DO NOT ADD DIRECTLY TO THIS. USE THE HELPERS.
 map_replacer = {
     enabled = true,
-    campaigns = {
-        main_warhammer = {
-            coastal_battle = {},
-            domination = {},
-            fort_relief = {},
-            fort_sally = {},
-            fort_standard = {},
-            land_ambush = {},
-            land_bridge = {},
-            land_normal = {},
-            naval_blockade = {},
-            naval_breakout = {},
-            naval_normal = {},
-            overthrow = {},
-            port_assault = {},
-            region_slot = {},
-            settlement_relief = {},
-            settlement_sally = {},
-            settlement_standard = {},
-            settlement_unfortified = {},
-            survival = {},
-            trial = {},
-            underground_intercept = {},
-            unfortified_port = {},
-            unspecified = {},
-        },
-        wh3_main_chaos = {
-            coastal_battle = {},
-            domination = {},
-            fort_relief = {},
-            fort_sally = {},
-            fort_standard = {},
-            land_ambush = {},
-            land_bridge = {},
-            land_normal = {},
-            naval_blockade = {},
-            naval_breakout = {},
-            naval_normal = {},
-            overthrow = {},
-            port_assault = {},
-            region_slot = {},
-            settlement_relief = {},
-            settlement_sally = {},
-            settlement_standard = {},
-            settlement_unfortified = {},
-            survival = {},
-            trial = {},
-            underground_intercept = {},
-            unfortified_port = {},
-            unspecified = {},
-
-        },
-        wh3_main_prologue = {
-            coastal_battle = {},
-            domination = {},
-            fort_relief = {},
-            fort_sally = {},
-            fort_standard = {},
-            land_ambush = {},
-            land_bridge = {},
-            land_normal = {},
-            naval_blockade = {},
-            naval_breakout = {},
-            naval_normal = {},
-            overthrow = {},
-            port_assault = {},
-            region_slot = {},
-            settlement_relief = {},
-            settlement_sally = {},
-            settlement_standard = {},
-            settlement_unfortified = {},
-            survival = {},
-            trial = {},
-            underground_intercept = {},
-            unfortified_port = {},
-            unspecified = {},
-        },
-    }
+    campaigns = {},
 }
+
+local supported_campaigns = {
+    "wh3_main_prologue",        -- Wh3 Prologue
+    "wh3_main_chaos",           -- Wh3 RoC
+    "main_warhammer",           -- Wh3 IME
+    "cr_combi_expanded",        -- Wh3 IME Expanded (ChaosRobie)
+    "cr_oldworld",              -- Wh3 Old World (ChaosRobie)
+};
+
+campaign_replacements_set = {
+    coastal_battle = {},
+    domination = {},
+    fort_relief = {},
+    fort_sally = {},
+    fort_standard = {},
+    land_ambush = {},
+    land_bridge = {},
+    land_normal = {},
+    naval_blockade = {},
+    naval_breakout = {},
+    naval_normal = {},
+    overthrow = {},
+    port_assault = {},
+    region_slot = {},
+    settlement_relief = {},
+    settlement_sally = {},
+    settlement_standard = {},
+    settlement_unfortified = {},
+    survival = {},
+    trial = {},
+    underground_intercept = {},
+    unfortified_port = {},
+    unspecified = {},
+};
+
+--- Function to perform a deep-copy of a table, because the vanilla one sometimes copies references and fucks things up.
+---@param orig table #Object/Table to copy.
+---@param copies table #Object/Table to put copies in. It's used for recursiveness, ignore it.
+---@return table #New instance of the table.
+function table_deepcopy(orig, copies)
+    copies = copies or {}
+    local orig_type = type(orig)
+    local copy
+    if orig_type == 'table' then
+        if copies[orig] then
+            copy = copies[orig]
+        else
+            copy = {}
+            copies[orig] = copy
+            for orig_key, orig_value in next, orig, nil do
+                copy[table_deepcopy(orig_key, copies)] = table_deepcopy(orig_value, copies)
+            end
+            setmetatable(copy, table_deepcopy(getmetatable(orig), copies))
+        end
+    else -- number, string, boolean, etc
+        copy = orig
+    end
+    return copy
+end
 
 -- Function to setup the save/load from savegame logic for items.
 --
@@ -191,20 +173,32 @@ function map_replacer:load_from_mct(mct)
             if battle_type_replacements["coordinate_based"] ~= nil then
                 for _, replacement in ipairs(battle_type_replacements["coordinate_based"]) do
                     if replacement["unique_key"] ~= nil then
-                        replacement.enabled = mod:get_option_by_key(campaign_key .. "_coordinate_based_" .. battle_type_key .. "_" .. replacement["unique_key"]):get_finalized_setting();
+                        local setting_key = campaign_key .. "_coordinate_based_" .. battle_type_key .. "_" .. replacement["unique_key"];
+                        local setting = mod:get_option_by_key(setting_key);
+                        if not setting == false then
+                            replacement.enabled = setting:get_finalized_setting();
+                        end
                     end
                 end
             end
 
             if battle_type_replacements["region_based"] ~= nil then
                 for region_key, replacement in pairs(battle_type_replacements["region_based"]) do
-                    replacement.enabled = mod:get_option_by_key(campaign_key .. "_region_based_" .. battle_type_key .. "_" .. region_key):get_finalized_setting();
+                    local setting_key = campaign_key .. "_region_based_" .. battle_type_key .. "_" .. region_key;
+                    local setting = mod:get_option_by_key(setting_key);
+                    if not setting == false then
+                        replacement.enabled = setting:get_finalized_setting();
+                    end
                 end
             end
 
             if battle_type_replacements["province_based"] ~= nil then
                 for province_key, replacement in pairs(battle_type_replacements["province_based"]) do
-                    replacement.enabled = mod:get_option_by_key(campaign_key .. "_province_based_" .. battle_type_key .. "_" .. province_key):get_finalized_setting();
+                    local setting_key = campaign_key .. "_province_based_" .. battle_type_key .. "_" .. province_key;
+                    local setting = mod:get_option_by_key(setting_key);
+                    if not setting == false then
+                        replacement.enabled = setting:get_finalized_setting();
+                    end
                 end
             end
         end
@@ -220,6 +214,8 @@ core:add_listener(
         return map_replacer.enabled == true and not pending_battle:has_been_fought();
     end,
     function(context)
+        out("Frodo45127: pending battle, checking for map replacement...");
+
         local campaign_key = cm:get_campaign_name();
         local pending_battle = context:pending_battle();
         local battle_type = pending_battle:battle_type();
@@ -229,6 +225,8 @@ core:add_listener(
 
         -- Land battle replacements.
         if not region == false and region:is_null_interface() == false then
+            out("Frodo45127: possible land battle replacement.");
+
             local region_name = region:name();
             local province_name = region:province():key();
 
@@ -236,6 +234,8 @@ core:add_listener(
 
         -- Naval battle replacements.
         else
+            out("Frodo45127: possible naval battle replacement.");
+
             map_replacer:check_for_map_replacement(campaign_key, battle_type, nil, nil, attacker_general, true);
         end
     end,
@@ -285,6 +285,19 @@ function map_replacer:check_for_map_replacement(campaign_key, battle_type, regio
     end
 
     cm:update_pending_battle();
+end
+
+--- Function to add a campaign to the replacer. Note that if the campaign already exists in the campaigns list, this function will do nothing.
+---@param campaign_key string #Key of the campaign to add support for.
+function map_replacer:add_campaign(campaign_key)
+    if self.campaigns[campaign_key] ~= nil then
+        out("Frodo45127: map_replacer:add_campaign() called but supplied campaign [" .. tostring(campaign_key) .. "] is already on the campaigns list.");
+        return;
+    end
+
+    self.campaigns[campaign_key] = table_deepcopy(campaign_replacements_set);
+
+    out("Frodo45127: added support for Campaign " .. tostring(campaign_key).. ".");
 end
 
 --- Function to add a replacement map for a specific battle type, and position on the map.
@@ -430,6 +443,11 @@ end
 -- Initialize the mod with the last saved values.
 cm:add_pre_first_tick_callback(
     function ()
+
+        for _, campaign_key in ipairs(supported_campaigns) do
+            map_replacer:add_campaign(campaign_key);
+        end
+
         setup_save(map_replacer.enabled, "map_replacer_enabled");
         setup_save(map_replacer.campaigns, "map_replacer_campaigns");
     end
