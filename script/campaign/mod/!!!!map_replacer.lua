@@ -20,54 +20,66 @@ local supported_campaigns = {
 };
 
 campaign_replacements_set = {
-    coastal_battle = {},
-    domination = {},
-    fort_relief = {},
-    fort_sally = {},
-    fort_standard = {},
-    land_ambush = {},
-    land_bridge = {},
-    land_normal = {},
-    naval_blockade = {},
-    naval_breakout = {},
-    naval_normal = {},
-    overthrow = {},
-    port_assault = {},
-    region_slot = {},
-    settlement_relief = {},
-    settlement_sally = {},
-    settlement_standard = {},
-    settlement_unfortified = {},
-    survival = {},
-    trial = {},
-    underground_intercept = {},
-    unfortified_port = {},
-    unspecified = {},
+    "coastal_battle",
+    "domination",
+    "fort_relief",
+    "fort_sally",
+    "fort_standard",
+    "land_ambush",
+    "land_bridge",
+    "land_normal",
+    "naval_blockade",
+    "naval_breakout",
+    "naval_normal",
+    "overthrow",
+    "port_assault",
+    "region_slot",
+    "settlement_relief",
+    "settlement_sally",
+    "settlement_standard",
+    "settlement_unfortified",
+    "survival",
+    "trial",
+    "underground_intercept",
+    "unfortified_port",
+    "unspecified",
 };
 
---- Function to perform a deep-copy of a table, because the vanilla one sometimes copies references and fucks things up.
----@param orig table #Object/Table to copy.
----@param copies table #Object/Table to put copies in. It's used for recursiveness, ignore it.
----@return table #New instance of the table.
-function table_deepcopy(orig, copies)
-    copies = copies or {}
-    local orig_type = type(orig)
-    local copy
-    if orig_type == 'table' then
-        if copies[orig] then
-            copy = copies[orig]
+local function printTable( t )
+
+    local printTable_cache = {}
+
+    local function sub_printTable( t, indent )
+
+        if ( printTable_cache[tostring(t)] ) then
+            print( indent .. "*" .. tostring(t) )
         else
-            copy = {}
-            copies[orig] = copy
-            for orig_key, orig_value in next, orig, nil do
-                copy[table_deepcopy(orig_key, copies)] = table_deepcopy(orig_value, copies)
+            printTable_cache[tostring(t)] = true
+            if ( type( t ) == "table" ) then
+                for pos,val in pairs( t ) do
+                    if ( type(val) == "table" ) then
+                        out( indent .. "[" .. pos .. "] => " .. tostring( t ).. " {" )
+                        sub_printTable( val, indent .. string.rep( " ", string.len(pos)+8 ) )
+                        out( indent .. string.rep( " ", string.len(pos)+6 ) .. "}" )
+                    elseif ( type(val) == "string" ) then
+                        out( indent .. "[" .. pos .. '] => "' .. val .. '"' )
+                    else
+                        out( indent .. "[" .. pos .. "] => " .. tostring(val) )
+                    end
+                end
+            else
+                out( indent..tostring(t) )
             end
-            setmetatable(copy, table_deepcopy(getmetatable(orig), copies))
         end
-    else -- number, string, boolean, etc
-        copy = orig
     end
-    return copy
+
+    if ( type(t) == "table" ) then
+        out( tostring(t) .. " {" )
+        sub_printTable( t, "  " )
+        out( "}" )
+    else
+        sub_printTable( t, "  " )
+    end
 end
 
 -- Function to setup the save/load from savegame logic for items.
@@ -295,7 +307,11 @@ function map_replacer:add_campaign(campaign_key)
         return;
     end
 
-    self.campaigns[campaign_key] = table_deepcopy(campaign_replacements_set);
+    self.campaigns[campaign_key] = {};
+
+    for _, replacement_set in ipairs(campaign_replacements_set) do
+        self.campaigns[campaign_key][replacement_set] = {};
+    end
 
     out("Frodo45127: added support for Campaign " .. tostring(campaign_key).. ".");
 end
@@ -339,7 +355,7 @@ function map_replacer:add_coordinate_replacement(campaign_key, battle_type, pos_
         return;
     end;
 
-    if not self.campaigns[campaign_key][battle_type]["coordinate_based"] ~= nil then
+    if self.campaigns[campaign_key][battle_type]["coordinate_based"] == nil then
         self.campaigns[campaign_key][battle_type]["coordinate_based"] = {};
     end
 
@@ -384,7 +400,7 @@ function map_replacer:add_region_replacement(campaign_key, battle_type, region_k
         return;
     end;
 
-    if not self.campaigns[campaign_key][battle_type]["region_based"] ~= nil then
+    if self.campaigns[campaign_key][battle_type]["region_based"] == nil then
         self.campaigns[campaign_key][battle_type]["region_based"] = {};
     end
 
@@ -425,7 +441,7 @@ function map_replacer:add_province_replacement(campaign_key, battle_type, provin
         return;
     end;
 
-    if not self.campaigns[campaign_key][battle_type]["province_based"] ~= nil then
+    if self.campaigns[campaign_key][battle_type]["province_based"] == nil then
         self.campaigns[campaign_key][battle_type]["province_based"] = {};
     end
 
