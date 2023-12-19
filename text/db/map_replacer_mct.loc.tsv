@@ -1,7 +1,7 @@
 key	text	tooltip
 #Loc;1;text/db/map_replacer_mct.loc		
-mct_map_rep_enable	Enable Map Replacer	true
-mct_map_rep_enable_tooltip	Enables/disables the whole framework.	true
+mct_map_rep_a_mod_config__enable	Enable Map Replacer	true
+mct_map_rep_a_mod_config__enable_tooltip	Enables/disables the whole framework.	true
 mct_map_rep_global_mod_config	Framework Configuration	true
 mct_map_rep_main_warhammer_coordinate_based	Immortal Empires (coordinate-based)	true
 mct_map_rep_main_warhammer_province_based	Immortal Empires (province-based)	true

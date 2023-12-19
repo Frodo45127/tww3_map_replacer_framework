@@ -237,7 +237,7 @@ core:add_listener(
 
         -- Land battle replacements.
         if not region == false and region:is_null_interface() == false then
-            out("Frodo45127: possible land battle replacement.");
+            out("Frodo45127: possible land battle replacement for battle of type: " .. tostring(battle_type) .. ".");
 
             local region_name = region:name();
             local province_name = region:province():key();
