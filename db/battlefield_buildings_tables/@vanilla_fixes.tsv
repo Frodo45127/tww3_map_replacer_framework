@@ -728,7 +728,7 @@ chs_wall_angled_joiner	unbreachable_fort_wall	chs_wall_angled_joiner	rock	1000		
 chs_wall_angled_to_grid_joiner	fort_wall	chs_wall_angled_to_grid_joiner	rock	10000		fort_wall	100	wall.tga	true	0	true		false	false	1.0000	false	wooden_floor	false	false	0.0000	false				default_value	default
 chs_wall_corner_90_external	generic	chs_wall_corner_90_external	rock	15		fort_wall	100	wall.tga	true	0	true		false	false	1.0000	false	wooden_floor	false	false	0.0000	false				default_value	default
 chs_wall_corner_90_internal	generic	chs_wall_corner_90_internal	rock	15		fort_wall	100	wall.tga	true	0	true		false	false	1.0000	false	wooden_floor	false	false	0.0000	false				default_value	default
-chs_wall_emplacement	unbreachable_fort_wall	chs_wall_emplacement	rock	12000		fort_bastion	100	wall.tga	true	0	true		false	false	1.0000	false	wooden_floor	false	false	0.0000	false				default_value	default
+chs_wall_emplacement	unbreachable_fort_wall	chs_wall_emplacement	rock	15		fort_bastion	100	wall.tga	true	0	true		false	false	1.0000	false	wooden_floor	false	false	0.0000	false				default_value	default
 chs_wall_grid_to_angled_joiner	fort_wall	chs_wall_grid_to_angled_joiner	rock	10000		fort_wall	100	wall.tga	true	0	true		false	false	1.0000	false	wooden_floor	false	false	0.0000	false				default_value	default
 chs_wall_merlon_01	generic	chs_wall_merlon_01	rock	1000		fort_wall	100		true	0	false		false	false	1.0000	false	wooden_floor	false	false	0.0000	false				default_value	default
 chs_wall_merlon_02	generic	chs_wall_merlon_02	rock	1000		fort_wall	100		true	0	false		false	false	1.0000	false	wooden_floor	false	false	0.0000	false				default_value	default
@@ -1009,7 +1009,7 @@ cth_wall_merlon_01	generic	cth_wall_merlon_01	rock	1000		fort_wall	100		true	0	f
 cth_wall_straight_20m_01	fort_wall	cth_wall_straight_20m_01	rock	14000		fort_wall	100	wall.tga	true	0	true		false	false	1.0000	false	wooden_floor	false	false	0.0000	false				default_value	default
 cth_wall_straight_20m_02	fort_wall	cth_wall_straight_20m_01	rock	14000		fort_wall	100	wall.tga	true	0	true		false	false	1.0000	false	wooden_floor	false	false	0.0000	false				default_value	default
 cth_wall_straight_20m_03	fort_wall	cth_wall_straight_20m_01	rock	16000		fort_wall	100	wall.tga	true	0	true		false	false	1.0000	false	wooden_floor	false	false	0.0000	false				default_value	default
-cth_wall_straight_20m_emplacement	unbreachable_fort_wall	cth_wall_straight_20m_emplacement	rock	12000		fort_bastion	100	wall.tga	true	0	true		false	false	1.0000	false	wooden_floor	false	false	0.0000	false				default_value	default
+cth_wall_straight_20m_emplacement	fort_wall	cth_wall_straight_20m_emplacement	rock	12000		fort_wall	100		true	0	true		false	false	1.0000	false	wooden_floor	false	false	0.0000	false				default_value	default
 cth_wall_tower	fort_tower	cth_wall_tower	rock	12000	wh3_settlement_tower_cth_bullet	tower_piercing	100	tower.tga	true	0	true		false	false	1.0000	false	wooden_floor	false	false	60.0000	false				default_value	default
 cth_wall_tower_01	fort_tower	cth_wall_tower	rock	14000	wh3_settlement_tower_cth_bullet_improved	tower_piercing	100	tower.tga	true	0	true		false	false	1.0000	false	wooden_floor	false	false	60.0000	false				default_value	default
 cth_wall_tower_02	fort_tower	cth_wall_tower	rock	14000	wh3_settlement_tower_cth_cannon	tower_cannon	100	tower.tga	true	0	true		false	false	1.0000	false	wooden_floor	false	false	60.0000	false				default_value	default
@@ -1512,7 +1512,7 @@ ksl_wall_stepup_15m	unbreachable_fort_wall	ksl_wall_stepup_15m	rock	10000		fort_
 ksl_wall_straight_20	fort_wall	ksl_wall_straight_20	rock	12000		fort_wall	100	wall.tga	true	0	true		false	false	1.0000	false	wooden_floor	false	false	0.0000	false				default_value	default
 ksl_wall_straight_20_02	fort_wall	ksl_wall_straight_20	rock	14000		fort_wall	100	wall.tga	true	0	true		false	false	1.0000	false	wooden_floor	false	false	0.0000	false				default_value	default
 ksl_wall_straight_20_03	fort_wall	skv_wall_straight_20	rock	16000		fort_wall	100	wall.tga	true	0	true		false	false	1.0000	false	wooden_floor	false	false	0.0000	false				default_value	default
-ksl_wall_straight_20m_emplacement	unbreachable_fort_wall	ksl_wall_straight_20m_emplacement	rock	12000		fort_bastion	100	wall.tga	true	0	true		false	false	1.0000	false	wooden_floor	false	false	0.0000	false				default_value	default
+ksl_wall_straight_20m_emplacement	fort_wall	ksl_wall_straight_20m_emplacement	rock	12000		fort_wall	100	wall.tga	true	0	true		false	false	1.0000	false	wooden_floor	false	false	0.0000	false				default_value	default
 ksl_wall_tower	fort_tower	ksl_wall_tower	rock	12000	wh3_settlement_tower_ksl_crossbow	tower_arrow	100	tower.tga	true	0	true		false	false	1.0000	false	wooden_floor	false	false	60.0000	false				default_value	default
 ksl_wall_tower_01	fort_tower	ksl_wall_tower	rock	14000	wh3_settlement_tower_ksl_crossbow_improved	tower_arrow	100	tower.tga	true	0	true		false	false	1.0000	false	wooden_floor	false	false	60.0000	false				default_value	default
 ksl_wall_tower_02	fort_tower	ksl_wall_tower	rock	14000	wh3_settlement_tower_ksl_ice_shards	tower_magic	100	tower.tga	true	0	true		false	false	1.0000	false	wooden_floor	false	false	60.0000	false				default_value	default
