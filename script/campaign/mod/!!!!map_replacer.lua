@@ -19,6 +19,7 @@ local supported_campaigns = {
     "cr_oldworld",              -- Wh3 Old World (ChaosRobie)
 };
 
+--@db campaign_battle_type_enums key
 campaign_replacements_set = {
     "coastal_battle",
     "domination",
